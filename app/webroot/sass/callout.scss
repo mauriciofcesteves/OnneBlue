@@ -1,0 +1,43 @@
+.bs-callout {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 4px;
+
+    &.bs-callout-danger {
+        border-left-color: #d9534f;
+
+        h4 {
+            color: #d9534f;
+            margin-bottom: 4px;
+        }
+
+        .progress {
+            margin-bottom: 8px;
+
+            .progress-bar-danger {
+                background-color: #e8b5b3;
+            }
+
+            .text {
+                color: black;
+                left: 40px;
+                position: absolute;
+                text-align: center;
+                width: 93.5%;
+            }
+        }
+
+    }
+
+    h4 {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+    p:last-child { margin-bottom: 0; }
+    code { border-radius: 3px; }
+
+}

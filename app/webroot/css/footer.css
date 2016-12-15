@@ -1,0 +1,15 @@
+footer {
+  color: #7693a9;
+  margin: auto;
+    margin-top: 20px;
+  padding: 20px;
+  width: 60%; }
+  @media (max-width: 768px) {
+    footer {
+      width: 100%; } }
+  footer .languages {
+    margin: 10px 0 20px 0; }
+    footer .languages a {
+      margin: 0 6px 0 6px; }
+
+/*# sourceMappingURL=footer.css.map */

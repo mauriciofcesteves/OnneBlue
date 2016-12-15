@@ -1,0 +1,23 @@
+.embed-responsive {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+
+    &.embed-responsive-16by9 { padding-bottom: 56.25%; }
+
+    embed,
+    iframe,
+    object,
+    video,
+    .embed-responsive-item {
+        border: 0;
+        bottom: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}

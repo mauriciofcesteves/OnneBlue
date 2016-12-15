@@ -1,0 +1,21 @@
+.jumbotron {
+    &.presentation {
+        padding: 0;
+        margin-top: -20px;
+        background-color: white;
+        border-bottom: solid 1px #eeeeee;
+
+        &.infos {
+            background-color: #bce8f1;
+            border: solid 1px #bce8f1;
+            color: #31708f;
+            margin-top: 0;
+            padding: 10px 10px 0 10px;
+
+            i,
+            p {
+                float: left;
+            }
+        }
+    }
+}

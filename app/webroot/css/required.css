@@ -1,0 +1,15 @@
+form .fa-asterisk,
+form .required-text .fa-asterisk {
+  color: #e32;
+  display: inline; }
+
+.required-text {
+  float: right; }
+  .required-text:before {
+    color: #e32;
+    display: inline; }
+
+.not-required label:after {
+  content: '' !important; }
+
+/*# sourceMappingURL=required.css.map */

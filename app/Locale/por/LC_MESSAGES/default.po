@@ -1,0 +1,4558 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OnneBlue\n"
+"POT-Creation-Date: 2015-01-27 06:05+0000\n"
+"PO-Revision-Date: 2015-01-27 04:06-0300\n"
+"Last-Translator: Renato França <dev@renato-franca.com>\n"
+"Language-Team: Harvest\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Controller/AppController.php:207
+msgid "You are not authorized to access that location."
+msgstr "Você não tem permissão para acessar esse local."
+
+#: Controller/AppController.php:243
+msgid ""
+"Manage, analyze and make decisions for your business from anywhere: OnneBlue."
+msgstr ""
+"Gerencie, analise e tome decisões para a sua empresa de qualquer lugar: "
+"OnneBlue."
+
+#: Controller/AppController.php:252
+msgid ""
+"harvest, erp, manage, analyze, make decisions, business, simplicity, system, "
+"mobile"
+msgstr ""
+"harvest, erp, gerenciar, analisar, tomar decisões, negocios, simplicidade, "
+"sistema, movel"
+
+#: Controller/AppController.php:296
+msgid "Please, select a spreadsheet model to import."
+msgstr "Por favor, selecione um modelo de planilha para importar."
+
+#: Controller/AppController.php:330
+#: Plugin/InventorySystem/Controller/ProductsController.php:391
+msgid "Please, select a XLS file to upload."
+msgstr "Por favor, selecione um arquivo XLS para enviar."
+
+#: Controller/AppController.php:339
+#: Plugin/InventorySystem/Controller/ProductsController.php:400
+msgid "Please, import a sheet with only 100 lines at time."
+msgstr "Por favor, importe uma planilha com no máximo 100 linhas por vez."
+
+#: Controller/AppController.php:360
+#: Plugin/InventorySystem/Controller/ProductsController.php:436
+msgid "Please, you have to upload our spreadsheet model."
+msgstr "Por favor, você tem que enviar o nosso modelo de planilha."
+
+#: Controller/AppController.php:477
+msgid "The import has been finished."
+msgstr "A importação foi concluída."
+
+#: Controller/AppController.php:530
+msgid "Every \"%s\" field is required. Please, see line %s."
+msgstr "Cada \"%s\" campo é obrigatório. Por favor, Veja a linha %s."
+
+#: Controller/AppController.php:570
+msgid ""
+"The value \"%s\" already have been registered for the field \"%s\". Please, "
+"change it."
+msgstr ""
+"O valor \"%s\" já foi registrado para o campo \"%s\". Por favor, altere."
+
+#: Controller/AppController.php:611
+msgid "Invalid %s: \"%s\". Please, change it."
+msgstr "Inválido %s: \"%s\". Por favor, altere."
+
+#: Controller/AppController.php:649
+msgid "The fields %s must be numeric only: %s"
+msgstr "O campo %s deve ser apenas numérico: %s"
+
+#: Controller/DashboardController.php:59
+#: Plugin/Headquarters/Controller/DashboardController.php:95
+msgid "Dashboard"
+msgstr "Painel de Controle"
+
+#: Controller/GroupsController.php:65
+#: Plugin/Headquarters/Controller/GroupsController.php:50
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:3 View/Groups/admin_add.ctp:3
+msgid "Add Group"
+msgstr "Adicionar Grupo"
+
+#: Controller/GroupsController.php:73;168
+#: Plugin/Headquarters/Controller/GroupsController.php:58;149
+msgid "Choose at least one permission"
+msgstr "Escolha pelo menos uma permissão"
+
+#: Controller/GroupsController.php:96;214
+#: Plugin/Headquarters/Controller/GroupsController.php:81;195
+msgid "The group has been saved"
+msgstr "O grupo foi salvo"
+
+#: Controller/GroupsController.php:99;217
+#: Plugin/Headquarters/Controller/GroupsController.php:84;198
+msgid "The group could not be saved. Please, try again."
+msgstr "O grupo não pôde ser salvo. Por favor, tente de novo."
+
+#: Controller/GroupsController.php:122;154;266
+#: Plugin/Headquarters/Controller/GroupsController.php:107;139;247
+msgid "Invalid group"
+msgstr "Grupo inválido"
+
+#: Controller/GroupsController.php:125
+#: Plugin/Headquarters/Controller/GroupsController.php:110
+msgid "You don't have permission to delete the group"
+msgstr "Você não tem permissão para deletar o grupo"
+
+#: Controller/GroupsController.php:130
+#: Plugin/Headquarters/Controller/GroupsController.php:115
+msgid "Group deleted"
+msgstr "Grupo deletado"
+
+#: Controller/GroupsController.php:133
+#: Plugin/Headquarters/Controller/GroupsController.php:118
+msgid "Group was not deleted"
+msgstr "Grupo não foi deletado"
+
+#: Controller/GroupsController.php:151
+#: Plugin/Headquarters/Controller/GroupsController.php:136
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:3 View/Groups/admin_edit.ctp:3
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: Controller/GroupsController.php:157
+msgid "You don't have permission to edit the group"
+msgstr "Você não tem permissão para editar o grupo"
+
+#: Controller/GroupsController.php:238
+#: Plugin/Headquarters/Controller/GroupsController.php:219
+#: Plugin/Headquarters/View/Groups/hq_index.ctp:3
+#: View/Groups/admin_index.ctp:3
+msgid "Groups"
+msgstr "Grupos"
+
+#: Controller/GroupsController.php:263
+#: Plugin/Headquarters/Controller/GroupsController.php:244
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:9 View/Groups/admin_view.ctp:9
+msgid "View Group"
+msgstr "Visualizar Grupo"
+
+#: Controller/PagesController.php:57 View/Elements/menu.ctp:46
+msgid "About"
+msgstr "Sobre"
+
+#: Controller/PagesController.php:58 View/Pages/about.ctp:5
+msgid "We developed OnneBlue to fit your needs."
+msgstr "Nós desenvolvemos o Onneblue para atender às suas necessidades."
+
+#: Controller/PagesController.php:59
+msgid ""
+"about, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+"sobre, gerenciar, analisar, tomar decisões, negócio, simplicidade, sistema, "
+"móvel"
+
+#: Controller/PagesController.php:73;127 Model/Contact.php:94
+#: View/Elements/menu.ctp:68 View/Pages/contact.ctp:4
+msgid "Contact"
+msgstr "Contato"
+
+#: Controller/PagesController.php:84;138
+msgid "Email sent successfully"
+msgstr "E-mail enviado com sucesso"
+
+#: Controller/PagesController.php:96;150
+msgid "The email could not be sent. Please, try again."
+msgstr "O email não pôde ser enviado. Por favor, tente de novo."
+
+#: Controller/PagesController.php:128
+msgid "Contact us"
+msgstr "Entre em contato conosco"
+
+#: Controller/PagesController.php:129
+msgid ""
+"contact, manage, analyze, make decisions, business, simplicity, system, "
+"mobile"
+msgstr ""
+"contato, gerenciar, analisar, tomar decisões, negócio, simplicidade, "
+"sistema, móvel"
+
+#: Controller/PagesController.php:188
+msgid "Language"
+msgstr "Idioma"
+
+#: Controller/PagesController.php:207 View/Elements/menu.ctp:34
+msgid "Prices"
+msgstr "Preços"
+
+#: Controller/PagesController.php:208 View/Pages/prices.ctp:4
+msgid "Transform the way you manage your business"
+msgstr "Transforme a maneira de gerenciar o seu negócio"
+
+#: Controller/PagesController.php:209
+msgid ""
+"prices, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+"preços, gerenciar, analisar, tomar decisões, negócio, simplicidade, sistema, "
+"móvel"
+
+#: Controller/PagesController.php:225 View/Elements/menu.ctp:57
+msgid "Tour"
+msgstr "Tour"
+
+#: Controller/PagesController.php:226 View/Pages/tour.ctp:6
+msgid "Learn a little of the system"
+msgstr "Conheça um pouco do sistema"
+
+#: Controller/PagesController.php:227
+msgid ""
+"tour, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+"tour, gerenciar, analisar, tomar decisões, negócio, simplicidade, sistema, "
+"móvel"
+
+#: Controller/PlansController.php:50 View/Plans/admin_index.ctp:9
+msgid "Plans"
+msgstr "Planos"
+
+#: Controller/PlansController.php:68 View/Plans/admin_pay.ctp:5
+msgid "Payment Plan"
+msgstr "Pagamento do Plano"
+
+#: Controller/PlansController.php:71
+msgid "Invalid plan"
+msgstr "Plano inválido"
+
+#: Controller/PlansController.php:76
+msgid "Please, select a period"
+msgstr "Por favor, selecione um período"
+
+#: Controller/PlansController.php:79
+msgid "Please, select a payment method"
+msgstr "Por favor, selecione um método de pagamento"
+
+#: Controller/TransactionsController.php:68
+#: View/Transactions/admin_index.ctp:3 View/Users/admin_account.ctp:130
+msgid "Transactions"
+msgstr "Transações"
+
+#: Controller/UsersController.php:75 View/Users/admin_account.ctp:24
+msgid "Account"
+msgstr "Conta"
+
+#: Controller/UsersController.php:78;146;180;382
+#: Plugin/Headquarters/Controller/UsersController.php:106;140;285
+msgid "Invalid user"
+msgstr "Usuário inválido"
+
+#: Controller/UsersController.php:86;120;191
+#: Plugin/Headquarters/Controller/UsersController.php:80;151
+msgid "The user has been saved"
+msgstr "O usuário foi salvo"
+
+#: Controller/UsersController.php:89;123;194
+#: Plugin/Headquarters/Controller/UsersController.php:83;154
+msgid "The user could not be saved. Please, try again."
+msgstr "O usuário não pôde ser salvo. Por favor, tente de novo."
+
+#: Controller/UsersController.php:92
+msgid "Current password incorrect."
+msgstr "Senha atual incorreta."
+
+#: Controller/UsersController.php:116
+#: Plugin/Headquarters/Controller/UsersController.php:76
+#: Plugin/Headquarters/View/Users/hq_add.ctp:9 View/Users/admin_add.ctp:9
+msgid "Add User"
+msgstr "Adicionar Usuário"
+
+#: Controller/UsersController.php:150
+#: Plugin/Headquarters/Controller/UsersController.php:110
+msgid "You don't have permission to delete the user"
+msgstr "Você não tem permissão para deletar o usuário"
+
+#: Controller/UsersController.php:157
+#: Plugin/Headquarters/Controller/UsersController.php:117
+msgid "User deleted"
+msgstr "Usuário deletado"
+
+#: Controller/UsersController.php:160
+#: Plugin/Headquarters/Controller/UsersController.php:120
+msgid "User was not deleted"
+msgstr "Usuário não deletado"
+
+#: Controller/UsersController.php:178
+#: Plugin/Headquarters/Controller/UsersController.php:138
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:9 View/Users/admin_edit.ctp:9
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+#: Controller/UsersController.php:184
+#: Plugin/Headquarters/Controller/UsersController.php:144
+msgid "You don't have permission to edit the user"
+msgstr "Você não tem permissão para editar o usuário"
+
+#: Controller/UsersController.php:283
+#: Plugin/Headquarters/Controller/UsersController.php:243
+#: Plugin/Headquarters/View/Users/hq_index.ctp:3 View/Users/admin_index.ctp:3
+msgid "Users"
+msgstr "Usuários"
+
+#: Controller/UsersController.php:306 View/Elements/menu.ctp:86
+#: View/Users/admin_login.ctp:45;78
+msgid "Login"
+msgstr "Login"
+
+#: Controller/UsersController.php:325
+msgid "The reCAPTCHA wasn't entered correctly. Please, try it again."
+msgstr "O reCAPTCHA não foi inserido corretamente. Por favor, tente de novo."
+
+#: Controller/UsersController.php:339;343
+msgid "Your username or password was incorrect."
+msgstr "Nome de usuário ou senha incorreto."
+
+#: Controller/UsersController.php:347
+msgid "You are logged in!"
+msgstr "Você está logado!"
+
+#: Controller/UsersController.php:380
+#: Plugin/Headquarters/Controller/UsersController.php:283
+#: Plugin/Headquarters/View/Users/hq_view.ctp:3 View/Users/admin_view.ctp:3
+msgid "View User"
+msgstr "Visualizar Usuário"
+
+#: Controller/UsersController.php:426 Model/User.php:657;662
+#: View/Users/change_password.ctp:24
+msgid "Change Password"
+msgstr "Alterar Senha"
+
+#: Controller/UsersController.php:439
+msgid "The link has expired"
+msgstr "O link expirou"
+
+#: Controller/UsersController.php:463
+msgid "The password has been saved"
+msgstr "A senha foi salva"
+
+#: Controller/UsersController.php:467
+msgid "The password could not be saved. Please, try again."
+msgstr "A senha não pôde ser salva. Por favor, tente de novo."
+
+#: Controller/UsersController.php:480
+msgid ""
+"You have not confirmed your email. \n"
+"                            <a href=\"%s\">Click here</a> to resend a "
+"confirmation email."
+msgstr ""
+"Você não confirmou seu email. \n"
+"                            <a href=\"%s\">Clique aqui</a> para reenviar o "
+"email."
+
+#: Controller/UsersController.php:502
+msgid "Forgot Password"
+msgstr "Esqueci minha senha"
+
+#: Controller/UsersController.php:511
+msgid "Your pre-registration has not yet been released."
+msgstr "Seu pré-cadastro ainda não foi liberado."
+
+#: Controller/UsersController.php:524
+msgid "An email was sent to %s"
+msgstr "Um email foi enviado para %s"
+
+#: Controller/UsersController.php:539
+msgid "The email was not found. Please, try again."
+msgstr "O e-mail não foi encontrado. Por favor, tente de novo."
+
+#: Controller/UsersController.php:542
+msgid "Please, enter an email."
+msgstr "Por favor, insira um e-mail."
+
+#: Controller/UsersController.php:558
+msgid "Register"
+msgstr "Registrar"
+
+#: Controller/UsersController.php:568
+msgid ""
+"Your account has been created. Please, check your email for confirmation."
+msgstr "Sua conta foi criada! Por favor, verifique seu e-mail para ativá-la."
+
+#: Controller/UsersController.php:574
+msgid "Thank you! Pre-registration done."
+msgstr "Obrigado! Pré-cadastro realizado."
+
+#: Controller/UsersController.php:580
+msgid "The account could not be created. Please, try again."
+msgstr "A conta não pôde ser salva. Por favor, tente de novo."
+
+#: Controller/UsersController.php:605
+msgid "The link has been sent. Please, check your e-mail."
+msgstr "O link de ativação foi enviado. Favor checar o e-mail."
+
+#: Controller/UsersController.php:608
+msgid "Email not found."
+msgstr "Email não encontrado."
+
+#: Controller/UsersController.php:613;680
+msgid "An error has occurred. If the error persists, please contact support."
+msgstr ""
+"Ocorreu um erro. Se o erro persistir, por favor entre em contato com o "
+"suporte."
+
+#: Controller/UsersController.php:654
+msgid ""
+"Sorry, this link is expired. <a href=\"%s\">Click here</a> to get a new one."
+msgstr ""
+"Desculpe, este link está expirado. <a href=\"%s\">Clique aqui</a> para "
+"receber um novo link de ativação."
+
+#: Controller/UsersController.php:666
+msgid "Your registration is complete"
+msgstr "Seu cadastro está concluído."
+
+#: Controller/UsersController.php:686
+msgid "Your account already been confirmed"
+msgstr "Sua conta já foi confirmada"
+
+#: Controller/UsersController.php:691
+msgid "The account could not be activated. The email does not exist."
+msgstr "A conta não pôde ser ativada. O email não existe."
+
+#: Controller/UsersController.php:731
+msgid ""
+"Please, access your e-mail to active the user or \n"
+"                        <a href=\"%s\">click here</a> to get a new link"
+msgstr ""
+"Favor acessar seu e-mail para ativar seu usuário ou <a href=\"%s\">clique "
+"aqui</a> para receber um novo link de confirmação."
+
+#: Model/AppModel.php:231 View/Helper/HarvestHelper.php:67
+msgid "Yes"
+msgstr "Sim"
+
+#: Model/AppModel.php:232 View/Helper/HarvestHelper.php:65
+msgid "No"
+msgstr "Não"
+
+#: Model/AppModel.php:297 View/System/admin_menu.ctp:16
+msgid "Active"
+msgstr "Ativo"
+
+#: Model/AppModel.php:298
+msgid "Inactive"
+msgstr "Inativo"
+
+#: Model/AppModel.php:330
+msgid "Error on line %s. Please, verify: "
+msgstr "Erro na linha %s. Por favor, verifique: "
+
+#: Model/Contact.php:97
+msgid "[OnneBlue Contact] "
+msgstr "[Contato OnneBlue] "
+
+#: Model/User.php:692
+msgid "Account Confirmation"
+msgstr "Confirmação de Conta"
+
+#: Model/User.php:716
+msgid "Account Pre-Registration"
+msgstr "Pré-Cadastro de Conta"
+
+#: Model/User.php:806
+msgid "Additional"
+msgstr "Adicional"
+
+#: Model/User.php:807
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:52
+#: View/Plans/admin_index.ctp:33
+msgid "User"
+msgstr "Usuário"
+
+#: Model/User.php:808
+msgid "user@additional%s.com"
+msgstr "usuário@adicional%s.com"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:62
+#: Plugin/FinancialSystem/View/Elements/sidebar.ctp:29
+msgid "Accounts Payable"
+msgstr "Contas a Pagar"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:94
+#, fuzzy
+msgid "Invalid account payable"
+msgstr "Unidade de medida inválida"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:96
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:4
+msgid "View Account Payable"
+msgstr "Ver Conta a Pagar"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:112
+msgid "Add Accounts Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:118
+#, fuzzy
+msgid ""
+"You have reached the limit of 100 accounts payable. Hire a plan to have "
+"unlimited accounts payable and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 produtos. Contrate um plano para ter produtos "
+"sem limites e muitas outras vantagens!"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:126
+msgid "The accounts payable has been saved."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:130
+#, fuzzy
+msgid "The accounts payable could not be saved. Please, try again."
+msgstr "A saída não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:155;191
+#, fuzzy
+msgid "Invalid Account Payable"
+msgstr "Unidade de medida inválida"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:157
+msgid "Edit Account Payable"
+msgstr "Editar Conta a Pagar"
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:160
+#, fuzzy
+msgid "The Account Payable has been saved."
+msgstr "O cliente foi salvo."
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:164
+#, fuzzy
+msgid "The account payable could not be saved. Please, try again."
+msgstr "A saída não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:195
+#, fuzzy
+msgid "The Account Payable has been deleted."
+msgstr "O cliente foi deletado."
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:198
+#, fuzzy
+msgid ""
+"The Account Payable could not be deleted. Please, check whether it is in use."
+msgstr ""
+"O cliente não pôde ser deletado. Por favor, verifique se ele está em uso."
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:63
+#, fuzzy
+msgid "BanksAccount"
+msgstr "%sConta"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:95;158;196
+#, fuzzy
+msgid "Invalid banksAccount"
+msgstr "Produto inválido"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:97
+#, fuzzy
+msgid "View BanksAccount"
+msgstr "%sConta"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:113
+#, fuzzy
+msgid "Add BanksAccount"
+msgstr "%sConta"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:119
+#, fuzzy
+msgid ""
+"You have reached the limit of 100 accounts banks. Hire a plan to have "
+"unlimited accounts banks and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 produtos. Contrate um plano para ter produtos "
+"sem limites e muitas outras vantagens!"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:127;163
+#, fuzzy
+msgid "The banksAccount has been saved."
+msgstr "A entrada foi salva."
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:130;166
+#, fuzzy
+msgid "The banksAccount could not be saved. Please, try again."
+msgstr "A conta não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:160
+#, fuzzy
+msgid "Edit BanksAccount"
+msgstr "%sConta"
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:200
+#, fuzzy
+msgid "The banksAccount has been deleted."
+msgstr "O produto foi deletado."
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:203
+#, fuzzy
+msgid ""
+"The banksAccount could not be deleted. Please, check whether it is in use."
+msgstr ""
+"O produto não pôde ser deletado. Por favor, verifique se ele está em uso."
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:8
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:8
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:21
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:18
+msgid "Basic Details"
+msgstr "Detalhes Básicos"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:14
+msgid "Description %s"
+msgstr "Descrição %s"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:14
+msgid "Use to describe the type of payment made"
+msgstr "Use para descrever o tipo de pagamento realizado"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:39
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:39
+msgid "Account Details"
+msgstr "Detalhes da Conta"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:47
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:47
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:34
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:34
+#, fuzzy
+msgid "Select a Bank"
+msgstr "Selecione uma opção"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:48
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:48
+msgid "Bank Account"
+msgstr "Conta Bancária"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:84
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:84
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:68
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:68
+msgid "the account bank"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:23
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:16
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:23
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:16
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:53
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:48
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:39
+msgid "Description"
+msgstr "Descrição"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:24
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:23
+#: Plugin/FinancialSystem/View/Elements/sidebar.ctp:14
+msgid "Banks Account"
+msgstr "Contas Bancárias"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:25
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:30
+msgid "Due Date"
+msgstr "Data de Vencimento"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:43
+msgid "Value"
+msgstr "Valor"
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:60
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:45
+#: Plugin/Headquarters/View/Users/hq_view.ctp:49
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:39
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:101
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:104
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:91
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:46
+#: View/Errors/error400.ctp:24 View/Errors/error403.ctp:24
+#: View/Errors/error404.ctp:25 View/Errors/error405.ctp:24
+#: View/Errors/error500.ctp:24 View/Errors/error501.ctp:24
+#: View/Groups/admin_view.ctp:40 View/Users/admin_view.ctp:50
+msgid "%s Back%s"
+msgstr "%s Voltar%s"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:8
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:8
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:8
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:11
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:8
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:11
+msgid "Detail"
+msgstr "Detalhe"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:14
+msgid ""
+"You can describe here whatever you want. If you want control only the cash, "
+"try enter 'Cash' on this field."
+msgstr ""
+"Você pode descrever aqui o que quiser. Se você quer controlar apenas o "
+"caixa, tente inserir \"Caixa\" nesse campo."
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:27
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:27
+msgid "Bank Details"
+msgstr "Detalhes do Banco"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:33
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:33
+msgid "Bank %s"
+msgstr "Banco %s"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:33
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:33
+msgid "Choose your Bank."
+msgstr "Escolha seu banco."
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:46
+msgid "Agency %s"
+msgstr "Agência %s"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:46
+#, fuzzy
+msgid "Enter the agency number."
+msgstr "Insira os números que você escutar"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:57
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:57
+msgid "Account Number %s"
+msgstr "Número da Conta %s"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:57
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:57
+#, fuzzy
+msgid "Enter the account number."
+msgstr "Insira os números que você escutar"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:24
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:30
+msgid "Agency"
+msgstr "Agência"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:25
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:37
+#, fuzzy
+msgid "Account Number"
+msgstr "Número do telefone"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:4
+msgid "View Bank Account"
+msgstr "Ver Conta Bancária"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:23
+msgid "Bank"
+msgstr "Banco"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:44
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:29
+#: Plugin/Headquarters/View/Users/hq_view.ctp:35
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:87
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:88
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:77
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:30
+#: View/Groups/admin_view.ctp:24 View/Users/admin_view.ctp:36
+msgid "Created"
+msgstr "Criado"
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:51
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:35
+#: Plugin/Headquarters/View/Users/hq_view.ctp:41
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:30
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:93
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:95
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:83
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:37
+#: View/Groups/admin_view.ctp:30 View/Users/admin_view.ctp:42
+msgid "Modified"
+msgstr "Modificado"
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:2
+msgid "Financial System"
+msgstr "Sistema Financeiro"
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:6
+msgid "%s Banks Account"
+msgstr "%s Conta Bancária"
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:19
+msgid "%s Accounts Payable"
+msgstr "%s Contas a Pagar"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:18
+msgid ""
+"<span class=\"hidden-xs\">Financial System</span><span class=\"visible-xs"
+"\">Fs</span>"
+msgstr ""
+"<span class=\"hidden-xs\">Sistema Financeiro</span><span class=\"visible-xs"
+"\">Sf</span>"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:63
+#: Plugin/Headquarters/View/Elements/menu.ctp:130
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:63
+#: View/Elements/admin-menu.ctp:118
+msgid "%s %s"
+msgstr "%s %s"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:75
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:75
+msgid "%s Account"
+msgstr "%s Conta"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:89
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:89
+msgid "%s Plans"
+msgstr "%s Planos"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:103
+#: Plugin/Headquarters/View/Elements/menu.ctp:141
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:103
+msgid "%s Logout"
+msgstr "%s Sair"
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:117
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:117
+msgid "%s Contact"
+msgstr "%s Contato"
+
+#: Plugin/Headquarters/Controller/DashboardController.php:76
+#: Plugin/InventorySystem/Controller/DashboardController.php:82
+msgid "ACO's sync"
+msgstr "Sincronizar ACO`s"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:174
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr "<error>Plugin %s não encontrado ou não ativado</error>"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:188
+msgid "Aco Update Complete"
+msgstr "Atualização do Aco completa"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:244
+msgid "Deleted %s and all children"
+msgstr "Deletado %s e todos os filhos"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:300
+msgid "Created Aco node: <success>%s</success>"
+msgstr "Criado nó do Aco: <success>%s</success>"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:385
+msgid "Unable to get methods for \"%s\""
+msgstr "Não foi possível obter or métodos para \"%s\""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:407
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr "Excluído nó do Aco: <warning>%s</warning>"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:429
+msgid "<success>Tree is valid and strong</success>"
+msgstr "<success>Árvore é válida e forte</success>"
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:450
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr "Árvore foi recuperado, ou árvore não foi recuperada."
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:452
+msgid "<error>Tree recovery failed.</error>"
+msgstr "<error>Falha ao recuperar árvore.</error>"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:3
+#: Plugin/Headquarters/View/Elements/menu.ctp:19
+msgid "Headquarters"
+msgstr "Sede"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:12
+#, fuzzy
+msgid "New User this Month"
+msgstr "Novos Usuários"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:23
+#, fuzzy
+msgid "Paying Users"
+msgstr "Listar Usuários"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:34
+#, fuzzy
+msgid "Total Users"
+msgstr "Total: %s"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:45
+msgid "Inactive or Cancelled Users"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:56
+msgid "New Users"
+msgstr "Novos Usuários"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:60;103
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:23
+#: Plugin/Headquarters/View/Users/hq_view.ctp:17
+#: Plugin/InventorySystem/Controller/ProductsController.php:447
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:14
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:17
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:16
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:19
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:17
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:61
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:28
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:39
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:35
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:24
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:19
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:19
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:14
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:17
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:16
+#: View/Groups/admin_view.ctp:18 View/Users/admin_view.ctp:12
+msgid "Name"
+msgstr "Nome"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:61;104
+#: Plugin/Headquarters/View/Users/hq_add.ctp:66
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:69
+#: Plugin/Headquarters/View/Users/hq_view.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:25
+#: View/Users/admin_add.ctp:66 View/Users/admin_edit.ctp:69
+#: View/Users/admin_login.ctp:55 View/Users/admin_view.ctp:18
+msgid "Email"
+msgstr "E-mail"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:63;106
+#: Plugin/Headquarters/View/Elements/admin-actions-title.ctp:1
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:28
+#: View/Elements/admin-actions-title.ctp:14 View/Pages/tour.ctp:169
+msgid "Actions"
+msgstr "Ações"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:78;121
+#: Plugin/Headquarters/View/Elements/actions.ctp:9
+#: View/Elements/admin-actions.ctp:31
+msgid "<i class=\"fa fa-eye\"></i>"
+msgstr "<i class=\"fa fa-eye\"></i>"
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:99
+msgid "Users Pending Payment"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:3
+#: View/Elements/admin-actions.ctp:11 View/Elements/view-buttons.ctp:3
+msgid "the system register"
+msgstr "o registro do sistema"
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:19
+#: View/Elements/admin-actions.ctp:42
+msgid "<i class=\"fa fa-pencil\"></i>"
+msgstr "<i class=\"fa fa-pencil\"></i>"
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:29
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:39
+#: View/Elements/admin-actions.ctp:53
+msgid "<i class=\"fa fa-trash-o\"></i>"
+msgstr "<i class=\"fa fa-trash-o\"></i>"
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:38
+#: View/Elements/admin-actions.ctp:62 View/Elements/view-buttons.ctp:45
+msgid "Are you sure you want to delete %s?"
+msgstr "Você tem certeza que deseja deletar %s?"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:6
+msgid "%sToggle navigation%s %s %s"
+msgstr "%sAlternar navegação%s %s %s"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:29 View/Elements/menu.ctp:22
+#: View/Layouts/default.ctp:80
+msgid "Home"
+msgstr "Home"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:42
+#: View/Elements/admin-menu.ctp:39
+msgid "Users %s"
+msgstr "Usuários %s"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:53;88
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:18;54;90;126;162
+msgid "%s List"
+msgstr "%s Listar"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:62;97
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:30;66;102;138;174
+msgid "%s Add"
+msgstr "%s Adicionar"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:77
+#: View/Elements/admin-menu.ctp:78
+msgid "Groups %s"
+msgstr "Grupos %s"
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:112
+msgid "ACO's Sync"
+msgstr "Sincronizar ACO's"
+
+#: Plugin/Headquarters/View/Elements/permissions.ctp:3
+#: View/Elements/permissions.ctp:6
+msgid "General"
+msgstr "Geral"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:6
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:6
+#: Plugin/Headquarters/View/Users/hq_add.ctp:12
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:12
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:59
+#: View/Elements/view-buttons.ctp:8 View/Groups/admin_add.ctp:6
+#: View/Groups/admin_edit.ctp:6 View/Users/admin_add.ctp:12
+#: View/Users/admin_edit.ctp:12
+msgid "%s List%s"
+msgstr "%s Listar%s"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:25 View/Groups/admin_add.ctp:25
+msgid "Group Details"
+msgstr "Detalhes do Grupo"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:42
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:47
+#: Plugin/Headquarters/View/Users/hq_add.ctp:124
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:128
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:163
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:181
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:167
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:90
+#: View/Elements/page-bottom.ctp:17 View/Groups/admin_add.ctp:42
+#: View/Groups/admin_edit.ctp:47 View/Users/admin_account.ctp:182
+#: View/Users/admin_add.ctp:124 View/Users/admin_edit.ctp:128
+msgid "%s Save%s"
+msgstr "%s Salvar%s"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:52
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:58
+#: Plugin/Headquarters/View/Users/hq_add.ctp:134
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:139
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:174
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:194
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:180
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:101
+#: View/Elements/page-bottom.ctp:27 View/Groups/admin_add.ctp:52
+#: View/Groups/admin_edit.ctp:58 View/Users/admin_account.ctp:192
+#: View/Users/admin_add.ctp:134 View/Users/admin_edit.ctp:139
+msgid "%s Cancel%s"
+msgstr "%s Cancelar%s"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:60
+#: Plugin/Headquarters/View/Users/hq_add.ctp:142 View/Groups/admin_add.ctp:60
+#: View/Users/admin_add.ctp:142
+msgid "Are you sure you want to cancel adding the %s?"
+msgstr "Tem certeza que deseja cancelar a adição de %s?"
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:65
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:71
+#: Plugin/Headquarters/View/Users/hq_add.ctp:147
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:152
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:188
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:209
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:195
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:115
+#: View/Elements/page-bottom.ctp:40 View/Groups/admin_add.ctp:65
+#: View/Groups/admin_edit.ctp:71 View/Pages/admin_contact.ctp:39
+#: View/Pages/contact.ctp:49 View/System/admin_settings.ctp:37
+#: View/Users/admin_account.ctp:207 View/Users/admin_add.ctp:147
+#: View/Users/admin_edit.ctp:152
+msgid "indicates a required field"
+msgstr "Indica um campo requerido"
+
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:28
+#: View/Groups/admin_edit.ctp:28
+msgid "Admin Add Group"
+msgstr "Admin Adicionar Grupo"
+
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:66
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:147
+#: View/Groups/admin_edit.ctp:66 View/Users/admin_account.ctp:202
+#: View/Users/admin_edit.ctp:147
+msgid "Are you sure you want to cancel editing the %s?"
+msgstr "Tem certeza que deseja cancelar a edição de %s?"
+
+#: Plugin/Headquarters/View/Groups/hq_index.ctp:9
+#: Plugin/Headquarters/View/Users/hq_index.ctp:9
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:137
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:154
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:140
+#: View/Elements/view-buttons.ctp:17 View/Groups/admin_index.ctp:8
+#: View/Users/admin_index.ctp:8
+msgid "%s Add%s"
+msgstr "%s Adicionar%s"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:31
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:34 View/Users/admin_add.ctp:31
+#: View/Users/admin_edit.ctp:34
+msgid "Personal Details"
+msgstr "Detalhes Pessoais"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:37
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:40 View/Users/admin_add.ctp:37
+#: View/Users/admin_edit.ctp:40
+msgid "First Name"
+msgstr "Nome"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:48
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:51 View/Users/admin_add.ctp:48
+#: View/Users/admin_edit.ctp:51
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:60
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:63 View/Users/admin_add.ctp:60
+#: View/Users/admin_edit.ctp:63
+msgid "Login Details"
+msgstr "Detalhes de Login"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:77
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:80 View/Users/admin_add.ctp:77
+#: View/Users/admin_edit.ctp:80
+msgid "Type a strong password"
+msgstr "Insira uma senha forte"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:93
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:96 View/Users/admin_add.ctp:93
+#: View/Users/admin_edit.ctp:96 View/Users/register.ctp:100
+msgid "Repeat the password please"
+msgstr "Por favor, repita a senha"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:94
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:97 View/Users/admin_add.ctp:94
+#: View/Users/admin_edit.ctp:97 View/Users/register.ctp:101
+msgid "Confirm Password"
+msgstr "Confirmar Senha"
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:104
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:107 View/Users/admin_add.ctp:104
+#: View/Users/admin_edit.ctp:107
+msgid "Group Belonging"
+msgstr "Grupo que Pertence"
+
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:113
+#: View/Users/admin_edit.ctp:113
+msgid "Select an option"
+msgstr "Selecione uma opção"
+
+#: Plugin/Headquarters/View/Users/hq_index.ctp:33
+msgid "Joined"
+msgstr "Cadastrado"
+
+#: Plugin/Headquarters/View/Users/hq_view.ctp:29 View/Users/admin_view.ctp:24
+msgid "Group"
+msgstr "Grupo"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:66
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:122
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:59
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:46
+#: View/Modules/admin_subscriptions.ctp:23;58
+msgid "Categories"
+msgstr "Categorias"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:98;154;186
+msgid "Invalid category"
+msgstr "Categoria inválida"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:100
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:4
+msgid "View Category"
+msgstr "Visualizar Categoria"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:116
+msgid "Add Category"
+msgstr "Adicionar Categoria"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:122
+msgid ""
+"You have reached the limit of 100 categories. Hire a plan to have unlimited "
+"categories and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 categorias. Contrate um plano para ter "
+"categorias sem limites e muitas outras vantagens!"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:130;159
+msgid "The category has been saved."
+msgstr "A categoria foi salva"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:133;162
+msgid "The category could not be saved. Please, try again."
+msgstr "O categoria não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:156
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:190
+msgid "The category has been deleted."
+msgstr "A categoria foi deletada."
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:193
+msgid "The category could not be deleted. Please, check whether it is in use."
+msgstr ""
+"A categoria não pôde ser deletada. Por favor, verifique se ela está em uso."
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:231
+#: Plugin/InventorySystem/Controller/CustomersController.php:257
+#: Plugin/InventorySystem/Controller/SuppliersController.php:197
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:175
+msgid "name"
+msgstr "nome"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:66
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:86
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:44
+#: View/Modules/admin_subscriptions.ctp:22;57
+msgid "Customers"
+msgstr "Clientes"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:98;159;191
+msgid "Invalid customer"
+msgstr "Cliente inválido"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:100
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:5
+msgid "View Customer"
+msgstr "Visualizar Cliente"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:116
+msgid "Add Customer"
+msgstr "Adicionar Cliente"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:123
+msgid ""
+"You have reached the limit of 100 customers. Hire a plan to have unlimited "
+"customers and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 clientes. Contrate um plano para ter clientes "
+"sem limites e muitas outras vantagens!"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:132;164
+msgid "The customer has been saved."
+msgstr "O cliente foi salvo."
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:135;167
+msgid "The customer could not be saved. Please, try again."
+msgstr "O cliente não pôde ser salvo. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:161
+msgid "Edit Customer"
+msgstr "Editar Cliente"
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:195
+msgid "The customer has been deleted."
+msgstr "O cliente foi deletado."
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:198
+msgid "The customer could not be deleted. Please, check whether it is in use."
+msgstr ""
+"O cliente não pôde ser deletado. Por favor, verifique se ele está em uso."
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:259
+#: Plugin/InventorySystem/Controller/SuppliersController.php:200
+msgid "email"
+msgstr "email"
+
+#: Plugin/InventorySystem/Controller/DashboardController.php:61
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:2
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:3
+#: View/Modules/admin_subscriptions.ctp:18;53
+#: View/Pages/tour.ctp:16;17;66;67;100;101;141;142;200;201;230;231;243;244
+msgid "Inventory System"
+msgstr "Sistema de Estoque"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:62;855
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:10
+msgid "Input"
+msgstr "Entrada"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:111;218
+msgid "The product has been added."
+msgstr "O produto foi adicionado."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:117;224
+msgid "The product could not be added. Please, try again."
+msgstr "O produto não pôde ser salvo. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:125;232
+msgid "Please, add at least one product."
+msgstr "Por favor, adicione pelo menos um produto."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:147
+msgid "The input has been saved."
+msgstr "A entrada foi salva."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:150
+msgid "The input could not be saved. Please, try again."
+msgstr "A entrada não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:171;858
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:10
+msgid "Output"
+msgstr "Saída"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:253
+msgid "The output has been saved."
+msgstr "A saída foi salva."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:257
+msgid "The output could not be saved. Please, try again."
+msgstr "A saída não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:282
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:119
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:9
+#: View/Modules/admin_subscriptions.ctp:27;62
+msgid "Perform Inventory"
+msgstr "Realizar Inventário"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:292
+msgid "The adjustment has been settled."
+msgstr "O ajuste foi resolvido."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:295
+msgid "The inputs could not be saved. Please, try again."
+msgstr "A entrada não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:313
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:254
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:134
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:5
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:14
+#: View/Modules/admin_subscriptions.ctp:28;63
+msgid "Inventory Report"
+msgstr "Relatório de Estoque"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:328;367;395
+msgid "No results were found."
+msgstr "Nenhum resultado encontrado."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:351
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:5
+msgid "Best Seller Report"
+msgstr "Relatório de Faturamento de Vendas"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:860
+msgid "Adjustment"
+msgstr "Ajuste"
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1053
+#: Plugin/InventorySystem/Controller/ProductsController.php:253
+msgid "The product has been deleted."
+msgstr "O produto foi deletado."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1055
+msgid "The product could not be deleted."
+msgstr "O produto não pode ser deletado."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1075
+msgid "The input has been canceled."
+msgstr "A entrada foi cancelada."
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1077
+msgid "The output has been canceled."
+msgstr "A saída foi cancelada."
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:84
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:14
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:14
+#: View/Modules/admin_subscriptions.ctp:20;55
+msgid "Products"
+msgstr "Produtos"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:124;200;249
+msgid "Invalid product"
+msgstr "Produto inválido"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:127
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:4
+msgid "View Product"
+msgstr "Visualizar Produto"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:145
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:46
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:72
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:72
+msgid "Add Product"
+msgstr "Adicionar Produto"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:154
+msgid ""
+"You have reached the limit of 100 products. Hire a plan to have unlimited "
+"products and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 produtos. Contrate um plano para ter produtos "
+"sem limites e muitas outras vantagens!"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:164;212
+msgid "The product has been saved."
+msgstr "O produto foi salvo."
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:168;216
+msgid "The product could not be saved. Please, try again."
+msgstr "O produto não pôde ser salvo. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:203
+msgid "Edit Product"
+msgstr "Editar Produto"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:256
+msgid "The product could not be deleted. Please, check whether it is in use."
+msgstr ""
+"O produto não pôde ser deletado. Por favor, verifique se ele está em uso."
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:370
+msgid "product_model_spreadsheet.xls"
+msgstr "planilha_modelo_produtos.xls"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:450
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:9
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:34
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:146
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:140
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:74
+msgid "Sell Value"
+msgstr "Valor de Venda"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:481;482
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:90
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:50
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:28
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:23
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:16
+msgid "Code"
+msgstr "Código"
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:508
+msgid ""
+"The value %s, on the fields %s, must have this format only: 1000,00 or 1000"
+msgstr "O valor %s, no campo %s, deve ter apenas esse formato: 1000,00 ou 1000"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:36
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:50
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:29
+#: View/Modules/admin_subscriptions.ctp:21;56
+msgid "Suppliers"
+msgstr "Fornecedores"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:64;120;147
+msgid "Invalid supplier"
+msgstr "Fornecedor inválido"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:66
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:5
+msgid "View Supplier"
+msgstr "Visualizar Fornecedor"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:81
+msgid "Add Supplier"
+msgstr "Adicionar Fornecedor"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:88
+msgid ""
+"You have reached the limit of 100 suppliers. Hire a plan to have unlimited "
+"suppliers and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 fornecedores. Contrate um plano para ter "
+"fornecedores sem limites e muitas outras vantagens!"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:97;126
+msgid "The supplier has been saved."
+msgstr "O fornecedor foi salvo."
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:100;129
+msgid "The supplier could not be saved. Please, try again."
+msgstr "O fornecedor não pôde ser salvo. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:122
+msgid "Edit Supplier"
+msgstr "Editar Fornecedor"
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:151
+msgid "The supplier has been deleted."
+msgstr "O fornecedor foi deletado."
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:153
+msgid "The supplier could not be deleted. Please, check whether it is in use."
+msgstr ""
+"O fornecedor não pôde ser deletado. Por favor, verifique se ele está em uso."
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:36
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:158
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:74
+#: View/Modules/admin_subscriptions.ctp:24;59
+msgid "Units of Measure"
+msgstr "Unidades de Medida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:65;142
+msgid "Invalid unit of measure"
+msgstr "Unidade de medida inválida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:67
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:4
+msgid "View Unit of Measure"
+msgstr "Visualizar Unidade de Medida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:82
+msgid "Add Unit of Measure"
+msgstr "Adicionar Unidade de Medida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:88
+msgid ""
+"You have reached the limit of 100 units of measure. Hire a plan to have "
+"unlimited units of measure and many other advantages!"
+msgstr ""
+"Você atingiu o limite de 100 unidades de medida. Contrate um plano para ter "
+"unidades de medida sem limites e muitas outras vantagens!"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:96;121
+msgid "The unit of measure has been saved."
+msgstr "A unidade de medida foi salva."
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:99;124
+msgid "The units measure could not be saved. Please, try again."
+msgstr "O unidade de medida não pôde ser salva. Por favor, tente de novo."
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:116
+msgid "Invalid units measure"
+msgstr "Unidade de medida inválida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:118
+msgid "Edit Unit of Measure"
+msgstr "Editar Unidade de Medida"
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:146
+msgid "The unit of measure has been deleted."
+msgstr "A unidade de medida foi deletada."
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:148
+msgid ""
+"The unit of measure could not be deleted. Please, check whether it is in use."
+msgstr ""
+"A unidade de mediada não pôde ser deletada. Por favor, verifique se ela está "
+"em uso."
+
+#: Plugin/InventorySystem/Model/Customer.php:135
+msgid "Please supply a CNPJ"
+msgstr "Por favor, forneça um CNPJ válido."
+
+#: Plugin/InventorySystem/Model/Customer.php:137
+msgid "Please supply CPF"
+msgstr "Por favor, forneça um CPF válido."
+
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:25
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:28
+msgid "the category"
+msgstr "da categoria"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:10
+msgid ""
+"This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the customer "
+"or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+"Isso é um rascunho. Por favor, <kbd class=\"btn-primary\">Salve</kbd> o "
+"cliente ou clique no botão <kbd class=\"btn-danger\">Cancelar</kbd> para "
+"limpar o rascunho."
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:17
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:13
+msgid "Customer Details"
+msgstr "Detalhes do Cliente"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:36
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:31
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:36
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:31
+msgid "E-mail Address"
+msgstr "Endereço de Email"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:61
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:49
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:88
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:80
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:39
+msgid "Phone Number"
+msgstr "Número do telefone"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:73
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:62
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:101
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:92
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:52
+msgid "Phone Number 2"
+msgstr "Número do telefone 2"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:95
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:87
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:75
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:116
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:106
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:65
+msgid "Address"
+msgstr "Endereço"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:108
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:99
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:37
+msgid "Birthday"
+msgstr "Aniversário"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:120
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:110
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:81
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:127
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:116
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:71
+msgid "Website"
+msgstr "Website"
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:140
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:129
+msgid "the customer"
+msgstr "do cliente"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:6
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:8
+msgid "%s Products"
+msgstr "%s Produtos"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:19
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:44
+msgid "%s Suppliers"
+msgstr "%s Fornecedores"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:32
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:80
+msgid "%s Customers"
+msgstr "%s Clientes"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:45
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:116
+msgid "%s Categories"
+msgstr "%s Categorias"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:58
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:152
+msgid "%s Units of Measure"
+msgstr "%s Unidades de Medida"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:70
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:195
+msgid "%s Stock (Input)"
+msgstr "%s Estoque (Entrada)"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:83
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:210
+msgid "%s Stock (Output)"
+msgstr "%s Estoque (Saída)"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:96
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:226
+msgid "%s Perform Inventory"
+msgstr "%s Realizar Inventário"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:108
+msgid "%s Inventory Report"
+msgstr "%s Relatório de Inventário"
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:120
+msgid "%s Best Sellers Report"
+msgstr "%s Relatório de Faturamento de Vendas"
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:11
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:21
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:67
+msgid "Purchase Value"
+msgstr "Valor de Compra"
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:18
+msgid "Add a product"
+msgstr "Adicione um produto"
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:25
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:53
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:93
+#: View/Users/admin_account.ctp:143
+msgid "Product"
+msgstr "Produto"
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:26
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:82
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:96
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:40
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:47
+msgid "Are you sure you want to delete the %s?"
+msgstr "Você tem certeza que deseja deletar o %s?"
+
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:18
+msgid ""
+"<span class=\"hidden-xs\">Inventory System</span><span class=\"visible-xs"
+"\">Is</span>"
+msgstr ""
+"<span class=\"hidden-xs\">Sistema de Estoque</span><span class=\"visible-xs"
+"\">Se</span>"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:5
+msgid "Registers"
+msgstr "Registros"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:191
+msgid "Inventory Moves"
+msgstr "Movimentar Estoque"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:239
+msgid "Reports"
+msgstr "Relatórios"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:242
+msgid "%s Reports"
+msgstr "%s Relatórios"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:250
+msgid "Stocks"
+msgstr "Estoques"
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:266
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:149
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:11
+#: View/Modules/admin_subscriptions.ctp:29;64
+msgid "Best Sellers Report"
+msgstr "Relatório de Faturamento de Vendas"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:3
+msgid "%s%s"
+msgstr "%s%s"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:12
+msgid "%s Details"
+msgstr "Detalhes da %s"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:21
+msgid "Select a supplier"
+msgstr "Selecione um fornecedor"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:54
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:26
+msgid "Select a product"
+msgstr "Selecione um produto"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:96
+msgid "Customer"
+msgstr "Cliente"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:98
+msgid "Select a customer"
+msgstr "Selecione um cliente"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:105
+msgid "Expiration Date"
+msgstr "Data de Validade"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:123
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:140
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:126
+msgid "Observation"
+msgstr "Observação"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:153
+msgid "Product List for %s"
+msgstr "Lista de Produtos para %s"
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:183
+msgid "Are you sure you want to cancel the %s?"
+msgstr "Você tem certeza que deseja cancelar o %s?"
+
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:6
+msgid "In Stock"
+msgstr "Estoque"
+
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:89
+msgid "Stock (Input)"
+msgstr "Estoque (Entrada)"
+
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:104
+msgid "Stock (Output)"
+msgstr "Estoque (Saída)"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:17
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:18
+msgid "Custom Search Fields"
+msgstr "Campos de Pesquisa Personalizados"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:25
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:26
+msgid "Initial Date %s %s"
+msgstr "Data de Início %s %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:25
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:26
+msgid "Starting date required for the report generation."
+msgstr "Data de início necessária para a geração do Relatório."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:39
+msgid "Final Date %s %s"
+msgstr "Data de Fim %s %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:39
+msgid "Ending date required for the report generation."
+msgstr "Data de fim necessária para a geração do Relatório."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:50
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:74
+msgid "%s Generate PDF%s"
+msgstr "%s Gerar PDF%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:99
+msgid "Billing"
+msgstr "Faturado"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:102
+msgid "% Billed"
+msgstr "% Faturado"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:21
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:26
+#: View/Users/admin_account.ctp:144
+msgid "Period"
+msgstr "Período"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:21
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:26
+msgid "to"
+msgstr "até"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:28
+msgid "%sCode%s"
+msgstr "%sCódigo%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:29
+msgid "%sProduct%s"
+msgstr "%sProduto%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:30
+msgid "%sQuantity%s"
+msgstr "%sQuantidade%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:31
+msgid "%sBilling%s"
+msgstr "%sFaturado%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:32
+msgid "%s % Billing%s"
+msgstr "%s % Faturado%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:81
+msgid "best_sellers_report.pdf"
+msgstr "relatorio_faturamento_vendas.pdf"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:15
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:15
+#: View/Elements/page-top.ctp:57
+msgid "%s %s%s"
+msgstr "%s %s%s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:15
+msgid "Outbound"
+msgstr "Saída"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:39
+msgid "Input Details"
+msgstr "Detalhes do Estoque"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:45
+msgid "Supplier %s"
+msgstr "Fornecedor %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:45
+msgid ""
+"A supplier may be selected in this field for the entry of products. If there "
+"is no registered suppliers, access the menu of the Supplier."
+msgstr ""
+"Um fornecedor pode ser selecionado neste campo para a entrada dos produtos. "
+"Caso não haja fornecedores cadastrados, acesse o menu de Fornecedor."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:58
+msgid "Date of Entry %s"
+msgstr "Data de Entrada %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:58
+msgid "Indicates the actual date of entry of products in stock."
+msgstr "Indica a data real de entrada dos produtos no estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:79
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:79
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:25
+msgid "Product %s"
+msgstr "Produto %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:79
+msgid ""
+"An entry may have several bundled products. Simply select the product, fill "
+"out the fields and add it to the list."
+msgstr ""
+"Uma Entrada pode ter diversos produtos agregados. Basta selecionar o "
+"produto, preencher os campos e adicioná-lo na lista."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:95
+msgid "Unit Value %s"
+msgstr "Valor Unitário %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:95
+msgid ""
+"Indicates the new value of purchase which will come in stock. If completed, "
+"this new value overrides the value registered in Product Purchase."
+msgstr ""
+"Indica o novo valor de compra do produto que entrará no estoque. Se "
+"preenchido, este novo valor substituirá o Valor de Compra cadastrado no "
+"Produto."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:109
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:109
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:61
+msgid "Quantity %s"
+msgstr "Quantidade %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:109
+msgid "Indicates the amount of products that will enter the stock."
+msgstr "Indica a quantidade de entrada dos produtos no estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:122
+msgid "Expiration Date %s"
+msgstr "Data de Validade %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:122
+msgid "Indicates the expiration date of the product that will enter the stock."
+msgstr "Indica a data de validade do produto que entrará no estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:171
+msgid "Product List for Input"
+msgstr "Lista de Produtos para Entrada"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:204
+msgid "Are you sure you want to cancel the input?"
+msgstr "Você tem certeza que deseja cancelar a entrada?"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:37
+msgid "Type"
+msgstr "Tipo"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:46
+msgid "Transaction Date"
+msgstr "Data da Transação"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:49
+msgid "Movimentation Date"
+msgstr "Data de Movimentação"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:95
+msgid "Input Total"
+msgstr "Total de Entradas"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:103
+msgid "Purchase Total"
+msgstr "Total Compras"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:113
+msgid "Output Total"
+msgstr "Total de Saídas"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:121
+msgid "Sale Total"
+msgstr "Total Vendas"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:131
+msgid "Adjustments Total"
+msgstr "Total de Ajustes"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:141
+msgid "Inventory Total"
+msgstr "Estoque Atual"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:170
+msgid "inventory_report.pdf"
+msgstr "relatorio estoque.pdf"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:15
+msgid "Inbound"
+msgstr "Entrada"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:39
+msgid "Output Details"
+msgstr "Detalhes da Saída"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:45
+msgid "Customer %s"
+msgstr "Cliente %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:45
+msgid ""
+"A customer can select this field to indicate who bought the products. If "
+"there is no registered customers, access the menu of the Customer."
+msgstr ""
+"Um cliente pode ser selecionado neste campo para indicar quem realizou a "
+"saída dos produtos. Caso não haja clientes cadastrados, acesse o menu de "
+"Cliente."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:58
+msgid "Date of Sale %s"
+msgstr "Data de Venda %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:58
+msgid "Indicates the actual date of departure of stock products."
+msgstr "Indica a data real de saída dos produtos do estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:79
+msgid ""
+"An output can have several bundled products. Simply select the product, fill "
+"out the fields and add it to the list."
+msgstr ""
+"Uma Saída pode ter diversos produtos agregados. Basta selecionar o produto, "
+"preencher os campos e adicioná-lo na lista."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:95
+msgid "Value of Sale %s"
+msgstr "Valor de  Venda %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:95
+msgid ""
+"Indicates the new value of the product that will sell the stock. If "
+"completed, this new value overrides the value registered in Product Sale."
+msgstr ""
+"Indica o novo valor de venda do produto que sairá do estoque. Se preenchido, "
+"este novo valor substituirá o Valor de Venda cadastrado no Produto."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:109
+msgid "Indicates the amount of products that are coming out of the stock."
+msgstr "Indica a quantidade de produtos que estão saindo do estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:157
+msgid "Product List for Output"
+msgstr "Lista de Produtos para Saída"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:190
+msgid "Are you sure you want to cancel the output?"
+msgstr "Você tem certeza que deseja cancelar a saída?"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:18
+msgid "Product Details"
+msgstr "Detalhes do Produto"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:25
+msgid ""
+"Select a product to remove it from the stock through a fit. The inventory "
+"adjustment can be justified in the observation field."
+msgstr ""
+"Selecione um Produto para retirá-lo do estoque através de um ajuste. O "
+"ajuste de estoque pode ser justificado no campo de observações."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:43
+msgid "Inventory Adjustments Details"
+msgstr "Detalhes do Ajuste do Estoque"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:49
+msgid "Adjustment Date %s"
+msgstr "Data de Ajuste %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:49
+msgid "Actual date on which the inventory adjustment is being performed."
+msgstr "Data real em que o ajuste de estoque está sendo realizado."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:61
+msgid "Amount that will be withdrawn from the stock through the adjustment."
+msgstr "Quantidade que será retirada do estoque através do ajuste."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:76
+msgid "Observation %s"
+msgstr "Observação %s"
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:76
+msgid "Field that describes the reason for the inventory adjustment."
+msgstr "Campo que descreve o motivo do ajuste de estoque."
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:110
+msgid "Are you sure you want to cancel the perform inventory?"
+msgstr "Tem certeza que deseja cancelar o realizar inventário?"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:14
+msgid ""
+"This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the product "
+"or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+"Isso é um rascunho. Por favor, <kbd class=\"btn-primary\">Salve</kbd> o "
+"produto ou clique no botão <kbd class=\"btn-danger\">Cancelar</kbd> para "
+"limpar o rascunho."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:27
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:24
+msgid "Code %s"
+msgstr "Código %s"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:27
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:24
+msgid "Single field with a maximum length of 30 characters."
+msgstr "Campo único com tamanho máximo de 30 caracteres."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:61
+msgid "Unit of Measure %s"
+msgstr "Unidade de Medida %s"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:61
+msgid ""
+"Every product will have a unit of measure. To select it, simply click in the "
+"field below. To register them, go to the menu of Measurement Units."
+msgstr ""
+"Todo produto poderá ter uma unidade de medida. Para selecioná-la, basta "
+"clicar no campo abaixo. Para cadastrá-las, acesse o menu de Unidades de "
+"Medida."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:68
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:62
+msgid "Select a unit of measure"
+msgstr "Selecione uma unidade de medida"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:77
+msgid "Categories %s"
+msgstr "Categorias %s"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:77
+msgid ""
+"Every product can have one or more associated categories. To select them, "
+"type the name of it in the field below. To register them, go to the menu "
+"categories."
+msgstr ""
+"Todo produto poderá ter uma ou mais categorias associadas. Para selecioná-"
+"las, escreva o nome da mesma no campo abaixo. Para cadastrá-las, acesse o "
+"menu de Categorias."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:97
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:93
+msgid "Costs"
+msgstr "Custos"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:106
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:102
+msgid "Purchase Value %s"
+msgstr "Valor de Compra %s"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:106
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:102
+msgid ""
+"The Purchase Value can be registered here, by the registration of the "
+"product. But how is a value that can vary greatly over time, a New Purchase "
+"Value can also be registered on the stock inbound."
+msgstr ""
+"O Valor de Compra pode ser cadastrado aqui, junto ao cadastro do produto. "
+"Mas como é um valor que poderá variar muito ao longo do tempo, um Novo Valor "
+"de Compra também poderá ser cadastrado na Entrada do Estoque."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:126
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:121
+msgid "Sale Value %s"
+msgstr "Valor de Venda %s"
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:126
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:121
+msgid ""
+"The Sale Value can be registered here, by the registration of the product. "
+"But how is a value that can vary greatly over time, a New Sale Value can "
+"also be registered on the stock outbound."
+msgstr ""
+"O valor de venda pode ser registrado aqui, no cadastro do produto. Mas como "
+"é um valor que pode variar muito ao longo do tempo, um Novo Valor de Venda "
+"também pode ser registrado na saída estoque."
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:162
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:156
+msgid "the product"
+msgstr "do produto"
+
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:26
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:31
+msgid "Inventory"
+msgstr "Inventário"
+
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:60
+msgid "Unit Of Measure"
+msgstr "Unidade de Medida"
+
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:81
+msgid "Profit"
+msgstr "Lucro"
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:10
+msgid ""
+"This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the supplier "
+"or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+"Isso é um rascunho. Por favor, <kbd class=\"btn-primary\">Salve</kbd> o "
+"fornecedor ou clique no botão <kbd class=\"btn-danger\">Cancelar</kbd> para "
+"limpar o rascunho."
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:17
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:13
+msgid "Supplier Details"
+msgstr "Detalhes do Fornecedor"
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:49
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:43
+#: View/Helper/HarvestHelper.php:241
+msgid "Type of Person"
+msgstr "Tipo de Pessoa"
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:147
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:135
+msgid "the supplier"
+msgstr "do fornecedor"
+
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:25
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:28
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:23
+msgid "Abbreviation"
+msgstr "Abreviação"
+
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:36
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:39
+msgid "the unit of measure"
+msgstr "da unidade de medida"
+
+#: View/Dashboard/admin_index.ctp:2
+msgid "Which system would you like to use?"
+msgstr "Qual sistema você gostaria de usar?"
+
+#: View/Dashboard/admin_index.ctp:6
+msgid "%sIs%s Inventory System"
+msgstr "%sSe%s Sistema de Estoque"
+
+#: View/Dashboard/admin_index.ctp:19
+msgid "%sFs%s Financial System"
+msgstr "%sSf%s Sistema Financeiro"
+
+#: View/Elements/admin-menu.ctp:50;89
+msgid "List %s"
+msgstr "Listar %s"
+
+#: View/Elements/admin-menu.ctp:59;98
+msgid "Add %s"
+msgstr "Adicionar %s"
+
+#: View/Elements/admin-menu.ctp:130
+msgid "Account %s"
+msgstr "Conta %s"
+
+#: View/Elements/admin-menu.ctp:144
+msgid "Plans %s"
+msgstr "Planos %s"
+
+#: View/Elements/admin-menu.ctp:158
+msgid "Logout %s"
+msgstr "Sair %s"
+
+#: View/Elements/count-records.ctp:2
+msgid "Remaining records"
+msgstr "Registros restantes"
+
+#: View/Elements/count-records.ctp:9
+msgid "remaining records"
+msgstr "registros restantes"
+
+#: View/Elements/count-records.ctp:11
+msgid "remaining record"
+msgstr "registro restante"
+
+#: View/Elements/import-button.ctp:2;19;48
+msgid "Import"
+msgstr "Importar"
+
+#: View/Elements/import-button.ctp:18;59 View/Users/register.ctp:168;175
+msgid "Close"
+msgstr "Fechar"
+
+#: View/Elements/import-button.ctp:22
+msgid "Step 1"
+msgstr "Passo 1"
+
+#: View/Elements/import-button.ctp:27
+msgid "Download Spreadsheet Model"
+msgstr "Baixar Modelo de Planilha"
+
+#: View/Elements/import-button.ctp:36
+msgid "Step 2"
+msgstr "Passo 2"
+
+#: View/Elements/import-button.ctp:46
+msgid "Step 3"
+msgstr "Passo 3"
+
+#: View/Elements/language.ctp:29
+msgid "%s"
+msgstr "%s"
+
+#: View/Elements/menu.ctp:79
+msgid "Blog"
+msgstr "Blog"
+
+#: View/Elements/page-bottom.ctp:3
+msgid "Are you sure you want to cancel adding"
+msgstr "Tem certeza que deseja cancelar a adição"
+
+#: View/Elements/page-bottom.ctp:5
+msgid "Are you sure you want to cancel editing"
+msgstr "Tem certeza que deseja cancelar a edição"
+
+#: View/Elements/page-bottom.ctp:11
+msgid "the register"
+msgstr "do registro"
+
+#: View/Elements/page-bottom.ctp:35
+msgid "%s %s?"
+msgstr "%s %s?"
+
+#: View/Elements/page-top.ctp:21
+msgid "Add"
+msgstr "Adicionar"
+
+#: View/Elements/page-top.ctp:29
+msgid "List"
+msgstr "Listar"
+
+#: View/Elements/paginator.ctp:6
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
+
+#: View/Elements/paginator.ctp:13
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Página {:page} de {:pages}, mostrando {:current} registro(s) de {:count} no "
+"total, começando do registro {:start},terminando no {:end}"
+
+#: View/Elements/paginator.ctp:24
+msgid ""
+"<span class=\"hidden-xs\">prev</span><span class=\"visible-xs\"><i class="
+"\"fa fa-arrow-left\"></i></span>"
+msgstr ""
+"<span class=\"hidden-xs\">anterior</span><span class=\"visible-xs\"><i class="
+"\"fa fa-arrow-left\"></i></span>"
+
+#: View/Elements/paginator.ctp:26
+msgid ""
+"<span class=\"hidden-xs\">next</span><span class=\"visible-xs\"><i class="
+"\"fa fa-arrow-right\"></i></span>"
+msgstr ""
+"<span class=\"hidden-xs\">próximo</span><span class=\"visible-xs\"><i class="
+"\"fa fa-arrow-right\"></i></span>"
+
+#: View/Elements/permissions.ctp:2
+msgid "Permissions"
+msgstr "Permissões"
+
+#: View/Elements/plans.ctp:6
+msgid "OnneBlue"
+msgstr "OnneBlue"
+
+#: View/Elements/plans.ctp:9
+msgid "Free"
+msgstr "Grátis"
+
+#: View/Elements/plans.ctp:15
+msgid "per month"
+msgstr "por mês"
+
+#: View/Elements/plans.ctp:16
+msgid "or %s per year"
+msgstr "ou %s por ano"
+
+#: View/Elements/plans.ctp:21
+msgid "Start Now"
+msgstr "Comece Agora"
+
+#: View/Elements/plans.ctp:32
+msgid "Choose this plan"
+msgstr "Escolher esse plano"
+
+#: View/Elements/plans.ctp:47
+msgid "The OnneBlue Starter includes:"
+msgstr "O OnneBlue Starter inclui:"
+
+#: View/Elements/recaptcha.ctp:15
+msgid "Incorrect please try again"
+msgstr "Incorreto, por favor tente de novo"
+
+#: View/Elements/recaptcha.ctp:17
+msgid "Type what you see in the image above"
+msgstr "Escreva o que você vê na imagem acima"
+
+#: View/Elements/recaptcha.ctp:18
+msgid "Enter the numbers you hear"
+msgstr "Insira os números que você escutar"
+
+#: View/Elements/recaptcha.ctp:30
+msgid "Get another CAPTCHA"
+msgstr "Obter outro CAPTCHA"
+
+#: View/Elements/recaptcha.ctp:31
+msgid "Get an audio CAPTCHA"
+msgstr "Obter CAPTCHA de audio"
+
+#: View/Elements/recaptcha.ctp:32
+msgid "Get an image CAPTCHA"
+msgstr "Obter CAPTCHA de imagem"
+
+#: View/Elements/recaptcha.ctp:33
+msgid "Help"
+msgstr "Ajuda"
+
+#: View/Elements/search_fields.ctp:55
+msgid "%s Search%s"
+msgstr "%s Pesquisar%s"
+
+#: View/Elements/search_fields.ctp:62
+msgid "%s Reset%s"
+msgstr "%s Limpar%s"
+
+#: View/Elements/view-buttons.ctp:26
+msgid "%s Edit%s"
+msgstr "%s Editar%s"
+
+#: View/Elements/view-buttons.ctp:36
+msgid "%s Delete%s"
+msgstr "%s Deletar%s"
+
+#: View/Emails/html/account_confirmation.ctp:4
+msgid "Last step to start using OnneBlue"
+msgstr "Úlimo passo para começar a usar o OnneBlue"
+
+#: View/Emails/html/account_confirmation.ctp:7
+msgid "Please, click on the link below to confirm registration: "
+msgstr "Por favor, clique no link abaixo para confirmar o cadastro:"
+
+#: View/Emails/html/account_confirmation.ctp:12
+msgid "Confirm account"
+msgstr "Confirmar conta"
+
+#: View/Emails/html/account_pre_registration.ctp:4
+msgid "Thanks for pre-registration!"
+msgstr "Obrigado pelo pré-cadastro!"
+
+#: View/Emails/html/account_pre_registration.ctp:7
+msgid ""
+"In appreciation to pre-register, you will receive a discount coupon when the "
+"system is released."
+msgstr ""
+"Em agradecimento ao pré-cadastro, você irá receber um cupom de desconto "
+"quando o sistema for lançado."
+
+#: View/Emails/html/change_password.ctp:4
+msgid "New password"
+msgstr "Nova senha"
+
+#: View/Emails/html/change_password.ctp:7
+msgid ""
+"For security reasons, you must set a new password. Click the link below to "
+"set a new password: "
+msgstr ""
+"Por razões de segurança, você deve definir uma nova senha. Clique no link "
+"abaixo para definir uma nova senha:"
+
+#: View/Emails/html/change_password.ctp:12
+msgid "Change my password"
+msgstr "Alterar minha senha"
+
+#: View/Emails/html/change_password.ctp:31
+msgid "If you not asked for recover your password, disconsider this email."
+msgstr "Se você não pediu para recuperar sua senha, desconsidere esse email."
+
+#: View/Errors/error400.ctp:21
+msgid "<strong>400.</strong> Bad Request"
+msgstr "<strong>400.</strong> Bad Request"
+
+#: View/Errors/error400.ctp:22 View/Errors/error403.ctp:22
+#: View/Errors/error404.ctp:23 View/Errors/error405.ctp:22
+#: View/Errors/error500.ctp:22 View/Errors/error501.ctp:22
+msgid "<strong>Error:</strong> %s"
+msgstr "<strong>Erro:</strong> %s"
+
+#: View/Errors/error403.ctp:21
+msgid "<strong>403.</strong> Forbidden"
+msgstr "<strong>403.</strong> Proíbido"
+
+#: View/Errors/error404.ctp:22
+msgid "<strong>404.</strong> Not Found"
+msgstr "<strong>404.</strong> Não Encontrado"
+
+#: View/Errors/error405.ctp:21
+msgid "<strong>405.</strong> Method Not Allowed"
+msgstr "<strong>405.</strong> Método não Permitido"
+
+#: View/Errors/error500.ctp:21
+msgid "<strong>500.</strong> Internal Server Error"
+msgstr "<strong>500.</strong> Erro Interno do Servidor"
+
+#: View/Errors/error501.ctp:21
+msgid "<strong>501.</strong> Not Implemented"
+msgstr "<strong>501.</strong> Não Implementado"
+
+#: View/Helper/HarvestHelper.php:193
+msgid "CPF"
+msgstr "CPF"
+
+#: View/Helper/HarvestHelper.php:195
+msgid "CNPJ"
+msgstr "CNPJ"
+
+#: View/Helper/HarvestHelper.php:197
+msgid "N/A"
+msgstr "N/A"
+
+#: View/Helper/HarvestHelper.php:220
+msgid "The client has no CNPJ/CPF"
+msgstr "O cliente não possui CNPJ/CPF"
+
+#: View/Helper/HarvestHelper.php:295
+msgid "Waiting payment"
+msgstr "Aguardando pagamento"
+
+#: View/Helper/HarvestHelper.php:298
+msgid "In analysis"
+msgstr "Em análise"
+
+#: View/Helper/HarvestHelper.php:301
+msgid "Paid"
+msgstr "Paga"
+
+#: View/Helper/HarvestHelper.php:304
+msgid "Available"
+msgstr "Disponível"
+
+#: View/Helper/HarvestHelper.php:307
+msgid "In Dispute"
+msgstr "Em dispura"
+
+#: View/Helper/HarvestHelper.php:310
+msgid "Refunded"
+msgstr "Devolvida"
+
+#: View/Helper/HarvestHelper.php:313
+msgid "Cancelled"
+msgstr "Cancelada"
+
+#: View/Helper/HarvestHelper.php:316
+msgid "Being processed"
+msgstr "Being processed"
+
+#: View/Helper/HarvestHelper.php:340;348;355
+msgid "Total: %s"
+msgstr "Total: %s"
+
+#: View/Helper/HarvestHelper.php:341
+msgid "Recurrent"
+msgstr "Recorrente"
+
+#: View/Helper/HarvestHelper.php:349;356
+msgid "Save: %s"
+msgstr "Economize: %s"
+
+#: View/Layouts/Emails/html/default.ctp:40
+msgid "Hello, %s"
+msgstr "Olá, %s"
+
+#: View/Layouts/Emails/html/default.ctp:46
+msgid "Hello"
+msgstr "Olá"
+
+#: View/Layouts/Emails/html/default.ctp:58
+msgid "Best regards!"
+msgstr "Saudações!"
+
+#: View/Layouts/Emails/html/default.ctp:58
+msgid "OnneBlue Team"
+msgstr "Equipe OnneBlue"
+
+#: View/Layouts/Emails/html/default.ctp:69
+msgid "%s OnneBlue"
+msgstr "%s OnneBlue"
+
+#: View/Modules/admin_subscriptions.ctp:4
+msgid "%sSubscriptions Plans"
+msgstr "%sAssinaturas de Planos"
+
+#: View/Modules/admin_subscriptions.ctp:12
+msgid "Bronze"
+msgstr "Bronze"
+
+#: View/Modules/admin_subscriptions.ctp:13;48
+msgid "mo."
+msgstr "mês"
+
+#: View/Modules/admin_subscriptions.ctp:14
+msgid "Perfect for resellers"
+msgstr "Perfeito para revendedores"
+
+#: View/Modules/admin_subscriptions.ctp:18
+msgid "BASIC"
+msgstr "BÁSICO"
+
+#: View/Modules/admin_subscriptions.ctp:25;60
+msgid "Inbounds"
+msgstr "Entradas"
+
+#: View/Modules/admin_subscriptions.ctp:26;61
+msgid "Outbonds"
+msgstr "Saídas"
+
+#: View/Modules/admin_subscriptions.ctp:32;67
+msgid "%s User"
+msgstr "%s Usuário"
+
+#: View/Modules/admin_subscriptions.ctp:33;68 View/Plans/admin_index.ctp:23
+msgid "Additional Users"
+msgstr "Usuários Adicionais"
+
+#: View/Modules/admin_subscriptions.ctp:34;69
+msgid "%s Space"
+msgstr "%s Espaço"
+
+#: View/Modules/admin_subscriptions.ctp:35;70
+msgid "Mobile"
+msgstr "Celular"
+
+#: View/Modules/admin_subscriptions.ctp:36;71
+msgid "Access Control"
+msgstr "Controle de Acesso"
+
+#: View/Modules/admin_subscriptions.ctp:40;75
+msgid "Pay Now"
+msgstr "Pagar Agora"
+
+#: View/Modules/admin_subscriptions.ctp:47
+msgid "Silver"
+msgstr "Silver"
+
+#: View/Modules/admin_subscriptions.ctp:49
+msgid "Perfect for small business"
+msgstr "Perfeito para pequenas empresas"
+
+#: View/Modules/admin_subscriptions.ctp:53
+msgid "ADVANCED"
+msgstr "AVANÇADO"
+
+#: View/Pages/about.ctp:5
+msgid "Made with passion. Made for you."
+msgstr "Feito com paixão. Feito para você."
+
+#: View/Pages/about.ctp:13
+msgid ""
+"The automation of a business is essential to its growth and success today. "
+"The OnneBlue seeks to combine simplicity and robustness to leverage the "
+"growth of micro and small enterprises, through an online management system "
+"and innovative."
+msgstr ""
+"A automatização de um negócio é imprescindível para o seu crescimento e "
+"sucesso nos dias atuais. O OnneBlue busca aliar simplicidade e robustez para "
+"alavancar o crescimento de micro e pequenas empresas, através de um sistema "
+"de gestão online e inovador."
+
+#: View/Pages/about.ctp:23
+msgid "Manifest"
+msgstr "Manifesto"
+
+#: View/Pages/about.ctp:25
+msgid ""
+"We know the daily challenge of running a business. It is based on this "
+"principle, we seek to integrate OnneBlue the business to drive growth. "
+"Therefore, we believe that the key point to solve the management problems of "
+"a business, is simplicity."
+msgstr ""
+"Sabemos do desafio diário que é gerir um negócio. E é partindo deste "
+"princípio, que buscamos integrar o OnneBlue ao negócio para impulsionar o "
+"seu crescimento. Por isso, acreditamos que o ponto-chave para a resolução "
+"dos problemas gerenciais de um negócio, é a simplicidade."
+
+#: View/Pages/about.ctp:27
+msgid ""
+"The OnneBlue was born with a mission to help others realize their dreams "
+"through their business."
+msgstr ""
+"O OnneBlue nasceu com a missão de ajudar outras pessoas a concretizarem os "
+"seus sonhos através do seu negócio."
+
+#: View/Pages/about.ctp:40
+msgid "Mission"
+msgstr "Missão"
+
+#: View/Pages/about.ctp:41
+msgid "Helping people achieve their dreams through their business"
+msgstr "Ajudar as pessoas a concretizarem seus sonhos através do seu negócio"
+
+#: View/Pages/about.ctp:45
+msgid "Vision"
+msgstr "Visão"
+
+#: View/Pages/about.ctp:46
+msgid "To be a global reference in business management"
+msgstr "Ser referência global em gestão de empresas"
+
+#: View/Pages/about.ctp:50
+msgid "Values"
+msgstr "Valores"
+
+#: View/Pages/about.ctp:51
+msgid "Customer satisfaction, ethics, commitment and transparency"
+msgstr "Satisfação do cliente, ética, compromisso e transparência"
+
+#: View/Pages/about.ctp:62
+msgid "Meet the Team"
+msgstr "Conheça a Equipe"
+
+#: View/Pages/admin_contact.ctp:4
+msgid "%sContact"
+msgstr "%sContato"
+
+#: View/Pages/admin_contact.ctp:16
+msgid "Subject"
+msgstr "Assunto"
+
+#: View/Pages/admin_contact.ctp:21
+msgid "Message"
+msgstr "Mensagem"
+
+#: View/Pages/admin_contact.ctp:31 View/Pages/contact.ctp:41
+msgid "Send"
+msgstr "Enviar"
+
+#: View/Pages/contact.ctp:18
+msgid "Name %s"
+msgstr "Nome %s"
+
+#: View/Pages/contact.ctp:21
+msgid "Email %s"
+msgstr "Email %s"
+
+#: View/Pages/contact.ctp:26
+msgid "Subject %s"
+msgstr "Assunto %s"
+
+#: View/Pages/contact.ctp:31
+msgid "Message %s"
+msgstr "Mensagem %s"
+
+#: View/Pages/i18n.ctp:7
+msgid "One user"
+msgstr "Um usuário"
+
+#: View/Pages/i18n.ctp:8
+msgid "Limit of 100 records for each module"
+msgstr "Limite de 100 registros por cada módulo"
+
+#: View/Pages/i18n.ctp:9
+msgid "Can purchase additional users"
+msgstr "Pode comprar usuários adicionais"
+
+#: View/Pages/i18n.ctp:10
+msgid "All of plan OnneBlue Bronze"
+msgstr "Todos os planos do OnneBlue Bronze"
+
+#: View/Pages/i18n.ctp:11
+msgid "Plus an additional user (total of two)"
+msgstr "Mais um usuário adicional (total de dois)"
+
+#: View/Pages/i18n.ctp:12
+msgid "Access control"
+msgstr "Controle de Acesso"
+
+#: View/Pages/index.ctp:7
+msgid "Ensure the future of your business"
+msgstr "Garanta o futuro da sua empresa"
+
+#: View/Pages/index.ctp:13
+msgid "I want to!"
+msgstr "Eu quero!"
+
+#: View/Pages/index.ctp:39
+msgid "OnneBlue Video"
+msgstr "OnneBlue Vídeo"
+
+#: View/Pages/index.ctp:73
+msgid "Focused on the solution."
+msgstr "Focado na solução."
+
+#: View/Pages/index.ctp:73
+msgid "The OnneBlue has resources for their needs."
+msgstr "O OnneBlue tem recursos para suas necessidades."
+
+#: View/Pages/index.ctp:86
+msgid "Simple and friendly"
+msgstr "Simples e Amigável"
+
+#: View/Pages/index.ctp:87
+msgid "Intuitive system. Use with ease."
+msgstr "Sistema intuitivo. Utilize com facilidade."
+
+#: View/Pages/index.ctp:96
+msgid "Optimized experience"
+msgstr "Experiência Otimizada"
+
+#: View/Pages/index.ctp:97 View/Pages/tour.ctp:222
+msgid "Adaptive Design. Ready for access by computer or mobile devices."
+msgstr ""
+"Design adaptável. Pronto para acesso pelo computador ou dispositivos móveis."
+
+#: View/Pages/index.ctp:106
+msgid "Technology and Navigation"
+msgstr "Tecnologia e Navegação"
+
+#: View/Pages/index.ctp:107
+msgid "Developed with the latest technology. Fast and secure shipping."
+msgstr ""
+"Desenvolvido com tecnologias de última geração. Navegação rápida e segura."
+
+#: View/Pages/index.ctp:116
+msgid "Constant updates"
+msgstr "Atualizações constantes"
+
+#: View/Pages/index.ctp:117
+msgid ""
+"OnneBlue is constantly developing. Always striving to meet the needs of "
+"their customers."
+msgstr ""
+"OnneBlue está em constante desenvolvimento. Sempre procurando atender as "
+"necessidades de seus clientes."
+
+#: View/Pages/prices.ctp:4
+msgid "Choose a Plan"
+msgstr "Escolha um Plano"
+
+#: View/Pages/prices.ctp:13
+msgid "Frequently Questions"
+msgstr "Perguntas Frequentes"
+
+#: View/Pages/prices.ctp:21
+msgid "What is an additional user?"
+msgstr "O que é um usuário adicional?"
+
+#: View/Pages/prices.ctp:24
+msgid ""
+"Users are generally employees the company, which have access to the system "
+"beyond the <b>owner</b>."
+msgstr ""
+"Usuários são geralmente funcionários da empresa, que têm acesso ao sistema "
+"além do <b>dono</b>."
+
+#: View/Pages/prices.ctp:31
+msgid "How much is each additional user?"
+msgstr "Quanto custa cada usuário adicional?"
+
+#: View/Pages/prices.ctp:34
+msgid ""
+"Each additional user costs R$9 and has full access to the system, depending "
+"on the permissions set by the <b>owner</b>."
+msgstr ""
+"Cada usuário adicional custa R$9 e tem acesso completo ao sistema, "
+"dependendo das permissões escolhidas pelo <b>dono</b>."
+
+#: View/Pages/prices.ctp:41
+msgid "What is access control?"
+msgstr "O que é controle de acesso?"
+
+#: View/Pages/prices.ctp:44
+msgid ""
+"Access control allows the <b>owner</b>, or who have permission, can manage "
+"user groups and define which parts of the system each group has access."
+msgstr ""
+"O controle de acesso permite que o <b>dono</b>, ou quem tem permissão, possa "
+"gerenciar grupos de usuários e definir quais partes do sistema cada grupo "
+"tem acesso."
+
+#: View/Pages/tour.ctp:6
+msgid "Never been so simple"
+msgstr "Nunca foi tão simples"
+
+#: View/Pages/tour.ctp:26
+msgid "Main Navbar"
+msgstr "Menu Principal"
+
+#: View/Pages/tour.ctp:27
+msgid "The main navbar allows you to navigate through all the system quickly."
+msgstr ""
+"O menu principal permite que você navegue rapidamente por todo o sistema."
+
+#: View/Pages/tour.ctp:35
+msgid "Module Icons"
+msgstr "Ícones do Módulo"
+
+#: View/Pages/tour.ctp:36
+msgid "Access the modules through the icons in the dashboard."
+msgstr "Acesse os módulos através dos ícones do painel de controle."
+
+#: View/Pages/tour.ctp:44
+msgid "Languages"
+msgstr "Idiomas"
+
+#: View/Pages/tour.ctp:45
+msgid "Change the language of any page through the footer."
+msgstr "Altere o idioma em qualquer página através do rodapé."
+
+#: View/Pages/tour.ctp:56
+msgid "Fast navigation"
+msgstr "Navegação rápida"
+
+#: View/Pages/tour.ctp:56
+msgid ""
+"Streamline navigation using the side menu. Alternatively, browse through the "
+"shortcut icons."
+msgstr ""
+"Agilize a navegação utilizando o menu lateral. Se preferir, navegue através "
+"dos ícones de atalho."
+
+#: View/Pages/tour.ctp:76
+msgid "Module Navbar Show"
+msgstr "Mostrar o Menu do Módulo"
+
+#: View/Pages/tour.ctp:77
+msgid "Shows the module navbar."
+msgstr "Mostra o menu do módulo."
+
+#: View/Pages/tour.ctp:85
+msgid "Menu Icons"
+msgstr "Ícones do menu"
+
+#: View/Pages/tour.ctp:86
+msgid "Access the module pages through the icons."
+msgstr "Acesse as páginas do módulo através dos ícones."
+
+#: View/Pages/tour.ctp:110
+msgid "Module Navbar Hide"
+msgstr "Esconder o Menu do Módulo"
+
+#: View/Pages/tour.ctp:111
+msgid "Hides the module navbar."
+msgstr "Esconde o menu do módulo."
+
+#: View/Pages/tour.ctp:119
+msgid "Module Navbar"
+msgstr "Menu do Módulo"
+
+#: View/Pages/tour.ctp:120
+msgid "Accessible from any page of the module."
+msgstr "Acessível de qualquer página do módulo."
+
+#: View/Pages/tour.ctp:131
+msgid "Efficient and Organized Listing"
+msgstr "Listagem Eficiente e Organizada"
+
+#: View/Pages/tour.ctp:131
+msgid ""
+"Search through our products list. Besides ease of use, it is extremely "
+"efficient. Helping you quickly find the record you need."
+msgstr ""
+"Pesquise produtos através da nossa listagem. Além fácil utilização, é "
+"extremamente eficiente. Ajudando a encontrar rapidamente o registro que você "
+"precisa."
+
+#: View/Pages/tour.ctp:151
+msgid "Simple Ordering"
+msgstr "Ordenação Simples"
+
+#: View/Pages/tour.ctp:152
+msgid "All titles in blue, can be ordering."
+msgstr "Todos os títulos em azul, podem ser ordenados."
+
+#: View/Pages/tour.ctp:160
+msgid "Quick Search"
+msgstr "Pesquisa Rápida"
+
+#: View/Pages/tour.ctp:161
+msgid "Search has never been so simple."
+msgstr "Realizar pesquisas nunca foi tão simples."
+
+#: View/Pages/tour.ctp:170
+msgid "Three simple operation in order (left to right): View, Edit and Delete."
+msgstr ""
+"As três principais operações em ordem (da esquerda para a direita): "
+"Visualizar, Editar e Deletar."
+
+#: View/Pages/tour.ctp:178
+msgid "Pagination"
+msgstr "Paginação"
+
+#: View/Pages/tour.ctp:179
+msgid "Increases performance."
+msgstr "Aumenta a performance."
+
+#: View/Pages/tour.ctp:190
+msgid "Self-explanatory forms"
+msgstr "Formulários autoexplicativos"
+
+#: View/Pages/tour.ctp:190
+msgid ""
+"With our self-explanatory forms, it is easy to identify the essential fields "
+"for registration of new records."
+msgstr ""
+"Com os nossos formulários autoexplicativos, é fácil identificar os campos "
+"essenciais para cadastramento de novos registros."
+
+#: View/Pages/tour.ctp:210
+msgid "Help Icon"
+msgstr "Ícone de Ajuda"
+
+#: View/Pages/tour.ctp:211
+msgid "Complex fields have help icons."
+msgstr "Campos complexos possuem ícones de ajuda."
+
+#: View/Pages/tour.ctp:222
+msgid "Adaptive Design"
+msgstr "Design Adaptável"
+
+#: View/Pages/tour.ctp:254
+msgid "Start now"
+msgstr "Comece agora"
+
+#: View/Plans/admin_index.ctp:9
+msgid "To hire a plane, just choose and click on monthly or annual"
+msgstr "Para contratar um plano, basta escolher e clicar no mensal ou anual"
+
+#: View/Plans/admin_index.ctp:33
+msgid "Each"
+msgstr "Cada"
+
+#: View/Plans/admin_index.ctp:38
+msgid "You can not buy additional users to the free plan"
+msgstr "Você não pode comprar usuários adicionais para o plano gratuito"
+
+#: View/Plans/admin_index.ctp:40
+msgid "Purchase"
+msgstr "Comprar"
+
+#: View/Plans/admin_pay.ctp:5
+msgid "OnneBlue %s"
+msgstr "OnneBlue %s"
+
+#: View/Plans/admin_pay.ctp:9
+msgid "Select a period:"
+msgstr "Selecione um período"
+
+#: View/Plans/admin_pay.ctp:25
+msgid "Select a payment method:"
+msgstr "Selecione o método de pagamento:"
+
+#: View/Plans/admin_pay.ctp:33
+msgid "PagSeguro"
+msgstr "PagSeguro"
+
+#: View/Plans/admin_pay.ctp:40
+msgid "No additional fee will be charged"
+msgstr "Nenhuma taxa adicional será cobrada"
+
+#: View/Plans/admin_pay.ctp:46
+msgid "Continue"
+msgstr "Continuar"
+
+#: View/System/admin_menu.ctp:8
+msgid "System Menu"
+msgstr "Menu do Sistema"
+
+#: View/System/admin_menu.ctp:14
+msgid "Original Name"
+msgstr "Nome Original"
+
+#: View/System/admin_menu.ctp:15
+msgid "Custom Name"
+msgstr "Nome Personalizado"
+
+#: View/System/admin_menu.ctp:99 View/System/admin_settings.ctp:29
+msgid "Save"
+msgstr "Salvar"
+
+#: View/System/admin_settings.ctp:8
+msgid "System Settings"
+msgstr "Configurações do Sistema"
+
+#: View/System/admin_settings.ctp:15
+msgid "Create Account (Default Group)"
+msgstr "Criar Conta (Grupo Padrão)"
+
+#: View/Users/admin_account.ctp:36
+msgid "Personal details"
+msgstr "Detalhes pessoais"
+
+#: View/Users/admin_account.ctp:63
+msgid "Login details"
+msgstr "Detalhes do login"
+
+#: View/Users/admin_account.ctp:79
+msgid "Current password"
+msgstr "Senha atual"
+
+#: View/Users/admin_account.ctp:91
+msgid "Security"
+msgstr "Segurança"
+
+#: View/Users/admin_account.ctp:101
+msgid "Leave blank if you do not want to change"
+msgstr "Deixe este campo em branco caso não queira alterá-lo"
+
+#: View/Users/admin_account.ctp:102 View/Users/change_password.ctp:37
+msgid "New Password"
+msgstr "Nova Senha"
+
+#: View/Users/admin_account.ctp:114 View/Users/change_password.ctp:48
+msgid "Confirm New Password"
+msgstr "Confirmar Nova Senha"
+
+#: View/Users/admin_account.ctp:125
+msgid ""
+"We will never ask for your password. Always use strong passwords and change "
+"them frequently."
+msgstr ""
+"Nós nunca iremos perguntar sua senha. Sempre utilize senhas difíceis e mude-"
+"as com frequência."
+
+#: View/Users/admin_account.ctp:136
+msgid "No transaction was conducted"
+msgstr "Nenhuma transação foi realizada"
+
+#: View/Users/admin_account.ctp:142
+msgid "Date"
+msgstr "Data"
+
+#: View/Users/admin_account.ctp:145
+msgid "Price"
+msgstr "Preço"
+
+#: View/Users/admin_account.ctp:146
+msgid "Status"
+msgstr "Status"
+
+#: View/Users/admin_account.ctp:163
+msgid "See all transactions"
+msgstr "Ver todas as transações"
+
+#: View/Users/admin_login.ctp:8
+msgid "Hello <b>%s</b>!"
+msgstr "Olá <b>%s</b>!"
+
+#: View/Users/admin_login.ctp:16
+msgid "You are already logged in:"
+msgstr "Você já está logado:"
+
+#: View/Users/admin_login.ctp:18
+msgid "Go to Admin Panel"
+msgstr "Ir para o Painel Administrativo"
+
+#: View/Users/admin_login.ctp:39
+msgid "Enter OnneBlue"
+msgstr "Entrar no OnneBlue"
+
+#: View/Users/admin_login.ctp:65
+msgid "Password"
+msgstr "Senha"
+
+#: View/Users/admin_login.ctp:88
+msgid "Remember me"
+msgstr "Lembrar-me"
+
+#: View/Users/admin_login.ctp:98
+msgid "Forgot your password?"
+msgstr "Esqueceu sua senha?"
+
+#: View/Users/change_password.ctp:39 View/Users/register.ctp:88
+msgid "Use at least 6 characters"
+msgstr "Utilize pelo menos 6 caracteres"
+
+#: View/Users/change_password.ctp:47
+msgid "Repeat the new password"
+msgstr "Repita a nova senha"
+
+#: View/Users/change_password.ctp:58
+msgid "Save password"
+msgstr "Salvar senha"
+
+#: View/Users/forgot_password.ctp:3
+msgid "Forgotten your password?"
+msgstr "Esqueceu sua senha?"
+
+#: View/Users/forgot_password.ctp:9
+msgid "Enter your email to create a new password"
+msgstr "Insira seu email para criar uma nova senha"
+
+#: View/Users/forgot_password.ctp:19
+msgid "Send email"
+msgstr "Enviar email"
+
+#: View/Users/register.ctp:29
+msgid "Start using it today"
+msgstr "Comece a usar hoje"
+
+#: View/Users/register.ctp:36
+msgid "Do not need credit card"
+msgstr "Não precisa de cartão de crédito"
+
+#: View/Users/register.ctp:38
+msgid "Register your email to use OnneBlue very soon"
+msgstr "Cadastre seu email para usar o OnneBlue em breve"
+
+#: View/Users/register.ctp:122;169
+msgid "Term of Use"
+msgstr "Termo de Uso"
+
+#: View/Users/register.ctp:129
+msgid "By clicking the button below, you agree to the %s"
+msgstr "Ao clicar no botão abaixo, você concorda com o %s"
+
+#: View/Users/register.ctp:135
+msgid "Create my account"
+msgstr "Criar minha conta"
+
+#: View/Users/register.ctp:143
+msgid "Do my pre-register"
+msgstr "Realizar meu pré-cadastro"
+
+#: Model/Contact.php:validation for field name
+msgid "The name is required"
+msgstr "O nome é requerido"
+
+#: Model/Contact.php:validation for field email
+msgid "The email is required"
+msgstr "O e-mail é requerido"
+
+#: Model/Contact.php:validation for field email
+msgid "Not a valid email"
+msgstr "E-mail inválido"
+
+#: Model/Contact.php:validation for field subject
+msgid "Subject is required"
+msgstr "Assunto é requerido"
+
+#: Model/Contact.php:validation for field message
+msgid "Message is required"
+msgstr "Mensagem é requerido"
+
+#: Model/Group.php:validation for field name
+#: Plugin/InventorySystem/Model/Category.php:validation
+#: Plugin/InventorySystem/Model/Customer.php:validation
+#: Plugin/InventorySystem/Model/Product.php:validation
+#: Plugin/InventorySystem/Model/Supplier.php:validation
+#: Plugin/InventorySystem/Model/UnitsMeasure.php:validation
+msgid "Please enter a name"
+msgstr "Por favor, insira um nome"
+
+#: Model/Group.php:validation for field name
+msgid "This group name has already been taken"
+msgstr "Esse nome do grupo já está sendo utilizado"
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter a first name"
+msgstr "Por favor, insira um nome"
+
+#: Model/User.php:validation for field first_name;validation last_name
+msgid "Minimum 2 characters long"
+msgstr "Mínimo 2 caracteres"
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter a last name"
+msgstr "Por favor, insira um sobrenome"
+
+#: Model/User.php:validation for field email
+#: Plugin/InventorySystem/Model/Customer.php:validation
+#: Plugin/InventorySystem/Model/Supplier.php:validation
+msgid "This email has already been taken"
+msgstr "Esse e-mail já está sendo utilizado"
+
+#: Model/User.php:validation for field email
+msgid "Please enter an email"
+msgstr "Por favor, insira um e-mail"
+
+#: Model/User.php:validation for field email
+msgid "Minimum 4 characters long"
+msgstr "Mínimo 4 caracteres"
+
+#: Model/User.php:validation for field email
+msgid "Please supply a valid email address"
+msgstr "Por favor, forneça um endereço de e-mail válido"
+
+#: Model/User.php:validation for field password;validation newpass
+msgid "Please enter a password"
+msgstr "Por favor, insira uma senha"
+
+#: Model/User.php:validation for field password;validation newpass
+msgid "Minimum 6 characters long"
+msgstr "Mínimo 6 caracteres"
+
+#: Model/User.php:validation for field repassword;validation newrepass
+msgid "Please enter a confirm password"
+msgstr "Por favor, insira a senha de confirmação"
+
+#: Model/User.php:validation for field repassword;validation newrepass
+msgid "Password do not match"
+msgstr "A senhas não conferem"
+
+#: Model/User.php:validation for field group_id
+msgid "Please select a group"
+msgstr "Por favor, selecione um grupo"
+
+#: Model/User.php:validation for field recaptcha
+msgid "Please enter the reCAPTCHA"
+msgstr "Por favor, insira o reCAPTCHA"
+
+#: Model/User.php:validation for field recaptcha
+msgid "The reCAPTCHA wasn't entered correctly."
+msgstr "O reCAPTCHA inserido está incorreto."
+
+#: Plugin/FinancialSystem/Model/BanksAccount.php:validation for field
+#: description
+msgid "Please enter a description"
+msgstr "Por favor, insira uma descrição"
+
+#: Plugin/FinancialSystem/Model/BanksAccount.php:validation for field
+#: description
+msgid "This description has already been taken"
+msgstr "Essa descrição já está sendo utilizada"
+
+#: Plugin/InventorySystem/Model/Category.php:validation for field name
+#: Plugin/InventorySystem/Model/Customer.php:validation
+#: Plugin/InventorySystem/Model/Supplier.php:validation
+msgid "This name has already been taken"
+msgstr "Esse nome já está sendo utilizado"
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field email
+#: Plugin/InventorySystem/Model/Supplier.php:validation
+msgid "Please supply a valid email address."
+msgstr "Por favor, forneça um endereço de e-mail válido."
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field cnpj_cpf
+msgid "notEmptyCnpjCpf"
+msgstr "notEmptyCnpjCpf"
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field birthday
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation
+#: movimentation_date;validation expiration_date;validation adjustment_date
+msgid "Invalid date"
+msgstr "Data inválida"
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field site
+#: Plugin/InventorySystem/Model/Supplier.php:validation
+msgid "Please, supply a valid Website"
+msgstr "Por favor, forneça um site válido"
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field
+#: product_id
+msgid "Please select a product"
+msgstr "Por favor, selecione um produto"
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field
+#: supplier_id
+msgid "Please select a supplier"
+msgstr "Por favor, selecione um fornecedor"
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field is_input
+msgid "notEmpty"
+msgstr "não vazio"
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field quantity
+msgid "Please enter a quantity"
+msgstr "Por favor, insira uma quantidade"
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field
+#: movimentation_date
+msgid "Please enter a movimentation date"
+msgstr "Por favor, insira uma data de movimentação"
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field
+#: unit_of_measure_id
+msgid "Please select a unit of measure"
+msgstr "Por favor, selecione uma unidade de medida"
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field code
+msgid "Please enter a code"
+msgstr "Por favor, insira um código"
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field code
+msgid "Serial number already registered. Please, supply another one."
+msgstr "Número de série já registrado. Por favor, forneça um outro."
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field
+#: purchase_value
+msgid "Please enter a purchase value"
+msgstr "Por favor, insira um valor de compra"
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field sell_value
+msgid "Please enter a sell value"
+msgstr "Por favor, insira um valor de venda"
+
+#: Plugin/InventorySystem/Model/UnitsMeasure.php:validation for field name
+msgid "This unit of measure has already been taken"
+msgstr "Essa unidade de medida já está sendo utilizada"
+
+#~ msgid "%sAdd Group"
+#~ msgstr "%sAdicionar Grupo"
+
+#~ msgid "%sEdit Group"
+#~ msgstr "%sEditar Grupo"
+
+#~ msgid "%sGroups"
+#~ msgstr "%sGrupos"
+
+#~ msgid "%sView Group"
+#~ msgstr "%sVisualizar Grupo"
+
+#~ msgid "%sAdd User"
+#~ msgstr "%sAdicionar Usuário"
+
+#~ msgid "%sEdit User"
+#~ msgstr "%sEditar Usuário"
+
+#~ msgid "%sUsers"
+#~ msgstr "%sUsuários"
+
+#~ msgid "%sView User"
+#~ msgstr "%sVisualizar Usuário"
+
+#~ msgid "Pre-registration"
+#~ msgstr "Pré-cadastro"
+
+#, fuzzy
+#~ msgid "Copyright  %s Harvest Sistemas"
+#~ msgstr "Copyright  %s Harvest Sistemas"
+
+#~ msgid "Release"
+#~ msgstr "Lançamento"
+
+#~ msgid "Manage with simplicity"
+#~ msgstr "Gerencie com simplicidade"
+
+#~ msgid "For management of your company: "
+#~ msgstr "Para gestão da sua empresa:"
+
+#~ msgid "Register now"
+#~ msgstr "Cadastre-se agora"
+
+#~ msgid "Make your pre-registration"
+#~ msgstr "Faça o seu pré-cadastro"
+
+#~ msgid "%sView Category"
+#~ msgstr "%sVisualizar Categoria"
+
+#~ msgid "%sView Customer"
+#~ msgstr "%sVisualizar Cliente"
+
+#~ msgid "%sReport"
+#~ msgstr "%sRelatório"
+
+#~ msgid "%sInput"
+#~ msgstr "Entrada"
+
+#~ msgid "%sOutput"
+#~ msgstr "Saída"
+
+#~ msgid "%sPerform Inventory"
+#~ msgstr "%sRealizar Inventário"
+
+#~ msgid "%sInventory System"
+#~ msgstr "%sSistema de Estoque"
+
+#~ msgid "Stock"
+#~ msgstr "Estoque"
+
+#~ msgid "Minimum Quantity %s"
+#~ msgstr "Quantidade Mínima %s"
+
+#~ msgid "Enter here the minimum allowed value for the stock of this product."
+#~ msgstr "Digite aqui o valor mínimo permitido para o estoque deste produto."
+
+#~ msgid "%sView Product"
+#~ msgstr "%sVisualizar Produto"
+
+#~ msgid "Minimum Quantity"
+#~ msgstr "Quantidade Mínima"
+
+#~ msgid "Notify Low Stock"
+#~ msgstr "Notificar Estoque Baixo"
+
+#~ msgid "%sView Supplier"
+#~ msgstr "%sVisualizar Fornecedor"
+
+#~ msgid "%sView Unit of Measure"
+#~ msgstr "%sVisualizar Unidade de Medida"
+
+#~ msgid "%sDashboard"
+#~ msgstr "%sPainel de Controle"
+
+#~ msgid ""
+#~ "<i class=\"fa fa-dashboard\"></i> <span class=\"hidden-xs dashboard\">%s</"
+#~ "span>"
+#~ msgstr ""
+#~ "<i class=\"fa fa-dashboard\"></i> <span class=\"hidden-xs dashboard\">%s</"
+#~ "span>"
+
+#~ msgid "%s<span class=\"hidden-sm\"> Home</span>"
+#~ msgstr "%s<span class=\"hidden-sm\"> Home</span>"
+
+#~ msgid "%s Modules %s"
+#~ msgstr "%s Módulos %s"
+
+#~ msgid "%s<span class=\"hidden-sm\"> %s</span>"
+#~ msgstr "%s<span class=\"hidden-sm\"> %s</span>"
+
+#~ msgid "%s<span class=\"hidden-sm\"> %s</span> %s"
+#~ msgstr "%s<span class=\"hidden-sm\"> %s</span> %s"
+
+#~ msgid "%s %sTour%s %s"
+#~ msgstr "%s %sTour%s %s"
+
+#~ msgid "First Access"
+#~ msgstr "Primeiro Acesso"
+
+#~ msgid "%s Login"
+#~ msgstr "%s Entrar"
+
+#~ msgid "Starter"
+#~ msgstr "Starter"
+
+#~ msgid "No reports"
+#~ msgstr "Sem relatórios"
+
+#~ msgid "Can not purchase additional users"
+#~ msgstr "Não pode comprar usuários adicionais"
+
+#~ msgid "or R$359,10 per year"
+#~ msgstr "ou R$359,10 por ano"
+
+#~ msgid "The OnneBlue Bronze includes:"
+#~ msgstr "O OnneBlue Bronze inclui:"
+
+#~ msgid "Gold"
+#~ msgstr "Gold"
+
+#~ msgid "or R$474,41 per year"
+#~ msgstr "ou R$474,41 por ano"
+
+#~ msgid "Your current plan"
+#~ msgstr "Seu plano atual"
+
+#~ msgid "Please enter a minimum quantity"
+#~ msgstr "Por favor, insira uma quantidade mínima"
+
+#~ msgid "customer_model_spreadsheet.xls"
+#~ msgstr "modelo_planilha_cliente.xls"
+
+#~ msgid "supplier_model_spreadsheet.xls"
+#~ msgstr "modelo_planilha_fornecedor.xls"
+
+#~ msgid "units_measure_model_spreadsheet.xls"
+#~ msgstr "units_measure_model_spreadsheet.xls"
+
+#~ msgid "or R$400 per year"
+#~ msgstr "ou R$400 por ano"
+
+#~ msgid " Monthly"
+#~ msgstr " Mensal"
+
+#~ msgid " Annual"
+#~ msgstr " Anual"
+
+#~ msgid "or R$168 per year"
+#~ msgstr "ou R$168 por ano"
+
+#~ msgid "Monthly"
+#~ msgstr "Mensal"
+
+#~ msgid "Annual"
+#~ msgstr "Anual"
+
+#~ msgid "OnneBlue Bronze"
+#~ msgstr "OnneBlue Bronze"
+
+#~ msgid "Total: R$168"
+#~ msgstr "Total: R$168"
+
+#~ msgid "Save: R$72"
+#~ msgstr "Economize: R$72"
+
+#~ msgid "Semiannual"
+#~ msgstr "Semestral"
+
+#~ msgid "Save: R$24"
+#~ msgstr "Economize: R$24"
+
+#~ msgid "Total: R$20"
+#~ msgstr "Total: R$20"
+
+#~ msgid "Your 21-day free trial has expired."
+#~ msgstr "Seus 21-dias de testes gratuitos expirou."
+
+#~ msgid "Select at least one plan."
+#~ msgstr "Selecione pelo menos um plano."
+
+#~ msgid "Your payment has not been confirmed."
+#~ msgstr "Seu pagamento não foi confirmado."
+
+#~ msgid "This account was canceled."
+#~ msgstr "Essa conta foi cancelada."
+
+#~ msgid "This account was inactivated."
+#~ msgstr "Essa conta foi inativada."
+
+#~ msgid "Free trial period"
+#~ msgstr "Período de teste gratuito"
+
+#~ msgid "days"
+#~ msgstr "dias"
+
+#~ msgid "day"
+#~ msgstr "dia"
+
+#~ msgid "%s Subscription Plans"
+#~ msgstr "%s Planos de Assinaturas"
+
+#~ msgid ""
+#~ "You have <span class=\"%s\">%s %s</span> to continue using the OnneBlue "
+#~ "for free."
+#~ msgstr ""
+#~ "Você tem <span class=\"%s\">%s %s</span> para continuar usando o OnneBlue "
+#~ "de graça."
+
+#~ msgid ""
+#~ "You have <span class=\"%s\">%s %s</span> to continue using the OnneBlue "
+#~ "for free. Did you liked OnneBlue? See our %s or %s us if you do not liked."
+#~ msgstr ""
+#~ "Você tem <span class=\"%s\">%s %s</span> para continuar usando o OnneBlue "
+#~ "de graça. Gostou do OnneBlue? Veja nossos %s ou entre em %s se você não "
+#~ "gostou."
+
+#~ msgid "%sPlans"
+#~ msgstr "%sPlanos"
+
+#~ msgid "Select this plan"
+#~ msgstr "Selecionar esse plano"
+
+#~ msgid "%sAdd-ons"
+#~ msgstr "%sAdicionais"
+
+#~ msgid "+1 User"
+#~ msgstr "+1 Usuário"
+
+#~ msgid "Expand your employees"
+#~ msgstr "Expanda seus funcionários"
+
+#~ msgid "+1 additional user"
+#~ msgstr "+1 usuário adicional"
+
+#~ msgid "Select this add-on"
+#~ msgstr "Selecionar esse adicional"
+
+#~ msgid "+5 Users"
+#~ msgstr "+5 Usuários"
+
+#~ msgid "Take 1 Free"
+#~ msgstr "Leve 1 de graça"
+
+#~ msgid "+5 additional users"
+#~ msgstr "+5 usuários adicionais"
+
+#~ msgid "+10MB Space"
+#~ msgstr "+10MB de Espaço"
+
+#~ msgid "Expand your space"
+#~ msgstr "Expanda seu espaço"
+
+#~ msgid "+10MB additional space"
+#~ msgstr "+10MB de espaço adicional"
+
+#~ msgid "+50MB Space"
+#~ msgstr "+50MB de Espaço"
+
+#~ msgid "Take 10MB Free"
+#~ msgstr "Leve 10MB de graça"
+
+#~ msgid "+50MB additional space"
+#~ msgstr "+50MB de espaço adicional"
+
+#~ msgid ""
+#~ "Each plan has a limited amount of users. But you can add new users by "
+#~ "purchasing additional packs users."
+#~ msgstr ""
+#~ "Cada plano tem um limite de quantidade de usuários. Mas você pode "
+#~ "adicionar novos usuários comprando um pacote adicional de usuários."
+
+#~ msgid "Space"
+#~ msgstr "Espaço"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cada plano possui um espao limitado. Esse espao  destinado aos registros "
+#~ "salvos no banco de dados."
+#~ msgstr ""
+#~ "Cada plano possui um espao limitado. Esse espao  destinado aos registros "
+#~ "salvos no banco de dados."
+
+#~ msgid "%sPay"
+#~ msgstr "%sPagamento"
+
+#~ msgid "%s Bronze"
+#~ msgstr "%s Bronze"
+
+#~ msgid "%s Silver"
+#~ msgstr "%s Silver"
+
+#~ msgid "Select one or more add-on (optional)"
+#~ msgstr "Selecione um ou mais adicionais (opcional)"
+
+#~ msgid "%s +1 User"
+#~ msgstr "%s +1 Usuário"
+
+#~ msgid "%s +5 Users"
+#~ msgstr "%s +5 Usuários"
+
+#~ msgid "%s +10MB Space"
+#~ msgstr "%s +10MB de Espaço"
+
+#~ msgid "%s +50MB Space"
+#~ msgstr "%s +50MB de Espaço"
+
+#~ msgid "Pay with %s"
+#~ msgstr "Pagar com %s"
+
+#~ msgid "Try it free"
+#~ msgstr "Experimente grátis"
+
+#~ msgid "Plans and Prices"
+#~ msgstr "Planos e Preços"
+
+#~ msgid "Access from any web device"
+#~ msgstr "Acesse de qualquer dispositivo web."
+
+#~ msgid "21-day free trial"
+#~ msgstr "21 dias grátis"
+
+#~ msgid "Additional Space"
+#~ msgstr "Espaço Adicional"
+
+#~ msgid "10MB additional space"
+#~ msgstr "10MB de espaço adicional"
+
+#~ msgid "50MB additional space"
+#~ msgstr "50MB de espaço adicional"
+
+#~ msgid ""
+#~ "Hire our package of additional users and have greater access control."
+#~ msgstr ""
+#~ "Contrate nosso pacote de usuários adicionais e tenha um maior controle de "
+#~ "acesso."
+
+#~ msgid ""
+#~ "Increase the storage capacity. Hire our package of additional spaces."
+#~ msgstr ""
+#~ "Aumente a capacidade de armazenamento. Contrate nosso pacote de espaços "
+#~ "adicionais."
+
+#~ msgid "Try it freet"
+#~ msgstr "Experimente grátis"
+
+#~ msgid "Try OnneBlue for free!"
+#~ msgstr "Experimente OnneBlue de graça!"
+
+#~ msgid "Start 21-day free trial"
+#~ msgstr "Começar os 21 dias de teste grátis"
+
+#~ msgid "View"
+#~ msgstr "Ver"
+
+#~ msgid "Type the two words"
+#~ msgstr "Digite as duas palavras"
+
+#~ msgid "Interface simple and intuitive."
+#~ msgstr "Interface simples e intuitiva."
+
+#~ msgid "The simplest <small>erp</small>"
+#~ msgstr "O <small>erp</small> mais simples"
+
+#~ msgid "Our focus is to turn your problems into solutions."
+#~ msgstr "Nosso foco é transformar seus problemas em soluções."
+
+#~ msgid ""
+#~ "Designed to be intuitive and meet customer needs. The more is used, it is "
+#~ "simplest."
+#~ msgstr ""
+#~ "Desenvolvido para ser intuitivo e atender as necessidades dos clientes. "
+#~ "Quanto mais se utiliza, mais simples fica."
+
+#~ msgid ""
+#~ "Responsive design ready to be used on any device. No applications for "
+#~ "mobile devices is necessary."
+#~ msgstr ""
+#~ "Design responsivo, pronto para ser usado em qualquer dispositivo. Não é "
+#~ "necessário aplicativos para dispositivos móveis."
+
+#~ msgid "High technologies"
+#~ msgstr "Tecnologias de ponta"
+
+#~ msgid "No setup fee"
+#~ msgstr "Sem taxa de instalação"
+
+#~ msgid "The more you use OnneBlue simpler it gets!"
+#~ msgstr "Quanto mais você usa o OnneBlue, mais simples ele fica!"
+
+#~ msgid ""
+#~ "Each system has its own sidebar, facilitating the navigation of the "
+#~ "activities that will be performed. As can be seen above, the sidebar is "
+#~ "completely hidden when not being used. "
+#~ msgstr ""
+#~ "Cada sistema possui sua própria barra lateral, facilitando a navegação "
+#~ "das atividades que serão executadas. Como pôde ser visto acima, a barra "
+#~ "lateral fica completamente oculta quando não está sendo utilizada."
+
+#~ msgid ""
+#~ "Each link has its own icon, which helps in memorizing and makes "
+#~ "navigation intuitive."
+#~ msgstr ""
+#~ "Cada link possui seu próprio ícone, o que ajuda na memorização e torna "
+#~ "intuitivo a navegação."
+
+#~ msgid "Simple and efficient listing"
+#~ msgstr "Listagem simples e eficiente"
+
+#~ msgid ""
+#~ "The default list of OnneBlue, stands for simplicity and efficiency. The "
+#~ "paging back some records per page, which makes fast navigation between "
+#~ "pages."
+#~ msgstr ""
+#~ "O padrão de listagem do OnneBlue, preza pela simplicidade e eficiência. A "
+#~ "paginação trás alguns registros por página, o que torna rápido a "
+#~ "navegação entre as páginas."
+
+#~ msgid ""
+#~ "The forms are simple and self explanatory. Even so, if it is not enough, "
+#~ "many fields have icons with more information."
+#~ msgstr ""
+#~ "Os formulários são simples e auto explicativos. Mesmo assim, caso ainda "
+#~ "não seja o suficiente, diversos campos possuem ícones com mais "
+#~ "informações."
+
+#~ msgid ""
+#~ "It is easy to differentiate mandatory fields and alert messages are "
+#~ "easily identified."
+#~ msgstr ""
+#~ "É fácil diferenciar campos obrigatórios, e as mensagens de alerta são "
+#~ "facilmente identificadas."
+
+#, fuzzy
+#~ msgid "English %s"
+#~ msgstr "Inglês"
+
+#~ msgid "About Us"
+#~ msgstr "Sobre"
+
+#~ msgid ""
+#~ "The <strong>OnneBlue</strong> is an online management system that aims to "
+#~ "facilitate and optimize the execution of administrative tasks."
+#~ msgstr ""
+#~ "O <strong>OnneBlue</strong> é um sistema de gerenciamento que visa "
+#~ "facilitar e otimizar a execução de tarefas administrativas."
+
+#~ msgid "Made for you"
+#~ msgstr "Feito para você"
+
+#~ msgid ""
+#~ "Our focus is to develop a solution for your needs. All features of "
+#~ "<strong>OnneBlue</strong> are created according to the requests of our "
+#~ "customers."
+#~ msgstr ""
+#~ "Nosso foco é desenvolver uma solução para suas necessidades. Todos os "
+#~ "recursos do <strong>OnneBlue</strong> são criados de acordo com os "
+#~ "pedidos dos nossos clientes."
+
+#~ msgid "%s <h2>For You</h2> <p>Functions made to fit your needs</p>"
+#~ msgstr "%s <h2>Para Você</h2> <p>Funções feitas adequadas para você</p>"
+
+#~ msgid "%s <h2>Mobile</h2> <p>Use in your mobile or tablet</p>"
+#~ msgstr "%s <h2>Móvel</h2> <p>Use no seu celular ou tablet</p>"
+
+#~ msgid "%s <h2>Easy</h2> <p>Simple to use</p>"
+#~ msgstr "%s <h2>Fácil</h2> <p>Simples de usar</p>"
+
+#~ msgid "%s <h2>Upgrades</h2> <p>Constant updates</p>"
+#~ msgstr "%s <h2>Atualizações</h2> <p>Constantes atualizações</p>"
+
+#~ msgid "%sPlans and Prices"
+#~ msgstr "%sPlanos e Preços"
+
+#~ msgid "%s Plans and Prices"
+#~ msgstr "%s Planos e Preços"
+
+#~ msgid "%s About"
+#~ msgstr "%s Sobre"
+
+#~ msgid "%sOnneBlue New Account"
+#~ msgstr "%sNova Conta OnneBlue"
+
+#~ msgid "%s Inventory Adjustments"
+#~ msgstr "%s Ajuste do Estoque"
+
+#~ msgid "%sAbout"
+#~ msgstr "%sSobre"
+
+#~ msgid "Start managing your business simple and easy."
+#~ msgstr "Comece a gerenciar seu negócio de forma simples e fácil."
+
+#~ msgid "Access anywhere!"
+#~ msgstr "Acesse em qualquer lugar!"
+
+#~ msgid "%sInventory Adjustment"
+#~ msgstr "%sAjuste de Estoque"
+
+#~ msgid "%sName%s"
+#~ msgstr "%sNome%s"
+
+#~ msgid ""
+#~ "The Minimum Value is a numeric field that will hold the Minimum Value of "
+#~ "stock. The system will alert the user when the stock of the product "
+#~ "reaches its lowest value."
+#~ msgstr ""
+#~ "O Valor Mínimo é um campo numérico que guardará o Valor Mínimo do "
+#~ "Estoque. O sistema alertará ao usuário quando o estoque do produto "
+#~ "atingir seu menor valor."
+
+#~ msgid "<b>Email from: </b> %s (%s)"
+#~ msgstr "<b>E-mail de: </b> %s (%s)"
+
+#~ msgid "<b>Subject: </b> %s"
+#~ msgstr "<b>Assunto: </b> %s"
+
+#~ msgid "This email was generated by <b>siMarta App</b>"
+#~ msgstr "Esse e-mail foi gerado por <b>siMarta App</b>"
+
+#~ msgid "Documentation"
+#~ msgstr "Documentação"
+
+#~ msgid "Define New Password"
+#~ msgstr "Definir Nova Senha"
+
+#~ msgid "My Modules"
+#~ msgstr "Meus Módulos"
+
+#~ msgid "Free while in alpha version!"
+#~ msgstr "Gratuito enquanto estiver na versão alpha!"
+
+#~ msgid "OnneBlue will be free until beta version release."
+#~ msgstr "OnneBlue será gratuito até o lançamento da versão beta."
+
+#~ msgid "Autonomous"
+#~ msgstr "Autônomo"
+
+#~ msgid "Individual Entrepreneur"
+#~ msgstr "Empreendedor Individual"
+
+#~ msgid "Medium Business"
+#~ msgstr "Média Empresa"
+
+#~ msgid "Recover Password"
+#~ msgstr "Recuperar Senha"
+
+#~ msgid "Supplier"
+#~ msgstr "Fornecedor"
+
+#~ msgid "%s back to previous page"
+#~ msgstr "%s voltar para a página anterior"
+
+#~ msgid "%s <span class=\"hidden-sm\"> Dashboard</span>"
+#~ msgstr "%s <span class=\"hidden-sm\"> Painel de Controle</span>"
+
+#~ msgid "Stock Quantity"
+#~ msgstr "Quantidade em Estoque"
+
+#~ msgid "Serial Number"
+#~ msgstr "Número de Série"
+
+#~ msgid "New Value for Purchase"
+#~ msgstr "Novo Valor de Compra"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Quantity has to be a positive value."
+#~ msgstr "Quantidade tem que ser um valor positivo."
+
+#~ msgid "Sorry, we are out of stock."
+#~ msgstr "Desculpe, estamos sem estoque."
+
+#~ msgid "Invalid register"
+#~ msgstr "Registro Inválido"
+
+#~ msgid "List Categories"
+#~ msgstr "Listar Categorias"
+
+#~ msgid "List Customer"
+#~ msgstr "Listar Cliente"
+
+#~ msgid "List Customers"
+#~ msgstr "Listar Clientes"
+
+#~ msgid "%s Stocks"
+#~ msgstr "%s Estoque"
+
+#~ msgid "Inputs"
+#~ msgstr "Entradas"
+
+#~ msgid "Outputs"
+#~ msgstr "Saídas"
+
+#~ msgid "%s Basic Registers"
+#~ msgstr "%s Cadastros Básicos"
+
+#~ msgid "Inventory Adjustments"
+#~ msgstr "Ajuste do Estoque"
+
+#~ msgid "Apply Filters"
+#~ msgstr "Aplicar Filtros"
+
+#~ msgid "InputsOutput"
+#~ msgstr "InputsOutput"
+
+#~ msgid "Amount"
+#~ msgstr "Quantidade"
+
+#~ msgid "List Products"
+#~ msgstr "Listar Produtos"
+
+#~ msgid "List Supplier"
+#~ msgstr "Listar Fornecedor"
+
+#~ msgid "List Suppliers"
+#~ msgstr "Listar Fornecedores"
+
+#~ msgid "List Units of Measure"
+#~ msgstr "Listar Unidade de Medida"
+
+#~ msgid "Units Measures"
+#~ msgstr "Unidades de Medidas"
+
+#~ msgid "Delete Unit of Measure"
+#~ msgstr "Deletar Unidade de Medida"
+
+#~ msgid "ACO's"
+#~ msgstr "ACO's"
+
+#~ msgid "%s Home"
+#~ msgstr "%s Home"
+
+#~ msgid "prev"
+#~ msgstr "anterior"
+
+#~ msgid "next"
+#~ msgstr "próximo"
+
+#~ msgid "Reset"
+#~ msgstr "Reiniciar"
+
+#~ msgid "List Groups"
+#~ msgstr "Listar Grupos"
+
+#~ msgid "Delete Group"
+#~ msgstr "Deletar Grupo"
+
+#~ msgid "Business Name"
+#~ msgstr "Nome da Empresa"
+
+#~ msgid "Delete User"
+#~ msgstr "Deletar Usuário"
+
+#~ msgid "Please enter a business name"
+#~ msgstr "Por favor, insira o nome da empresa"
+
+#~ msgid "This business name has already been taken"
+#~ msgstr "Esse nome de empresa já está sendo utilizado"
+
+#~ msgid "Total Users and Groups"
+#~ msgstr "Total de Usuários e Grupos"
+
+#~ msgid "ERP"
+#~ msgstr "ERP"
+
+#~ msgid "Submit"
+#~ msgstr "Submeter"
+
+#~ msgid "Please select a category"
+#~ msgstr "Por favor, selecione uma categoria"
+
+#~ msgid "Please enter a serial number"
+#~ msgstr "Por favor, insira um número de série"
+
+#~ msgid ""
+#~ "Cannot load the configuration file. Wrong \"configFile\" configuration."
+#~ msgstr ""
+#~ "Cannot load the configuration file. Wrong \"configFile\" configuration."
+
+#~ msgid "Cannot load the configuration file. Unknown reader."
+#~ msgstr "Não pôde carregar o arquivo de configuração. Leitor Desconhecido."
+
+#~ msgid "Debug setting does not allow access to this url."
+#~ msgstr "Debug setting does not allow access to this url."
+
+#~ msgid "Settings"
+#~ msgstr "Configurações"
+
+#~ msgid "The settings has been saved"
+#~ msgstr "As configurações foram salvas"
+
+#~ msgid "The settings could not be saved"
+#~ msgstr "As configurações não puderam ser salvas. Por favor, tente de novo."
+
+#~ msgid "The menu could not be saved"
+#~ msgstr "O menu não pôde ser salvo. Por favor, tente de novo."
+
+#~ msgid "Bar Chart"
+#~ msgstr "Gráfico de Barras"
+
+#~ msgid "Pie Chart"
+#~ msgstr "Gráfico de Pizzas"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "&laquo; Back to site"
+#~ msgstr "&laquo; Voltar para o site"
+
+#~ msgid "siMarta Permission Manager"
+#~ msgstr "siMarta Permission Manager"
+
+#~ msgid "previous"
+#~ msgstr "anterior"
+
+#~ msgid "Admin Edit Group"
+#~ msgstr "Admin Editar Grupo"
+
+#~ msgid "Search for groups"
+#~ msgstr "Procurar por grupos"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "siMarta App: CakePHP 2.x ACL"
+#~ msgstr "siMarta App: CakePHP 2.x ACL"
+
+#~ msgid "Control Permission Easily!"
+#~ msgstr "Controle Permissões Facilmente!"
+
+#~ msgid "Buy now on CodeCanyon"
+#~ msgstr "Compre agora no CodeCanyon"
+
+#~ msgid "Rapid Development"
+#~ msgstr "Desenvolvimento Rápido"
+
+#~ msgid "Simple and quick application using the full power of CakePHP."
+#~ msgstr "Aplicação simples e rápida que utiliza o poder do CakePHP. "
+
+#~ msgid "Responsive"
+#~ msgstr "Responsivo"
+
+#~ msgid "Responsive layout"
+#~ msgstr "Layout Responsivo"
+
+#~ msgid ""
+#~ "Foundation or Bootstrap? With siMarta App you have the two in the palm of "
+#~ "your hand."
+#~ msgstr ""
+#~ "Foundation or Bootstrap? Com siMarta App você tem os dois na palma da sua "
+#~ "mão."
+
+#~ msgid "Three different languages ​​for you to use around the world."
+#~ msgstr "Três idiomas diferentes para você utilizar ao redor do mundo."
+
+#~ msgid "Live Preview"
+#~ msgstr "Visualizar Demonstração"
+
+#~ msgid "See in action!"
+#~ msgstr "Veja em ação!"
+
+#~ msgid ""
+#~ "Do you have any questions? Feel free to enter in contact. I will be glad "
+#~ "to help you."
+#~ msgstr ""
+#~ "Você tem alguma pergunta? Fique a vontade para entrar em contato. Terei "
+#~ "prazer em ajudá-lo."
+
+#~ msgid "Configure siMarta is easy."
+#~ msgstr "Configurar o siMarta é fácil."
+
+#~ msgid "Installation"
+#~ msgstr "Instalação"
+
+#~ msgid "Using siMarta"
+#~ msgstr "Usando o siMarta"
+
+#~ msgid "Expanding the System"
+#~ msgstr "Expandindo o Sistema"
+
+#~ msgid "1. Create Database"
+#~ msgstr "1. Criar o Banco de Dados"
+
+#~ msgid "Open your <b>phpMyAdmin</b>:"
+#~ msgstr "Abra o seu <b>phpMyAdmin</b>:"
+
+#~ msgid "Click <b>Import</b> then click <b>Choose File</b>"
+#~ msgstr ""
+#~ "Clique em <b>Importar</ b> e depois clique em <b>Escolha um Arquivo</ b>"
+
+#~ msgid "Navigate to the folder %s and select the %s file"
+#~ msgstr "Navegue até a pasta %s e selecione o arquivo %s"
+
+#~ msgid "Then click <b>Go</b> button to execute the SQL file"
+#~ msgstr "Em seguida, clique no botão <b>Ir</ b> para executar o arquivo SQL"
+
+#~ msgid "This is all you need to getting started using siMarta."
+#~ msgstr "Isso é tudo o que você precisa para comerçar a utilizar o siMarta"
+
+#~ msgid "1. First Acess"
+#~ msgstr "1. Primeiro Acesso"
+
+#~ msgid ""
+#~ "Use the email and password below to access the system for the first time:"
+#~ msgstr ""
+#~ "Use o e-mail e senha abaixo para acessar o sistema pela primeira vez:"
+
+#~ msgid "Email:"
+#~ msgstr "E-mail:"
+
+#~ msgid "Password:"
+#~ msgstr "Senha:"
+
+#~ msgid ""
+#~ "For security, you must change the administrator password as soon as you "
+#~ "login for the first time. To change the password, go to account settings "
+#~ "and change the password:"
+#~ msgstr ""
+#~ "Por questões de segurança, você deve alterar a senha de administrador "
+#~ "assim que você logar pela primeira vez. Para alterar a senha, vá para as "
+#~ "configurações da conta e altere a senha:"
+
+#~ msgid "2. Pre-configured Groups and Users"
+#~ msgstr "2. Usuários e Grupos Pré-configurados"
+
+#~ msgid ""
+#~ "siMarta comes with one pre-configured <b>group</b> and <b>user</b>. We "
+#~ "recommend that you always have the administrator group and one user that "
+#~ "belongs to him."
+#~ msgstr ""
+#~ "siMarta vem com um <b>grupo</ b> e um <b>usuário</ b> pré-configurado. "
+#~ "Recomendamos que você sempre tenha um grupo administrador e um usuário "
+#~ "que pertence a ele."
+
+#~ msgid "You can add how many groups and how many users you want."
+#~ msgstr "Você pode adicionar quantos grupos e quantos usuários quiser."
+
+#~ msgid "3. Adding Groups, Users and Setting Permissions"
+#~ msgstr "3. Adicionando Grupos, Usuários e Configurando Permissões"
+
+#~ msgid "Create a group first, because an user must belong to a group:"
+#~ msgstr ""
+#~ "Crie um grupo em primeiro lugar, porque um usuário deve pertencer a um "
+#~ "grupo:"
+
+#~ msgid "3.1 Adding a Group"
+#~ msgstr "3.1 Adicionando Grupos"
+
+#~ msgid ""
+#~ "To add a group, click in <b>Add Group</b> or open the url <b>http://"
+#~ "localhost/simarta-app/admin/groups/add</b>"
+#~ msgstr ""
+#~ "Para adicionar um grupo, clique em <b>Adicionar Grupo</ b> ou abra a url "
+#~ "<b>http://localhost/simarta-app/admin/groups/add</ b>"
+
+#~ msgid "3.2 Adding an User"
+#~ msgstr "3.2 Adicionando Usuários"
+
+#~ msgid ""
+#~ "To add a user, click in <b>Add User</b> or open the url <b>http://"
+#~ "localhost/simarta-app/admin/users/add</b>"
+#~ msgstr ""
+#~ "Para adicionar um usuário, clique em <b>Adicionar Usuário</ b> ou abra a "
+#~ "url <b>http://localhost/simarta-app/admin/users/add</ b>"
+
+#~ msgid "3.3 Setting up Permissions"
+#~ msgstr "3.3 Configurando Permissões"
+
+#~ msgid ""
+#~ "Setting up permissions defines what pages the user can access. But take "
+#~ "care because you can configure a group permission or the permission of an "
+#~ "user. If you setting up permission for a user, he loses the group "
+#~ "permissions:"
+#~ msgstr ""
+#~ "Configurando permissões define quais páginas o usuário pode acessar. Mas "
+#~ "tome cuidado, pois você pode configurar a permissão de grupo ou a "
+#~ "permissão de um usuário. Se você configurar a permissão para um usuário, "
+#~ "ele perde as permissões de grupo:"
+
+#~ msgid "1. Updating the Permissions"
+#~ msgstr "1. Atualizando as Permissões"
+
+#~ msgid ""
+#~ "If you expand your system with new functionalities or if you are using "
+#~ "the siMarta in an existent system, you must update the ACO's. To do this, "
+#~ "just click the button <b>ACO's Sync:</b>"
+#~ msgstr ""
+#~ "Se você expandir o seu sistema com novas funcionalidades ou se você "
+#~ "estiver usando o siMarta em um sistema existente, você deve atualizar os "
+#~ "ACO's. Para fazer isso, basta clicar no botão Sincronizar <b>ACO's:</ b>"
+
+#~ msgid ""
+#~ "When update the ACOs, you can grant or deny access to this new parts."
+#~ msgstr ""
+#~ "Ao atualizar os ACOs, você pode conceder ou negar o acesso a esses novos "
+#~ "componentes."
+
+#~ msgid "If you have any question, send me an email: dev@renato-franca.com"
+#~ msgstr ""
+#~ "Se você tem alguma dúvida, envie-me um e-mail: dev@renato-franca.com"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "%s <span class=\"round success label\">public</label>"
+#~ msgstr "%s <span class=\"round success label\">público</label>"
+
+#~ msgid "This is a demo version. Access: admin@admin.com / 123456"
+#~ msgstr "Essa é uma versão demo. Acesso: admin@admin.com / 123456"
+
+#~ msgid "CakePHP %s ACL"
+#~ msgstr "CakePHP %s ACL"
+
+#~ msgid "Good-Bye"
+#~ msgstr "Adeus"
+
+#~ msgid "Sign in to access siMarta"
+#~ msgstr "Entre para acessar o siMarta"
+
+#~ msgid "Welcome"
+#~ msgstr "Bem-vindo"
+
+#~ msgid ""
+#~ "This is your dashboard page. Where you can manage the users, groups and "
+#~ "permission of your system. Do not forget to read the documentation."
+#~ msgstr ""
+#~ "Esse é o seu painel de controle. Onde você pode gerenciar usuários, "
+#~ "grupos e permissões do seu sistema. Não esqueça de ler a documentação."
+
+#~ msgid "Thank you for using siMarta,<br>Renato França."
+#~ msgstr "Obrigado por usar siMarta,<br>Renato França."
+
+#~ msgid "Language: %s"
+#~ msgstr "Idioma: %s"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "About siMarta App"
+#~ msgstr "Sobre siMarta App"
+
+#~ msgid ""
+#~ "siMarta App is an permission manager that uses the ACL (Access Control "
+#~ "List) CakePHP. All configurations of permissions can be made without "
+#~ "coding, using only the siMarta App friendly interface that comes with a "
+#~ "dashboard that uses the Foundation framework to make your application "
+#~ "works well in all resolutions that you can imagine."
+#~ msgstr ""
+#~ "siMarta App é um gerenciador de permissões que usa o ACL (Lista de "
+#~ "Controle de Acesso) do CakePHP. Todas as configurações de permissões "
+#~ "podem ser feitas sem codificar, usando apenas a interface amigável do "
+#~ "siMarta App que vem com um painel de controle que utiliza o framework "
+#~ "Foudation que permite rodar sua aplicação bem em qualquer resolução que "
+#~ "você possa imaginar."
+
+#~ msgid "Main Functions"
+#~ msgstr "Principais Funcionalidades"
+
+#~ msgid "Groups and Users"
+#~ msgstr "Grupos e Usuários"
+
+#~ msgid ""
+#~ "Create groups and their users and define the permissions according to the "
+#~ "business rules of your application."
+#~ msgstr ""
+#~ "Crie grupos e seus usuários e defina permissões de acordo com a regra de "
+#~ "negócio da sua aplicação."
+
+#~ msgid "Update your ACO's table with just one click."
+#~ msgstr "Atualize a tabela de ACO's com apenas um clique."
+
+#~ msgid "Choose between the english, spanish or portuguese languages."
+#~ msgstr "Escolhe entre os idiomas inglês, espanhol e português."
+
+#~ msgid ""
+#~ "CakePHP is an open source web application framework. It follows model "
+#~ "view controller(MVC) approach and is written in PHP, modeled after the "
+#~ "concepts of Ruby on Rails, and distributed under the MIT License."
+#~ msgstr ""
+#~ "CakePHP é um framework open source para aplicação web. Segue os conceitos "
+#~ "de modelo, view e controlador (MVC) e foi escrito em PHP, modelado com "
+#~ "conceitos de Ruby on Rails e distribuído dentro da licença MIT."
+
+#~ msgid ""
+#~ "Foundation is a free collection of tools for creating websites and web "
+#~ "applications. It contains HTML and CSS-based design templates for "
+#~ "typography, forms, buttons, navigation and other interface components, as "
+#~ "well as optional JavaScript extensions."
+#~ msgstr ""
+#~ "Foudation é uma coleção grátis de ferramentas para criar websites e "
+#~ "aplicações web. Contém modelos HTML e CSS para tipografia, formulários, "
+#~ "botões de navegação e outros componentes de interface, bem como extensões "
+#~ "JavaScript opcionais."
+
+#~ msgid ""
+#~ "jQuery is a multi-browser JavaScript library designed to simplify the "
+#~ "client-side scripting of HTML."
+#~ msgstr ""
+#~ "jQuery é uma biblioteca JavaScript multi-navegador projetado para "
+#~ "simplificar o script do lado do cliente de HTML."
+
+#~ msgid ""
+#~ "Select2 is a jQuery based replacement for select boxes. It supports "
+#~ "searching, remote data sets, and infinite scrolling of results."
+#~ msgstr ""
+#~ "Select2 é substituto baseado em jQuery para caixas de seleção. Ela "
+#~ "suporta pesquisa, os conjuntos de dados remotos e rolagem infinita de "
+#~ "resultados."
+
+#~ msgid ""
+#~ "Permission manager that uses the ACL (Access Control List) CakePHP and "
+#~ "facilitates the development of systems with simple structure of "
+#~ "permission, but with many features."
+#~ msgstr ""
+#~ "Gerenciador de permissões que utiliza o ACL (Lista de Controle de Acesso) "
+#~ "do CakePHP e facilita o desenvolvimento de sistemas com uma estrutura "
+#~ "simples de permissões, mas com vários recursos."
+
+#~ msgid "Why use siMarta App"
+#~ msgstr "Por que usar siMarta App"
+
+#~ msgid ""
+#~ "Using CakePHP to build an application is that easy. Using the siMarta App "
+#~ "is yet more easy. With siMarta App you already have the initial structure "
+#~ "to start develop your applications."
+#~ msgstr ""
+#~ "Usando CakePHP para desenvolver uma aplicação, é simples assim. Usando o "
+#~ "siMarta App é ainda mais fácil. Com o siMarta App você já tem a estrutura "
+#~ "inicial para começar a desenvolver aplicações."
+
+#~ msgid "Advantages of siMarta App"
+#~ msgstr "Vantagens do siMarta App"
+
+#~ msgid ""
+#~ "Set permission of groups and users easily using the power of CakePHP ACL "
+#~ "with a friendly user interface."
+#~ msgstr ""
+#~ "Defina permissões de grupos e usuários facilmente utilizando o poder do "
+#~ "ACL do CakePHP com uma interface amigável."
+
+#~ msgid ""
+#~ "Start your application development with the initial structure ready to "
+#~ "use."
+#~ msgstr ""
+#~ "Comece o desenvolvimento da sua aplicação com a estrutura inicial pronta "
+#~ "para ser usada."
+
+#~ msgid ""
+#~ "With responsive layouts, your application will run perfectly in all "
+#~ "resolutions that you can imagine."
+#~ msgstr ""
+#~ "Com layouts responsivos, sua aplicação irá rodar perfeitamente em "
+#~ "qualquer resolução que você possa imaginar."
+
+#~ msgid "Create the database with the name <b>simarta_app</b>"
+#~ msgstr "Crie o banco de dados com o nome <b>simarta_app</b>"
+
+#~ msgid ""
+#~ "You can use a custom database name. <span data-magellan-arrival=\"custom-"
+#~ "database\"><a href=\"#custom-database\">Visit this section</a></span> to "
+#~ "see how."
+#~ msgstr ""
+#~ "Você pode utilizar um nome de banco de dados customizado. <span data-"
+#~ "magellan-arrival=\"custom-database\"><a href=\"#custom-database\">Visite "
+#~ "essa seção</a></span> para ver como."
+
+#~ msgid "Execute SQL file found in <b>db\\simarta-app.sql</b>"
+#~ msgstr "Execute o arquivo SQL encontrado em <b>db\\simarta-app.sql</b>"
+
+#~ msgid ""
+#~ "To use a custom database name, you need to open the file <b>database.php</"
+#~ "b>  located in <b>app\\Config\\database.php</b> and change the <span "
+#~ "class=\"round success label\">CUSTOM_DATABASE_NAME</span> for the new "
+#~ "name:"
+#~ msgstr ""
+#~ "Para utilizar um nome de banco de dados customizado, você precisa abrir o "
+#~ "arquivo <b>database.php</b> localizado em <b>app\\Config\\database.php</"
+#~ "b>e mudar <span class=\"round success label\">CUSTOM_DATABASE_NAME</span> "
+#~ "para o novo nome:"
+
+#~ msgid "Visit "
+#~ msgstr "Visiste "
+
+#~ msgid "CakePHP Configuration"
+#~ msgstr "Configuração do CakePHP"
+
+#~ msgid " for more information."
+#~ msgstr " para mais informações."
+
+#~ msgid "Use the following data access:"
+#~ msgstr "Use os seguintes dados de acesso:"
+
+#~ msgid "Email: admin@admin.com"
+#~ msgstr "E-mail: admin@admin.com"
+
+#~ msgid "Password: 123456"
+#~ msgstr "Senha: 123456"
+
+#~ msgid ""
+#~ "For security, change your password when logging in for the first time"
+#~ msgstr "Por segurança, mude sua senha quando logar pela primeira vez."
+
+#~ msgid "Thank you!"
+#~ msgstr "Obrigado!"
+
+#~ msgid ""
+#~ "Thank you for using siMarta App. If you find any bug I will be grateful "
+#~ "if you contact me.<br>Renato França."
+#~ msgstr ""
+#~ "Obrigado por usar o siMarta App. Se você encontrar algum bug eu ficarei "
+#~ "grato se você entrar em contato comigo.<br>Renato França."
+
+#~ msgid "Aco's Sync"
+#~ msgstr "Sincronizar Aco's"

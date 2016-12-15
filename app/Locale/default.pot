@@ -1,0 +1,3223 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2015-01-27 06:05+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/AppController.php:207
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/AppController.php:243
+msgid "Manage, analyze and make decisions for your business from anywhere: OnneBlue."
+msgstr ""
+
+#: Controller/AppController.php:252
+msgid "harvest, erp, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+
+#: Controller/AppController.php:296
+msgid "Please, select a spreadsheet model to import."
+msgstr ""
+
+#: Controller/AppController.php:330
+#: Plugin/InventorySystem/Controller/ProductsController.php:391
+msgid "Please, select a XLS file to upload."
+msgstr ""
+
+#: Controller/AppController.php:339
+#: Plugin/InventorySystem/Controller/ProductsController.php:400
+msgid "Please, import a sheet with only 100 lines at time."
+msgstr ""
+
+#: Controller/AppController.php:360
+#: Plugin/InventorySystem/Controller/ProductsController.php:436
+msgid "Please, you have to upload our spreadsheet model."
+msgstr ""
+
+#: Controller/AppController.php:477
+msgid "The import has been finished."
+msgstr ""
+
+#: Controller/AppController.php:530
+msgid "Every \"%s\" field is required. Please, see line %s."
+msgstr ""
+
+#: Controller/AppController.php:570
+msgid "The value \"%s\" already have been registered for the field \"%s\". Please, change it."
+msgstr ""
+
+#: Controller/AppController.php:611
+msgid "Invalid %s: \"%s\". Please, change it."
+msgstr ""
+
+#: Controller/AppController.php:649
+msgid "The fields %s must be numeric only: %s"
+msgstr ""
+
+#: Controller/DashboardController.php:59
+#: Plugin/Headquarters/Controller/DashboardController.php:95
+msgid "Dashboard"
+msgstr ""
+
+#: Controller/GroupsController.php:65
+#: Plugin/Headquarters/Controller/GroupsController.php:50
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:3
+#: View/Groups/admin_add.ctp:3
+msgid "Add Group"
+msgstr ""
+
+#: Controller/GroupsController.php:73;168
+#: Plugin/Headquarters/Controller/GroupsController.php:58;149
+msgid "Choose at least one permission"
+msgstr ""
+
+#: Controller/GroupsController.php:96;214
+#: Plugin/Headquarters/Controller/GroupsController.php:81;195
+msgid "The group has been saved"
+msgstr ""
+
+#: Controller/GroupsController.php:99;217
+#: Plugin/Headquarters/Controller/GroupsController.php:84;198
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/GroupsController.php:122;154;266
+#: Plugin/Headquarters/Controller/GroupsController.php:107;139;247
+msgid "Invalid group"
+msgstr ""
+
+#: Controller/GroupsController.php:125
+#: Plugin/Headquarters/Controller/GroupsController.php:110
+msgid "You don't have permission to delete the group"
+msgstr ""
+
+#: Controller/GroupsController.php:130
+#: Plugin/Headquarters/Controller/GroupsController.php:115
+msgid "Group deleted"
+msgstr ""
+
+#: Controller/GroupsController.php:133
+#: Plugin/Headquarters/Controller/GroupsController.php:118
+msgid "Group was not deleted"
+msgstr ""
+
+#: Controller/GroupsController.php:151
+#: Plugin/Headquarters/Controller/GroupsController.php:136
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:3
+#: View/Groups/admin_edit.ctp:3
+msgid "Edit Group"
+msgstr ""
+
+#: Controller/GroupsController.php:157
+msgid "You don't have permission to edit the group"
+msgstr ""
+
+#: Controller/GroupsController.php:238
+#: Plugin/Headquarters/Controller/GroupsController.php:219
+#: Plugin/Headquarters/View/Groups/hq_index.ctp:3
+#: View/Groups/admin_index.ctp:3
+msgid "Groups"
+msgstr ""
+
+#: Controller/GroupsController.php:263
+#: Plugin/Headquarters/Controller/GroupsController.php:244
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:9
+#: View/Groups/admin_view.ctp:9
+msgid "View Group"
+msgstr ""
+
+#: Controller/PagesController.php:57
+#: View/Elements/menu.ctp:46
+msgid "About"
+msgstr ""
+
+#: Controller/PagesController.php:58
+#: View/Pages/about.ctp:5
+msgid "We developed OnneBlue to fit your needs."
+msgstr ""
+
+#: Controller/PagesController.php:59
+msgid "about, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+
+#: Controller/PagesController.php:73;127
+#: Model/Contact.php:94
+#: View/Elements/menu.ctp:68
+#: View/Pages/contact.ctp:4
+msgid "Contact"
+msgstr ""
+
+#: Controller/PagesController.php:84;138
+msgid "Email sent successfully"
+msgstr ""
+
+#: Controller/PagesController.php:96;150
+msgid "The email could not be sent. Please, try again."
+msgstr ""
+
+#: Controller/PagesController.php:128
+msgid "Contact us"
+msgstr ""
+
+#: Controller/PagesController.php:129
+msgid "contact, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+
+#: Controller/PagesController.php:188
+msgid "Language"
+msgstr ""
+
+#: Controller/PagesController.php:207
+#: View/Elements/menu.ctp:34
+msgid "Prices"
+msgstr ""
+
+#: Controller/PagesController.php:208
+#: View/Pages/prices.ctp:4
+msgid "Transform the way you manage your business"
+msgstr ""
+
+#: Controller/PagesController.php:209
+msgid "prices, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+
+#: Controller/PagesController.php:225
+#: View/Elements/menu.ctp:57
+msgid "Tour"
+msgstr ""
+
+#: Controller/PagesController.php:226
+#: View/Pages/tour.ctp:6
+msgid "Learn a little of the system"
+msgstr ""
+
+#: Controller/PagesController.php:227
+msgid "tour, manage, analyze, make decisions, business, simplicity, system, mobile"
+msgstr ""
+
+#: Controller/PlansController.php:50
+#: View/Plans/admin_index.ctp:9
+msgid "Plans"
+msgstr ""
+
+#: Controller/PlansController.php:68
+#: View/Plans/admin_pay.ctp:5
+msgid "Payment Plan"
+msgstr ""
+
+#: Controller/PlansController.php:71
+msgid "Invalid plan"
+msgstr ""
+
+#: Controller/PlansController.php:76
+msgid "Please, select a period"
+msgstr ""
+
+#: Controller/PlansController.php:79
+msgid "Please, select a payment method"
+msgstr ""
+
+#: Controller/TransactionsController.php:68
+#: View/Transactions/admin_index.ctp:3
+#: View/Users/admin_account.ctp:130
+msgid "Transactions"
+msgstr ""
+
+#: Controller/UsersController.php:75
+#: View/Users/admin_account.ctp:24
+msgid "Account"
+msgstr ""
+
+#: Controller/UsersController.php:78;146;180;382
+#: Plugin/Headquarters/Controller/UsersController.php:106;140;285
+msgid "Invalid user"
+msgstr ""
+
+#: Controller/UsersController.php:86;120;191
+#: Plugin/Headquarters/Controller/UsersController.php:80;151
+msgid "The user has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:89;123;194
+#: Plugin/Headquarters/Controller/UsersController.php:83;154
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:92
+msgid "Current password incorrect."
+msgstr ""
+
+#: Controller/UsersController.php:116
+#: Plugin/Headquarters/Controller/UsersController.php:76
+#: Plugin/Headquarters/View/Users/hq_add.ctp:9
+#: View/Users/admin_add.ctp:9
+msgid "Add User"
+msgstr ""
+
+#: Controller/UsersController.php:150
+#: Plugin/Headquarters/Controller/UsersController.php:110
+msgid "You don't have permission to delete the user"
+msgstr ""
+
+#: Controller/UsersController.php:157
+#: Plugin/Headquarters/Controller/UsersController.php:117
+msgid "User deleted"
+msgstr ""
+
+#: Controller/UsersController.php:160
+#: Plugin/Headquarters/Controller/UsersController.php:120
+msgid "User was not deleted"
+msgstr ""
+
+#: Controller/UsersController.php:178
+#: Plugin/Headquarters/Controller/UsersController.php:138
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:9
+#: View/Users/admin_edit.ctp:9
+msgid "Edit User"
+msgstr ""
+
+#: Controller/UsersController.php:184
+#: Plugin/Headquarters/Controller/UsersController.php:144
+msgid "You don't have permission to edit the user"
+msgstr ""
+
+#: Controller/UsersController.php:283
+#: Plugin/Headquarters/Controller/UsersController.php:243
+#: Plugin/Headquarters/View/Users/hq_index.ctp:3
+#: View/Users/admin_index.ctp:3
+msgid "Users"
+msgstr ""
+
+#: Controller/UsersController.php:306
+#: View/Elements/menu.ctp:86
+#: View/Users/admin_login.ctp:45;78
+msgid "Login"
+msgstr ""
+
+#: Controller/UsersController.php:325
+msgid "The reCAPTCHA wasn't entered correctly. Please, try it again."
+msgstr ""
+
+#: Controller/UsersController.php:339;343
+msgid "Your username or password was incorrect."
+msgstr ""
+
+#: Controller/UsersController.php:347
+msgid "You are logged in!"
+msgstr ""
+
+#: Controller/UsersController.php:380
+#: Plugin/Headquarters/Controller/UsersController.php:283
+#: Plugin/Headquarters/View/Users/hq_view.ctp:3
+#: View/Users/admin_view.ctp:3
+msgid "View User"
+msgstr ""
+
+#: Controller/UsersController.php:426
+#: Model/User.php:657;662
+#: View/Users/change_password.ctp:24
+msgid "Change Password"
+msgstr ""
+
+#: Controller/UsersController.php:439
+msgid "The link has expired"
+msgstr ""
+
+#: Controller/UsersController.php:463
+msgid "The password has been saved"
+msgstr ""
+
+#: Controller/UsersController.php:467
+msgid "The password could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:480
+msgid "You have not confirmed your email. \n                            <a href=\"%s\">Click here</a> to resend a confirmation email."
+msgstr ""
+
+#: Controller/UsersController.php:502
+msgid "Forgot Password"
+msgstr ""
+
+#: Controller/UsersController.php:511
+msgid "Your pre-registration has not yet been released."
+msgstr ""
+
+#: Controller/UsersController.php:524
+msgid "An email was sent to %s"
+msgstr ""
+
+#: Controller/UsersController.php:539
+msgid "The email was not found. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:542
+msgid "Please, enter an email."
+msgstr ""
+
+#: Controller/UsersController.php:558
+msgid "Register"
+msgstr ""
+
+#: Controller/UsersController.php:568
+msgid "Your account has been created. Please, check your email for confirmation."
+msgstr ""
+
+#: Controller/UsersController.php:574
+msgid "Thank you! Pre-registration done."
+msgstr ""
+
+#: Controller/UsersController.php:580
+msgid "The account could not be created. Please, try again."
+msgstr ""
+
+#: Controller/UsersController.php:605
+msgid "The link has been sent. Please, check your e-mail."
+msgstr ""
+
+#: Controller/UsersController.php:608
+msgid "Email not found."
+msgstr ""
+
+#: Controller/UsersController.php:613;680
+msgid "An error has occurred. If the error persists, please contact support."
+msgstr ""
+
+#: Controller/UsersController.php:654
+msgid "Sorry, this link is expired. <a href=\"%s\">Click here</a> to get a new one."
+msgstr ""
+
+#: Controller/UsersController.php:666
+msgid "Your registration is complete"
+msgstr ""
+
+#: Controller/UsersController.php:686
+msgid "Your account already been confirmed"
+msgstr ""
+
+#: Controller/UsersController.php:691
+msgid "The account could not be activated. The email does not exist."
+msgstr ""
+
+#: Controller/UsersController.php:731
+msgid "Please, access your e-mail to active the user or \n                        <a href=\"%s\">click here</a> to get a new link"
+msgstr ""
+
+#: Model/AppModel.php:231
+#: View/Helper/HarvestHelper.php:67
+msgid "Yes"
+msgstr ""
+
+#: Model/AppModel.php:232
+#: View/Helper/HarvestHelper.php:65
+msgid "No"
+msgstr ""
+
+#: Model/AppModel.php:297
+#: View/System/admin_menu.ctp:16
+msgid "Active"
+msgstr ""
+
+#: Model/AppModel.php:298
+msgid "Inactive"
+msgstr ""
+
+#: Model/AppModel.php:330
+msgid "Error on line %s. Please, verify: "
+msgstr ""
+
+#: Model/Contact.php:97
+msgid "[OnneBlue Contact] "
+msgstr ""
+
+#: Model/User.php:692
+msgid "Account Confirmation"
+msgstr ""
+
+#: Model/User.php:716
+msgid "Account Pre-Registration"
+msgstr ""
+
+#: Model/User.php:806
+msgid "Additional"
+msgstr ""
+
+#: Model/User.php:807
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:52
+#: View/Plans/admin_index.ctp:33
+msgid "User"
+msgstr ""
+
+#: Model/User.php:808
+msgid "user@additional%s.com"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:62
+#: Plugin/FinancialSystem/View/Elements/sidebar.ctp:29
+msgid "Accounts Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:94
+msgid "Invalid account payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:96
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:4
+msgid "View Account Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:112
+msgid "Add Accounts Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:118
+msgid "You have reached the limit of 100 accounts payable. Hire a plan to have unlimited accounts payable and many other advantages!"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:126
+msgid "The accounts payable has been saved."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:130
+msgid "The accounts payable could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:155;191
+msgid "Invalid Account Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:157
+msgid "Edit Account Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:160
+msgid "The Account Payable has been saved."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:164
+msgid "The account payable could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:195
+msgid "The Account Payable has been deleted."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/AccountsPayableController.php:198
+msgid "The Account Payable could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:63
+msgid "BanksAccount"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:95;158;196
+msgid "Invalid banksAccount"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:97
+msgid "View BanksAccount"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:113
+msgid "Add BanksAccount"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:119
+msgid "You have reached the limit of 100 accounts banks. Hire a plan to have unlimited accounts banks and many other advantages!"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:127;163
+msgid "The banksAccount has been saved."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:130;166
+msgid "The banksAccount could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:160
+msgid "Edit BanksAccount"
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:200
+msgid "The banksAccount has been deleted."
+msgstr ""
+
+#: Plugin/FinancialSystem/Controller/BanksAccountsController.php:203
+msgid "The banksAccount could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:8
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:8
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:21
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:18
+msgid "Basic Details"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:14
+msgid "Description %s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:14
+msgid "Use to describe the type of payment made"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:39
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:39
+msgid "Account Details"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:47
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:47
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:34
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:34
+msgid "Select a Bank"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:48
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:48
+msgid "Bank Account"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_add.ctp:84
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_edit.ctp:84
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:68
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:68
+msgid "the account bank"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:23
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:16
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:23
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:16
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:53
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:48
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:39
+msgid "Description"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:24
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:23
+#: Plugin/FinancialSystem/View/Elements/sidebar.ctp:14
+msgid "Banks Account"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_index.ctp:25
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:30
+msgid "Due Date"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:43
+msgid "Value"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/AccountsPayable/admin_view.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:60
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:45
+#: Plugin/Headquarters/View/Users/hq_view.ctp:49
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:39
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:101
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:104
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:91
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:46
+#: View/Errors/error400.ctp:24
+#: View/Errors/error403.ctp:24
+#: View/Errors/error404.ctp:25
+#: View/Errors/error405.ctp:24
+#: View/Errors/error500.ctp:24
+#: View/Errors/error501.ctp:24
+#: View/Groups/admin_view.ctp:40
+#: View/Users/admin_view.ctp:50
+msgid "%s Back%s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:8
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:8
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:8
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:11
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:8
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:11
+msgid "Detail"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:14
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:14
+msgid "You can describe here whatever you want. If you want control only the cash, try enter 'Cash' on this field."
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:27
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:27
+msgid "Bank Details"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:33
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:33
+msgid "Bank %s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:33
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:33
+msgid "Choose your Bank."
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:46
+msgid "Agency %s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:46
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:46
+msgid "Enter the agency number."
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:57
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:57
+msgid "Account Number %s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_add.ctp:57
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_edit.ctp:57
+msgid "Enter the account number."
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:24
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:30
+msgid "Agency"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_index.ctp:25
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:37
+msgid "Account Number"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:4
+msgid "View Bank Account"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:23
+msgid "Bank"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:44
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:29
+#: Plugin/Headquarters/View/Users/hq_view.ctp:35
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:87
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:88
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:77
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:30
+#: View/Groups/admin_view.ctp:24
+#: View/Users/admin_view.ctp:36
+msgid "Created"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/BanksAccounts/admin_view.ctp:51
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:35
+#: Plugin/Headquarters/View/Users/hq_view.ctp:41
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:30
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:93
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:95
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:83
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:37
+#: View/Groups/admin_view.ctp:30
+#: View/Users/admin_view.ctp:42
+msgid "Modified"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:2
+msgid "Financial System"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:6
+msgid "%s Banks Account"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Dashboard/admin_index.ctp:19
+msgid "%s Accounts Payable"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:18
+msgid "<span class=\"hidden-xs\">Financial System</span><span class=\"visible-xs\">Fs</span>"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:63
+#: Plugin/Headquarters/View/Elements/menu.ctp:130
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:63
+#: View/Elements/admin-menu.ctp:118
+msgid "%s %s"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:75
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:75
+msgid "%s Account"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:89
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:89
+msgid "%s Plans"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:103
+#: Plugin/Headquarters/View/Elements/menu.ctp:141
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:103
+msgid "%s Logout"
+msgstr ""
+
+#: Plugin/FinancialSystem/View/Elements/admin-menu.ctp:117
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:117
+msgid "%s Contact"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/DashboardController.php:76
+#: Plugin/InventorySystem/Controller/DashboardController.php:82
+msgid "ACO's sync"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:174
+msgid "<error>Plugin %s not found or not activated</error>"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:188
+msgid "Aco Update Complete"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:244
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:300
+msgid "Created Aco node: <success>%s</success>"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:385
+msgid "Unable to get methods for \"%s\""
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:407
+msgid "Deleted Aco node: <warning>%s</warning>"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:429
+msgid "<success>Tree is valid and strong</success>"
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:450
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: Plugin/Headquarters/Controller/Component/AcoBuilderComponent.php:452
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:3
+#: Plugin/Headquarters/View/Elements/menu.ctp:19
+msgid "Headquarters"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:12
+msgid "New User this Month"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:23
+msgid "Paying Users"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:34
+msgid "Total Users"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:45
+msgid "Inactive or Cancelled Users"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:56
+msgid "New Users"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:60;103
+#: Plugin/Headquarters/View/Groups/hq_view.ctp:23
+#: Plugin/Headquarters/View/Users/hq_view.ctp:17
+#: Plugin/InventorySystem/Controller/ProductsController.php:447
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:14
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:17
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:16
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:19
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:17
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:61
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:28
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:39
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:35
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:24
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:19
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:19
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:14
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:17
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:16
+#: View/Groups/admin_view.ctp:18
+#: View/Users/admin_view.ctp:12
+msgid "Name"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:61;104
+#: Plugin/Headquarters/View/Users/hq_add.ctp:66
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:69
+#: Plugin/Headquarters/View/Users/hq_view.ctp:23
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:23
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:25
+#: View/Users/admin_add.ctp:66
+#: View/Users/admin_edit.ctp:69
+#: View/Users/admin_login.ctp:55
+#: View/Users/admin_view.ctp:18
+msgid "Email"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:63;106
+#: Plugin/Headquarters/View/Elements/admin-actions-title.ctp:1
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:28
+#: View/Elements/admin-actions-title.ctp:14
+#: View/Pages/tour.ctp:169
+msgid "Actions"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:78;121
+#: Plugin/Headquarters/View/Elements/actions.ctp:9
+#: View/Elements/admin-actions.ctp:31
+msgid "<i class=\"fa fa-eye\"></i>"
+msgstr ""
+
+#: Plugin/Headquarters/View/Dashboard/hq_index.ctp:99
+msgid "Users Pending Payment"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:3
+#: View/Elements/admin-actions.ctp:11
+#: View/Elements/view-buttons.ctp:3
+msgid "the system register"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:19
+#: View/Elements/admin-actions.ctp:42
+msgid "<i class=\"fa fa-pencil\"></i>"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:29
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:39
+#: View/Elements/admin-actions.ctp:53
+msgid "<i class=\"fa fa-trash-o\"></i>"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/actions.ctp:38
+#: View/Elements/admin-actions.ctp:62
+#: View/Elements/view-buttons.ctp:45
+msgid "Are you sure you want to delete %s?"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:6
+msgid "%sToggle navigation%s %s %s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:29
+#: View/Elements/menu.ctp:22
+#: View/Layouts/default.ctp:80
+msgid "Home"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:42
+#: View/Elements/admin-menu.ctp:39
+msgid "Users %s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:53;88
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:18;54;90;126;162
+msgid "%s List"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:62;97
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:30;66;102;138;174
+msgid "%s Add"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:77
+#: View/Elements/admin-menu.ctp:78
+msgid "Groups %s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/menu.ctp:112
+msgid "ACO's Sync"
+msgstr ""
+
+#: Plugin/Headquarters/View/Elements/permissions.ctp:3
+#: View/Elements/permissions.ctp:6
+msgid "General"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:6
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:6
+#: Plugin/Headquarters/View/Users/hq_add.ctp:12
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:12
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:59
+#: View/Elements/view-buttons.ctp:8
+#: View/Groups/admin_add.ctp:6
+#: View/Groups/admin_edit.ctp:6
+#: View/Users/admin_add.ctp:12
+#: View/Users/admin_edit.ctp:12
+msgid "%s List%s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:25
+#: View/Groups/admin_add.ctp:25
+msgid "Group Details"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:42
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:47
+#: Plugin/Headquarters/View/Users/hq_add.ctp:124
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:128
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:163
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:181
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:167
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:90
+#: View/Elements/page-bottom.ctp:17
+#: View/Groups/admin_add.ctp:42
+#: View/Groups/admin_edit.ctp:47
+#: View/Users/admin_account.ctp:182
+#: View/Users/admin_add.ctp:124
+#: View/Users/admin_edit.ctp:128
+msgid "%s Save%s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:52
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:58
+#: Plugin/Headquarters/View/Users/hq_add.ctp:134
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:139
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:174
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:194
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:180
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:101
+#: View/Elements/page-bottom.ctp:27
+#: View/Groups/admin_add.ctp:52
+#: View/Groups/admin_edit.ctp:58
+#: View/Users/admin_account.ctp:192
+#: View/Users/admin_add.ctp:134
+#: View/Users/admin_edit.ctp:139
+msgid "%s Cancel%s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:60
+#: Plugin/Headquarters/View/Users/hq_add.ctp:142
+#: View/Groups/admin_add.ctp:60
+#: View/Users/admin_add.ctp:142
+msgid "Are you sure you want to cancel adding the %s?"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_add.ctp:65
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:71
+#: Plugin/Headquarters/View/Users/hq_add.ctp:147
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:152
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:188
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:209
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:195
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:115
+#: View/Elements/page-bottom.ctp:40
+#: View/Groups/admin_add.ctp:65
+#: View/Groups/admin_edit.ctp:71
+#: View/Pages/admin_contact.ctp:39
+#: View/Pages/contact.ctp:49
+#: View/System/admin_settings.ctp:37
+#: View/Users/admin_account.ctp:207
+#: View/Users/admin_add.ctp:147
+#: View/Users/admin_edit.ctp:152
+msgid "indicates a required field"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:28
+#: View/Groups/admin_edit.ctp:28
+msgid "Admin Add Group"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_edit.ctp:66
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:147
+#: View/Groups/admin_edit.ctp:66
+#: View/Users/admin_account.ctp:202
+#: View/Users/admin_edit.ctp:147
+msgid "Are you sure you want to cancel editing the %s?"
+msgstr ""
+
+#: Plugin/Headquarters/View/Groups/hq_index.ctp:9
+#: Plugin/Headquarters/View/Users/hq_index.ctp:9
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:137
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:154
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:140
+#: View/Elements/view-buttons.ctp:17
+#: View/Groups/admin_index.ctp:8
+#: View/Users/admin_index.ctp:8
+msgid "%s Add%s"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:31
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:34
+#: View/Users/admin_add.ctp:31
+#: View/Users/admin_edit.ctp:34
+msgid "Personal Details"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:37
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:40
+#: View/Users/admin_add.ctp:37
+#: View/Users/admin_edit.ctp:40
+msgid "First Name"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:48
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:51
+#: View/Users/admin_add.ctp:48
+#: View/Users/admin_edit.ctp:51
+msgid "Last Name"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:60
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:63
+#: View/Users/admin_add.ctp:60
+#: View/Users/admin_edit.ctp:63
+msgid "Login Details"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:77
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:80
+#: View/Users/admin_add.ctp:77
+#: View/Users/admin_edit.ctp:80
+msgid "Type a strong password"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:93
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:96
+#: View/Users/admin_add.ctp:93
+#: View/Users/admin_edit.ctp:96
+#: View/Users/register.ctp:100
+msgid "Repeat the password please"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:94
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:97
+#: View/Users/admin_add.ctp:94
+#: View/Users/admin_edit.ctp:97
+#: View/Users/register.ctp:101
+msgid "Confirm Password"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_add.ctp:104
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:107
+#: View/Users/admin_add.ctp:104
+#: View/Users/admin_edit.ctp:107
+msgid "Group Belonging"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_edit.ctp:113
+#: View/Users/admin_edit.ctp:113
+msgid "Select an option"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_index.ctp:33
+msgid "Joined"
+msgstr ""
+
+#: Plugin/Headquarters/View/Users/hq_view.ctp:29
+#: View/Users/admin_view.ctp:24
+msgid "Group"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:66
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:122
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:59
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:46
+#: View/Modules/admin_subscriptions.ctp:23;58
+msgid "Categories"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:98;154;186
+msgid "Invalid category"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:100
+#: Plugin/InventorySystem/View/Categories/admin_view.ctp:4
+msgid "View Category"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:116
+msgid "Add Category"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:122
+msgid "You have reached the limit of 100 categories. Hire a plan to have unlimited categories and many other advantages!"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:130;159
+msgid "The category has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:133;162
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:156
+msgid "Edit Category"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:190
+msgid "The category has been deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:193
+msgid "The category could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CategoriesController.php:231
+#: Plugin/InventorySystem/Controller/CustomersController.php:257
+#: Plugin/InventorySystem/Controller/SuppliersController.php:197
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:175
+msgid "name"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:66
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:86
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:44
+#: View/Modules/admin_subscriptions.ctp:22;57
+msgid "Customers"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:98;159;191
+msgid "Invalid customer"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:100
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:5
+msgid "View Customer"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:116
+msgid "Add Customer"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:123
+msgid "You have reached the limit of 100 customers. Hire a plan to have unlimited customers and many other advantages!"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:132;164
+msgid "The customer has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:135;167
+msgid "The customer could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:161
+msgid "Edit Customer"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:195
+msgid "The customer has been deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:198
+msgid "The customer could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/CustomersController.php:259
+#: Plugin/InventorySystem/Controller/SuppliersController.php:200
+msgid "email"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/DashboardController.php:61
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:2
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:3
+#: View/Modules/admin_subscriptions.ctp:18;53
+#: View/Pages/tour.ctp:16;17;66;67;100;101;141;142;200;201;230;231;243;244
+msgid "Inventory System"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:62;855
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:10
+msgid "Input"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:111;218
+msgid "The product has been added."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:117;224
+msgid "The product could not be added. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:125;232
+msgid "Please, add at least one product."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:147
+msgid "The input has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:150
+msgid "The input could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:171;858
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:10
+msgid "Output"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:253
+msgid "The output has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:257
+msgid "The output could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:282
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:119
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:9
+#: View/Modules/admin_subscriptions.ctp:27;62
+msgid "Perform Inventory"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:292
+msgid "The adjustment has been settled."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:295
+msgid "The inputs could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:313
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:254
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:134
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:5
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:14
+#: View/Modules/admin_subscriptions.ctp:28;63
+msgid "Inventory Report"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:328;367;395
+msgid "No results were found."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:351
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:5
+msgid "Best Seller Report"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:860
+msgid "Adjustment"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1053
+#: Plugin/InventorySystem/Controller/ProductsController.php:253
+msgid "The product has been deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1055
+msgid "The product could not be deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1075
+msgid "The input has been canceled."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/InputsOutputsController.php:1077
+msgid "The output has been canceled."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:84
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:14
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:14
+#: View/Modules/admin_subscriptions.ctp:20;55
+msgid "Products"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:124;200;249
+msgid "Invalid product"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:127
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:4
+msgid "View Product"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:145
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:46
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:72
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:72
+msgid "Add Product"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:154
+msgid "You have reached the limit of 100 products. Hire a plan to have unlimited products and many other advantages!"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:164;212
+msgid "The product has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:168;216
+msgid "The product could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:203
+msgid "Edit Product"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:256
+msgid "The product could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:370
+msgid "product_model_spreadsheet.xls"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:450
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:9
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:34
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:146
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:140
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:74
+msgid "Sell Value"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:481;482
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:90
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:50
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:28
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:23
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:16
+msgid "Code"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/ProductsController.php:508
+msgid "The value %s, on the fields %s, must have this format only: 1000,00 or 1000"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:36
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:50
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:29
+#: View/Modules/admin_subscriptions.ctp:21;56
+msgid "Suppliers"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:64;120;147
+msgid "Invalid supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:66
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:5
+msgid "View Supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:81
+msgid "Add Supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:88
+msgid "You have reached the limit of 100 suppliers. Hire a plan to have unlimited suppliers and many other advantages!"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:97;126
+msgid "The supplier has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:100;129
+msgid "The supplier could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:122
+msgid "Edit Supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:151
+msgid "The supplier has been deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/SuppliersController.php:153
+msgid "The supplier could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:36
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:158
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:74
+#: View/Modules/admin_subscriptions.ctp:24;59
+msgid "Units of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:65;142
+msgid "Invalid unit of measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:67
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:4
+msgid "View Unit of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:82
+msgid "Add Unit of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:88
+msgid "You have reached the limit of 100 units of measure. Hire a plan to have unlimited units of measure and many other advantages!"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:96;121
+msgid "The unit of measure has been saved."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:99;124
+msgid "The units measure could not be saved. Please, try again."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:116
+msgid "Invalid units measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:118
+msgid "Edit Unit of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:146
+msgid "The unit of measure has been deleted."
+msgstr ""
+
+#: Plugin/InventorySystem/Controller/UnitsMeasuresController.php:148
+msgid "The unit of measure could not be deleted. Please, check whether it is in use."
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:135
+msgid "Please supply a CNPJ"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:137
+msgid "Please supply CPF"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Categories/admin_add.ctp:25
+#: Plugin/InventorySystem/View/Categories/admin_edit.ctp:28
+msgid "the category"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:10
+msgid "This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the customer or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:17
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:13
+msgid "Customer Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:36
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:31
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:36
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:31
+msgid "E-mail Address"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:61
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:49
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:88
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:80
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:39
+msgid "Phone Number"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:73
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:62
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:101
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:92
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:52
+msgid "Phone Number 2"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:95
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:87
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:75
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:116
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:106
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:65
+msgid "Address"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:108
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:99
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:37
+msgid "Birthday"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:120
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:110
+#: Plugin/InventorySystem/View/Customers/admin_view.ctp:81
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:127
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:116
+#: Plugin/InventorySystem/View/Suppliers/admin_view.ctp:71
+msgid "Website"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Customers/admin_add.ctp:140
+#: Plugin/InventorySystem/View/Customers/admin_edit.ctp:129
+msgid "the customer"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:6
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:8
+msgid "%s Products"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:19
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:44
+msgid "%s Suppliers"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:32
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:80
+msgid "%s Customers"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:45
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:116
+msgid "%s Categories"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:58
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:152
+msgid "%s Units of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:70
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:195
+msgid "%s Stock (Input)"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:83
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:210
+msgid "%s Stock (Output)"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:96
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:226
+msgid "%s Perform Inventory"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:108
+msgid "%s Inventory Report"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Dashboard/admin_index.ctp:120
+msgid "%s Best Sellers Report"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:11
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:21
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:67
+msgid "Purchase Value"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:18
+msgid "Add a product"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:25
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:53
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:93
+#: View/Users/admin_account.ctp:143
+msgid "Product"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:26
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:82
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:96
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:40
+msgid "Quantity"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/add_product.ctp:47
+msgid "Are you sure you want to delete the %s?"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-menu.ctp:18
+msgid "<span class=\"hidden-xs\">Inventory System</span><span class=\"visible-xs\">Is</span>"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:5
+msgid "Registers"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:191
+msgid "Inventory Moves"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:239
+msgid "Reports"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:242
+msgid "%s Reports"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:250
+msgid "Stocks"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/admin-side-menu.ctp:266
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:149
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:11
+#: View/Modules/admin_subscriptions.ctp:29;64
+msgid "Best Sellers Report"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:3
+msgid "%s%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:12
+msgid "%s Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:21
+msgid "Select a supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:54
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:26
+msgid "Select a product"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:96
+msgid "Customer"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:98
+msgid "Select a customer"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:105
+msgid "Expiration Date"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:123
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:140
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:126
+msgid "Observation"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:153
+msgid "Product List for %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/inputs_outputs.ctp:183
+msgid "Are you sure you want to cancel the %s?"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/product_details.ctp:6
+msgid "In Stock"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:89
+msgid "Stock (Input)"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Elements/sidebar.ctp:104
+msgid "Stock (Output)"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:17
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:18
+msgid "Custom Search Fields"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:25
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:26
+msgid "Initial Date %s %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:25
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:26
+msgid "Starting date required for the report generation."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:39
+msgid "Final Date %s %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:37
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:39
+msgid "Ending date required for the report generation."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:50
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report.ctp:74
+msgid "%s Generate PDF%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:99
+msgid "Billing"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report.ctp:102
+msgid "% Billed"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:21
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:26
+#: View/Users/admin_account.ctp:144
+msgid "Period"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:21
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:26
+msgid "to"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:28
+msgid "%sCode%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:29
+msgid "%sProduct%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:30
+msgid "%sQuantity%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:31
+msgid "%sBilling%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:32
+msgid "%s % Billing%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_best_sellers_report_pdf.ctp:81
+msgid "best_sellers_report.pdf"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:15
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:15
+#: View/Elements/page-top.ctp:57
+msgid "%s %s%s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:15
+msgid "Outbound"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:39
+msgid "Input Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:45
+msgid "Supplier %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:45
+msgid "A supplier may be selected in this field for the entry of products. If there is no registered suppliers, access the menu of the Supplier."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:58
+msgid "Date of Entry %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:58
+msgid "Indicates the actual date of entry of products in stock."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:79
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:79
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:25
+msgid "Product %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:79
+msgid "An entry may have several bundled products. Simply select the product, fill out the fields and add it to the list."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:95
+msgid "Unit Value %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:95
+msgid "Indicates the new value of purchase which will come in stock. If completed, this new value overrides the value registered in Product Purchase."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:109
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:109
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:61
+msgid "Quantity %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:109
+msgid "Indicates the amount of products that will enter the stock."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:122
+msgid "Expiration Date %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:122
+msgid "Indicates the expiration date of the product that will enter the stock."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:171
+msgid "Product List for Input"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inputs.ctp:204
+msgid "Are you sure you want to cancel the input?"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:37
+msgid "Type"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:46
+msgid "Transaction Date"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:49
+msgid "Movimentation Date"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:95
+msgid "Input Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:103
+msgid "Purchase Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:113
+msgid "Output Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:121
+msgid "Sale Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:131
+msgid "Adjustments Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:141
+msgid "Inventory Total"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_inventory_report_pdf.ctp:170
+msgid "inventory_report.pdf"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:15
+msgid "Inbound"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:39
+msgid "Output Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:45
+msgid "Customer %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:45
+msgid "A customer can select this field to indicate who bought the products. If there is no registered customers, access the menu of the Customer."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:58
+msgid "Date of Sale %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:58
+msgid "Indicates the actual date of departure of stock products."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:79
+msgid "An output can have several bundled products. Simply select the product, fill out the fields and add it to the list."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:95
+msgid "Value of Sale %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:95
+msgid "Indicates the new value of the product that will sell the stock. If completed, this new value overrides the value registered in Product Sale."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:109
+msgid "Indicates the amount of products that are coming out of the stock."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:157
+msgid "Product List for Output"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_outputs.ctp:190
+msgid "Are you sure you want to cancel the output?"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:18
+msgid "Product Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:25
+msgid "Select a product to remove it from the stock through a fit. The inventory adjustment can be justified in the observation field."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:43
+msgid "Inventory Adjustments Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:49
+msgid "Adjustment Date %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:49
+msgid "Actual date on which the inventory adjustment is being performed."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:61
+msgid "Amount that will be withdrawn from the stock through the adjustment."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:76
+msgid "Observation %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:76
+msgid "Field that describes the reason for the inventory adjustment."
+msgstr ""
+
+#: Plugin/InventorySystem/View/InputsOutputs/admin_perform_inventory.ctp:110
+msgid "Are you sure you want to cancel the perform inventory?"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:14
+msgid "This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the product or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:27
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:24
+msgid "Code %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:27
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:24
+msgid "Single field with a maximum length of 30 characters."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:61
+msgid "Unit of Measure %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:67
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:61
+msgid "Every product will have a unit of measure. To select it, simply click in the field below. To register them, go to the menu of Measurement Units."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:68
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:62
+msgid "Select a unit of measure"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:77
+msgid "Categories %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:80
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:77
+msgid "Every product can have one or more associated categories. To select them, type the name of it in the field below. To register them, go to the menu categories."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:97
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:93
+msgid "Costs"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:106
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:102
+msgid "Purchase Value %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:106
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:102
+msgid "The Purchase Value can be registered here, by the registration of the product. But how is a value that can vary greatly over time, a New Purchase Value can also be registered on the stock inbound."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:126
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:121
+msgid "Sale Value %s"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:126
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:121
+msgid "The Sale Value can be registered here, by the registration of the product. But how is a value that can vary greatly over time, a New Sale Value can also be registered on the stock outbound."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_add.ctp:162
+#: Plugin/InventorySystem/View/Products/admin_edit.ctp:156
+msgid "the product"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_index.ctp:26
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:31
+msgid "Inventory"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:60
+msgid "Unit Of Measure"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Products/admin_view.ctp:81
+msgid "Profit"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:10
+msgid "This is a draft. Please, <kbd class=\"btn-primary\">Save</kbd> the supplier or click on button <kbd class=\"btn-danger\">cancel</kbd> to clear the draft."
+msgstr ""
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:17
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:13
+msgid "Supplier Details"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:49
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:43
+#: View/Helper/HarvestHelper.php:241
+msgid "Type of Person"
+msgstr ""
+
+#: Plugin/InventorySystem/View/Suppliers/admin_add.ctp:147
+#: Plugin/InventorySystem/View/Suppliers/admin_edit.ctp:135
+msgid "the supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:25
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:28
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_view.ctp:23
+msgid "Abbreviation"
+msgstr ""
+
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_add.ctp:36
+#: Plugin/InventorySystem/View/UnitsMeasures/admin_edit.ctp:39
+msgid "the unit of measure"
+msgstr ""
+
+#: View/Dashboard/admin_index.ctp:2
+msgid "Which system would you like to use?"
+msgstr ""
+
+#: View/Dashboard/admin_index.ctp:6
+msgid "%sIs%s Inventory System"
+msgstr ""
+
+#: View/Dashboard/admin_index.ctp:19
+msgid "%sFs%s Financial System"
+msgstr ""
+
+#: View/Elements/admin-menu.ctp:50;89
+msgid "List %s"
+msgstr ""
+
+#: View/Elements/admin-menu.ctp:59;98
+msgid "Add %s"
+msgstr ""
+
+#: View/Elements/admin-menu.ctp:130
+msgid "Account %s"
+msgstr ""
+
+#: View/Elements/admin-menu.ctp:144
+msgid "Plans %s"
+msgstr ""
+
+#: View/Elements/admin-menu.ctp:158
+msgid "Logout %s"
+msgstr ""
+
+#: View/Elements/count-records.ctp:2
+msgid "Remaining records"
+msgstr ""
+
+#: View/Elements/count-records.ctp:9
+msgid "remaining records"
+msgstr ""
+
+#: View/Elements/count-records.ctp:11
+msgid "remaining record"
+msgstr ""
+
+#: View/Elements/import-button.ctp:2;19;48
+msgid "Import"
+msgstr ""
+
+#: View/Elements/import-button.ctp:18;59
+#: View/Users/register.ctp:168;175
+msgid "Close"
+msgstr ""
+
+#: View/Elements/import-button.ctp:22
+msgid "Step 1"
+msgstr ""
+
+#: View/Elements/import-button.ctp:27
+msgid "Download Spreadsheet Model"
+msgstr ""
+
+#: View/Elements/import-button.ctp:36
+msgid "Step 2"
+msgstr ""
+
+#: View/Elements/import-button.ctp:46
+msgid "Step 3"
+msgstr ""
+
+#: View/Elements/language.ctp:29
+msgid "%s"
+msgstr ""
+
+#: View/Elements/menu.ctp:79
+msgid "Blog"
+msgstr ""
+
+#: View/Elements/page-bottom.ctp:3
+msgid "Are you sure you want to cancel adding"
+msgstr ""
+
+#: View/Elements/page-bottom.ctp:5
+msgid "Are you sure you want to cancel editing"
+msgstr ""
+
+#: View/Elements/page-bottom.ctp:11
+msgid "the register"
+msgstr ""
+
+#: View/Elements/page-bottom.ctp:35
+msgid "%s %s?"
+msgstr ""
+
+#: View/Elements/page-top.ctp:21
+msgid "Add"
+msgstr ""
+
+#: View/Elements/page-top.ctp:29
+msgid "List"
+msgstr ""
+
+#: View/Elements/paginator.ctp:6
+msgid "No results found"
+msgstr ""
+
+#: View/Elements/paginator.ctp:13
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Elements/paginator.ctp:24
+msgid "<span class=\"hidden-xs\">prev</span><span class=\"visible-xs\"><i class=\"fa fa-arrow-left\"></i></span>"
+msgstr ""
+
+#: View/Elements/paginator.ctp:26
+msgid "<span class=\"hidden-xs\">next</span><span class=\"visible-xs\"><i class=\"fa fa-arrow-right\"></i></span>"
+msgstr ""
+
+#: View/Elements/permissions.ctp:2
+msgid "Permissions"
+msgstr ""
+
+#: View/Elements/plans.ctp:6
+msgid "OnneBlue"
+msgstr ""
+
+#: View/Elements/plans.ctp:9
+msgid "Free"
+msgstr ""
+
+#: View/Elements/plans.ctp:15
+msgid "per month"
+msgstr ""
+
+#: View/Elements/plans.ctp:16
+msgid "or %s per year"
+msgstr ""
+
+#: View/Elements/plans.ctp:21
+msgid "Start Now"
+msgstr ""
+
+#: View/Elements/plans.ctp:32
+msgid "Choose this plan"
+msgstr ""
+
+#: View/Elements/plans.ctp:47
+msgid "The OnneBlue Starter includes:"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:15
+msgid "Incorrect please try again"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:17
+msgid "Type what you see in the image above"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:18
+msgid "Enter the numbers you hear"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:30
+msgid "Get another CAPTCHA"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:31
+msgid "Get an audio CAPTCHA"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:32
+msgid "Get an image CAPTCHA"
+msgstr ""
+
+#: View/Elements/recaptcha.ctp:33
+msgid "Help"
+msgstr ""
+
+#: View/Elements/search_fields.ctp:55
+msgid "%s Search%s"
+msgstr ""
+
+#: View/Elements/search_fields.ctp:62
+msgid "%s Reset%s"
+msgstr ""
+
+#: View/Elements/view-buttons.ctp:26
+msgid "%s Edit%s"
+msgstr ""
+
+#: View/Elements/view-buttons.ctp:36
+msgid "%s Delete%s"
+msgstr ""
+
+#: View/Emails/html/account_confirmation.ctp:4
+msgid "Last step to start using OnneBlue"
+msgstr ""
+
+#: View/Emails/html/account_confirmation.ctp:7
+msgid "Please, click on the link below to confirm registration: "
+msgstr ""
+
+#: View/Emails/html/account_confirmation.ctp:12
+msgid "Confirm account"
+msgstr ""
+
+#: View/Emails/html/account_pre_registration.ctp:4
+msgid "Thanks for pre-registration!"
+msgstr ""
+
+#: View/Emails/html/account_pre_registration.ctp:7
+msgid "In appreciation to pre-register, you will receive a discount coupon when the system is released."
+msgstr ""
+
+#: View/Emails/html/change_password.ctp:4
+msgid "New password"
+msgstr ""
+
+#: View/Emails/html/change_password.ctp:7
+msgid "For security reasons, you must set a new password. Click the link below to set a new password: "
+msgstr ""
+
+#: View/Emails/html/change_password.ctp:12
+msgid "Change my password"
+msgstr ""
+
+#: View/Emails/html/change_password.ctp:31
+msgid "If you not asked for recover your password, disconsider this email."
+msgstr ""
+
+#: View/Errors/error400.ctp:21
+msgid "<strong>400.</strong> Bad Request"
+msgstr ""
+
+#: View/Errors/error400.ctp:22
+#: View/Errors/error403.ctp:22
+#: View/Errors/error404.ctp:23
+#: View/Errors/error405.ctp:22
+#: View/Errors/error500.ctp:22
+#: View/Errors/error501.ctp:22
+msgid "<strong>Error:</strong> %s"
+msgstr ""
+
+#: View/Errors/error403.ctp:21
+msgid "<strong>403.</strong> Forbidden"
+msgstr ""
+
+#: View/Errors/error404.ctp:22
+msgid "<strong>404.</strong> Not Found"
+msgstr ""
+
+#: View/Errors/error405.ctp:21
+msgid "<strong>405.</strong> Method Not Allowed"
+msgstr ""
+
+#: View/Errors/error500.ctp:21
+msgid "<strong>500.</strong> Internal Server Error"
+msgstr ""
+
+#: View/Errors/error501.ctp:21
+msgid "<strong>501.</strong> Not Implemented"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:193
+msgid "CPF"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:195
+msgid "CNPJ"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:197
+msgid "N/A"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:220
+msgid "The client has no CNPJ/CPF"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:295
+msgid "Waiting payment"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:298
+msgid "In analysis"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:301
+msgid "Paid"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:304
+msgid "Available"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:307
+msgid "In Dispute"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:310
+msgid "Refunded"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:313
+msgid "Cancelled"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:316
+msgid "Being processed"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:340;348;355
+msgid "Total: %s"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:341
+msgid "Recurrent"
+msgstr ""
+
+#: View/Helper/HarvestHelper.php:349;356
+msgid "Save: %s"
+msgstr ""
+
+#: View/Layouts/Emails/html/default.ctp:40
+msgid "Hello, %s"
+msgstr ""
+
+#: View/Layouts/Emails/html/default.ctp:46
+msgid "Hello"
+msgstr ""
+
+#: View/Layouts/Emails/html/default.ctp:58
+msgid "Best regards!"
+msgstr ""
+
+#: View/Layouts/Emails/html/default.ctp:58
+msgid "OnneBlue Team"
+msgstr ""
+
+#: View/Layouts/Emails/html/default.ctp:69
+msgid "%s OnneBlue"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:4
+msgid "%sSubscriptions Plans"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:12
+msgid "Bronze"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:13;48
+msgid "mo."
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:14
+msgid "Perfect for resellers"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:18
+msgid "BASIC"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:25;60
+msgid "Inbounds"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:26;61
+msgid "Outbonds"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:32;67
+msgid "%s User"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:33;68
+#: View/Plans/admin_index.ctp:23
+msgid "Additional Users"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:34;69
+msgid "%s Space"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:35;70
+msgid "Mobile"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:36;71
+msgid "Access Control"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:40;75
+msgid "Pay Now"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:47
+msgid "Silver"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:49
+msgid "Perfect for small business"
+msgstr ""
+
+#: View/Modules/admin_subscriptions.ctp:53
+msgid "ADVANCED"
+msgstr ""
+
+#: View/Pages/about.ctp:5
+msgid "Made with passion. Made for you."
+msgstr ""
+
+#: View/Pages/about.ctp:13
+msgid "The automation of a business is essential to its growth and success today. The OnneBlue seeks to combine simplicity and robustness to leverage the growth of micro and small enterprises, through an online management system and innovative."
+msgstr ""
+
+#: View/Pages/about.ctp:23
+msgid "Manifest"
+msgstr ""
+
+#: View/Pages/about.ctp:25
+msgid "We know the daily challenge of running a business. It is based on this principle, we seek to integrate OnneBlue the business to drive growth. Therefore, we believe that the key point to solve the management problems of a business, is simplicity."
+msgstr ""
+
+#: View/Pages/about.ctp:27
+msgid "The OnneBlue was born with a mission to help others realize their dreams through their business."
+msgstr ""
+
+#: View/Pages/about.ctp:40
+msgid "Mission"
+msgstr ""
+
+#: View/Pages/about.ctp:41
+msgid "Helping people achieve their dreams through their business"
+msgstr ""
+
+#: View/Pages/about.ctp:45
+msgid "Vision"
+msgstr ""
+
+#: View/Pages/about.ctp:46
+msgid "To be a global reference in business management"
+msgstr ""
+
+#: View/Pages/about.ctp:50
+msgid "Values"
+msgstr ""
+
+#: View/Pages/about.ctp:51
+msgid "Customer satisfaction, ethics, commitment and transparency"
+msgstr ""
+
+#: View/Pages/about.ctp:62
+msgid "Meet the Team"
+msgstr ""
+
+#: View/Pages/admin_contact.ctp:4
+msgid "%sContact"
+msgstr ""
+
+#: View/Pages/admin_contact.ctp:16
+msgid "Subject"
+msgstr ""
+
+#: View/Pages/admin_contact.ctp:21
+msgid "Message"
+msgstr ""
+
+#: View/Pages/admin_contact.ctp:31
+#: View/Pages/contact.ctp:41
+msgid "Send"
+msgstr ""
+
+#: View/Pages/contact.ctp:18
+msgid "Name %s"
+msgstr ""
+
+#: View/Pages/contact.ctp:21
+msgid "Email %s"
+msgstr ""
+
+#: View/Pages/contact.ctp:26
+msgid "Subject %s"
+msgstr ""
+
+#: View/Pages/contact.ctp:31
+msgid "Message %s"
+msgstr ""
+
+#: View/Pages/i18n.ctp:7
+msgid "One user"
+msgstr ""
+
+#: View/Pages/i18n.ctp:8
+msgid "Limit of 100 records for each module"
+msgstr ""
+
+#: View/Pages/i18n.ctp:9
+msgid "Can purchase additional users"
+msgstr ""
+
+#: View/Pages/i18n.ctp:10
+msgid "All of plan OnneBlue Bronze"
+msgstr ""
+
+#: View/Pages/i18n.ctp:11
+msgid "Plus an additional user (total of two)"
+msgstr ""
+
+#: View/Pages/i18n.ctp:12
+msgid "Access control"
+msgstr ""
+
+#: View/Pages/index.ctp:7
+msgid "Ensure the future of your business"
+msgstr ""
+
+#: View/Pages/index.ctp:13
+msgid "I want to!"
+msgstr ""
+
+#: View/Pages/index.ctp:39
+msgid "OnneBlue Video"
+msgstr ""
+
+#: View/Pages/index.ctp:73
+msgid "Focused on the solution."
+msgstr ""
+
+#: View/Pages/index.ctp:73
+msgid "The OnneBlue has resources for their needs."
+msgstr ""
+
+#: View/Pages/index.ctp:86
+msgid "Simple and friendly"
+msgstr ""
+
+#: View/Pages/index.ctp:87
+msgid "Intuitive system. Use with ease."
+msgstr ""
+
+#: View/Pages/index.ctp:96
+msgid "Optimized experience"
+msgstr ""
+
+#: View/Pages/index.ctp:97
+#: View/Pages/tour.ctp:222
+msgid "Adaptive Design. Ready for access by computer or mobile devices."
+msgstr ""
+
+#: View/Pages/index.ctp:106
+msgid "Technology and Navigation"
+msgstr ""
+
+#: View/Pages/index.ctp:107
+msgid "Developed with the latest technology. Fast and secure shipping."
+msgstr ""
+
+#: View/Pages/index.ctp:116
+msgid "Constant updates"
+msgstr ""
+
+#: View/Pages/index.ctp:117
+msgid "OnneBlue is constantly developing. Always striving to meet the needs of their customers."
+msgstr ""
+
+#: View/Pages/prices.ctp:4
+msgid "Choose a Plan"
+msgstr ""
+
+#: View/Pages/prices.ctp:13
+msgid "Frequently Questions"
+msgstr ""
+
+#: View/Pages/prices.ctp:21
+msgid "What is an additional user?"
+msgstr ""
+
+#: View/Pages/prices.ctp:24
+msgid "Users are generally employees the company, which have access to the system beyond the <b>owner</b>."
+msgstr ""
+
+#: View/Pages/prices.ctp:31
+msgid "How much is each additional user?"
+msgstr ""
+
+#: View/Pages/prices.ctp:34
+msgid "Each additional user costs R$9 and has full access to the system, depending on the permissions set by the <b>owner</b>."
+msgstr ""
+
+#: View/Pages/prices.ctp:41
+msgid "What is access control?"
+msgstr ""
+
+#: View/Pages/prices.ctp:44
+msgid "Access control allows the <b>owner</b>, or who have permission, can manage user groups and define which parts of the system each group has access."
+msgstr ""
+
+#: View/Pages/tour.ctp:6
+msgid "Never been so simple"
+msgstr ""
+
+#: View/Pages/tour.ctp:26
+msgid "Main Navbar"
+msgstr ""
+
+#: View/Pages/tour.ctp:27
+msgid "The main navbar allows you to navigate through all the system quickly."
+msgstr ""
+
+#: View/Pages/tour.ctp:35
+msgid "Module Icons"
+msgstr ""
+
+#: View/Pages/tour.ctp:36
+msgid "Access the modules through the icons in the dashboard."
+msgstr ""
+
+#: View/Pages/tour.ctp:44
+msgid "Languages"
+msgstr ""
+
+#: View/Pages/tour.ctp:45
+msgid "Change the language of any page through the footer."
+msgstr ""
+
+#: View/Pages/tour.ctp:56
+msgid "Fast navigation"
+msgstr ""
+
+#: View/Pages/tour.ctp:56
+msgid "Streamline navigation using the side menu. Alternatively, browse through the shortcut icons."
+msgstr ""
+
+#: View/Pages/tour.ctp:76
+msgid "Module Navbar Show"
+msgstr ""
+
+#: View/Pages/tour.ctp:77
+msgid "Shows the module navbar."
+msgstr ""
+
+#: View/Pages/tour.ctp:85
+msgid "Menu Icons"
+msgstr ""
+
+#: View/Pages/tour.ctp:86
+msgid "Access the module pages through the icons."
+msgstr ""
+
+#: View/Pages/tour.ctp:110
+msgid "Module Navbar Hide"
+msgstr ""
+
+#: View/Pages/tour.ctp:111
+msgid "Hides the module navbar."
+msgstr ""
+
+#: View/Pages/tour.ctp:119
+msgid "Module Navbar"
+msgstr ""
+
+#: View/Pages/tour.ctp:120
+msgid "Accessible from any page of the module."
+msgstr ""
+
+#: View/Pages/tour.ctp:131
+msgid "Efficient and Organized Listing"
+msgstr ""
+
+#: View/Pages/tour.ctp:131
+msgid "Search through our products list. Besides ease of use, it is extremely efficient. Helping you quickly find the record you need."
+msgstr ""
+
+#: View/Pages/tour.ctp:151
+msgid "Simple Ordering"
+msgstr ""
+
+#: View/Pages/tour.ctp:152
+msgid "All titles in blue, can be ordering."
+msgstr ""
+
+#: View/Pages/tour.ctp:160
+msgid "Quick Search"
+msgstr ""
+
+#: View/Pages/tour.ctp:161
+msgid "Search has never been so simple."
+msgstr ""
+
+#: View/Pages/tour.ctp:170
+msgid "Three simple operation in order (left to right): View, Edit and Delete."
+msgstr ""
+
+#: View/Pages/tour.ctp:178
+msgid "Pagination"
+msgstr ""
+
+#: View/Pages/tour.ctp:179
+msgid "Increases performance."
+msgstr ""
+
+#: View/Pages/tour.ctp:190
+msgid "Self-explanatory forms"
+msgstr ""
+
+#: View/Pages/tour.ctp:190
+msgid "With our self-explanatory forms, it is easy to identify the essential fields for registration of new records."
+msgstr ""
+
+#: View/Pages/tour.ctp:210
+msgid "Help Icon"
+msgstr ""
+
+#: View/Pages/tour.ctp:211
+msgid "Complex fields have help icons."
+msgstr ""
+
+#: View/Pages/tour.ctp:222
+msgid "Adaptive Design"
+msgstr ""
+
+#: View/Pages/tour.ctp:254
+msgid "Start now"
+msgstr ""
+
+#: View/Plans/admin_index.ctp:9
+msgid "To hire a plane, just choose and click on monthly or annual"
+msgstr ""
+
+#: View/Plans/admin_index.ctp:33
+msgid "Each"
+msgstr ""
+
+#: View/Plans/admin_index.ctp:38
+msgid "You can not buy additional users to the free plan"
+msgstr ""
+
+#: View/Plans/admin_index.ctp:40
+msgid "Purchase"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:5
+msgid "OnneBlue %s"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:9
+msgid "Select a period:"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:25
+msgid "Select a payment method:"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:33
+msgid "PagSeguro"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:40
+msgid "No additional fee will be charged"
+msgstr ""
+
+#: View/Plans/admin_pay.ctp:46
+msgid "Continue"
+msgstr ""
+
+#: View/System/admin_menu.ctp:8
+msgid "System Menu"
+msgstr ""
+
+#: View/System/admin_menu.ctp:14
+msgid "Original Name"
+msgstr ""
+
+#: View/System/admin_menu.ctp:15
+msgid "Custom Name"
+msgstr ""
+
+#: View/System/admin_menu.ctp:99
+#: View/System/admin_settings.ctp:29
+msgid "Save"
+msgstr ""
+
+#: View/System/admin_settings.ctp:8
+msgid "System Settings"
+msgstr ""
+
+#: View/System/admin_settings.ctp:15
+msgid "Create Account (Default Group)"
+msgstr ""
+
+#: View/Users/admin_account.ctp:36
+msgid "Personal details"
+msgstr ""
+
+#: View/Users/admin_account.ctp:63
+msgid "Login details"
+msgstr ""
+
+#: View/Users/admin_account.ctp:79
+msgid "Current password"
+msgstr ""
+
+#: View/Users/admin_account.ctp:91
+msgid "Security"
+msgstr ""
+
+#: View/Users/admin_account.ctp:101
+msgid "Leave blank if you do not want to change"
+msgstr ""
+
+#: View/Users/admin_account.ctp:102
+#: View/Users/change_password.ctp:37
+msgid "New Password"
+msgstr ""
+
+#: View/Users/admin_account.ctp:114
+#: View/Users/change_password.ctp:48
+msgid "Confirm New Password"
+msgstr ""
+
+#: View/Users/admin_account.ctp:125
+msgid "We will never ask for your password. Always use strong passwords and change them frequently."
+msgstr ""
+
+#: View/Users/admin_account.ctp:136
+msgid "No transaction was conducted"
+msgstr ""
+
+#: View/Users/admin_account.ctp:142
+msgid "Date"
+msgstr ""
+
+#: View/Users/admin_account.ctp:145
+msgid "Price"
+msgstr ""
+
+#: View/Users/admin_account.ctp:146
+msgid "Status"
+msgstr ""
+
+#: View/Users/admin_account.ctp:163
+msgid "See all transactions"
+msgstr ""
+
+#: View/Users/admin_login.ctp:8
+msgid "Hello <b>%s</b>!"
+msgstr ""
+
+#: View/Users/admin_login.ctp:16
+msgid "You are already logged in:"
+msgstr ""
+
+#: View/Users/admin_login.ctp:18
+msgid "Go to Admin Panel"
+msgstr ""
+
+#: View/Users/admin_login.ctp:39
+msgid "Enter OnneBlue"
+msgstr ""
+
+#: View/Users/admin_login.ctp:65
+msgid "Password"
+msgstr ""
+
+#: View/Users/admin_login.ctp:88
+msgid "Remember me"
+msgstr ""
+
+#: View/Users/admin_login.ctp:98
+msgid "Forgot your password?"
+msgstr ""
+
+#: View/Users/change_password.ctp:39
+#: View/Users/register.ctp:88
+msgid "Use at least 6 characters"
+msgstr ""
+
+#: View/Users/change_password.ctp:47
+msgid "Repeat the new password"
+msgstr ""
+
+#: View/Users/change_password.ctp:58
+msgid "Save password"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:3
+msgid "Forgotten your password?"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:9
+msgid "Enter your email to create a new password"
+msgstr ""
+
+#: View/Users/forgot_password.ctp:19
+msgid "Send email"
+msgstr ""
+
+#: View/Users/register.ctp:29
+msgid "Start using it today"
+msgstr ""
+
+#: View/Users/register.ctp:36
+msgid "Do not need credit card"
+msgstr ""
+
+#: View/Users/register.ctp:38
+msgid "Register your email to use OnneBlue very soon"
+msgstr ""
+
+#: View/Users/register.ctp:122;169
+msgid "Term of Use"
+msgstr ""
+
+#: View/Users/register.ctp:129
+msgid "By clicking the button below, you agree to the %s"
+msgstr ""
+
+#: View/Users/register.ctp:135
+msgid "Create my account"
+msgstr ""
+
+#: View/Users/register.ctp:143
+msgid "Do my pre-register"
+msgstr ""
+
+#: Model/Contact.php:validation for field name
+msgid "The name is required"
+msgstr ""
+
+#: Model/Contact.php:validation for field email
+msgid "The email is required"
+msgstr ""
+
+#: Model/Contact.php:validation for field email
+msgid "Not a valid email"
+msgstr ""
+
+#: Model/Contact.php:validation for field subject
+msgid "Subject is required"
+msgstr ""
+
+#: Model/Contact.php:validation for field message
+msgid "Message is required"
+msgstr ""
+
+#: Model/Group.php:validation for field name
+#: Plugin/InventorySystem/Model/Category.php:validation for field name
+#: Plugin/InventorySystem/Model/Customer.php:validation for field name
+#: Plugin/InventorySystem/Model/Product.php:validation for field name
+#: Plugin/InventorySystem/Model/Supplier.php:validation for field name
+#: Plugin/InventorySystem/Model/UnitsMeasure.php:validation for field name
+msgid "Please enter a name"
+msgstr ""
+
+#: Model/Group.php:validation for field name
+msgid "This group name has already been taken"
+msgstr ""
+
+#: Model/User.php:validation for field first_name
+msgid "Please enter a first name"
+msgstr ""
+
+#: Model/User.php:validation for field first_name;validation for field last_name
+msgid "Minimum 2 characters long"
+msgstr ""
+
+#: Model/User.php:validation for field last_name
+msgid "Please enter a last name"
+msgstr ""
+
+#: Model/User.php:validation for field email
+#: Plugin/InventorySystem/Model/Customer.php:validation for field email
+#: Plugin/InventorySystem/Model/Supplier.php:validation for field email
+msgid "This email has already been taken"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Please enter an email"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Minimum 4 characters long"
+msgstr ""
+
+#: Model/User.php:validation for field email
+msgid "Please supply a valid email address"
+msgstr ""
+
+#: Model/User.php:validation for field password;validation for field newpass
+msgid "Please enter a password"
+msgstr ""
+
+#: Model/User.php:validation for field password;validation for field newpass
+msgid "Minimum 6 characters long"
+msgstr ""
+
+#: Model/User.php:validation for field repassword;validation for field newrepass
+msgid "Please enter a confirm password"
+msgstr ""
+
+#: Model/User.php:validation for field repassword;validation for field newrepass
+msgid "Password do not match"
+msgstr ""
+
+#: Model/User.php:validation for field group_id
+msgid "Please select a group"
+msgstr ""
+
+#: Model/User.php:validation for field recaptcha
+msgid "Please enter the reCAPTCHA"
+msgstr ""
+
+#: Model/User.php:validation for field recaptcha
+msgid "The reCAPTCHA wasn't entered correctly."
+msgstr ""
+
+#: Plugin/FinancialSystem/Model/BanksAccount.php:validation for field description
+msgid "Please enter a description"
+msgstr ""
+
+#: Plugin/FinancialSystem/Model/BanksAccount.php:validation for field description
+msgid "This description has already been taken"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Category.php:validation for field name
+#: Plugin/InventorySystem/Model/Customer.php:validation for field name
+#: Plugin/InventorySystem/Model/Supplier.php:validation for field name
+msgid "This name has already been taken"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field email
+#: Plugin/InventorySystem/Model/Supplier.php:validation for field email
+msgid "Please supply a valid email address."
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field cnpj_cpf
+msgid "notEmptyCnpjCpf"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field birthday
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field movimentation_date;validation for field expiration_date;validation for field adjustment_date
+msgid "Invalid date"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Customer.php:validation for field site
+#: Plugin/InventorySystem/Model/Supplier.php:validation for field site
+msgid "Please, supply a valid Website"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field product_id
+msgid "Please select a product"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field supplier_id
+msgid "Please select a supplier"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field is_input
+msgid "notEmpty"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field quantity
+msgid "Please enter a quantity"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/InputsOutput.php:validation for field movimentation_date
+msgid "Please enter a movimentation date"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field unit_of_measure_id
+msgid "Please select a unit of measure"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field code
+msgid "Please enter a code"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field code
+msgid "Serial number already registered. Please, supply another one."
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field purchase_value
+msgid "Please enter a purchase value"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/Product.php:validation for field sell_value
+msgid "Please enter a sell value"
+msgstr ""
+
+#: Plugin/InventorySystem/Model/UnitsMeasure.php:validation for field name
+msgid "This unit of measure has already been taken"
+msgstr ""
+

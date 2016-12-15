@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,iBAAkB;EACd,SAAS,EAAE,eAAe",
+"sources": ["../sass/switch.scss"],
+"names": [],
+"file": "switch.css"
+}

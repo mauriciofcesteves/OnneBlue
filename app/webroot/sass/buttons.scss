@@ -1,0 +1,141 @@
+.btn {
+    @include border-radius(.25em);
+    @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .125));
+    border: solid 1px rgba(0, 0, 0, .125);
+    margin-bottom: .5em;
+    padding: .75em 1.5em .75em 1.5em;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+        border: solid 1px rgba(0, 0, 0, .08);
+        @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .125));
+    }
+
+    &.no-border {
+        @include box-shadow(none !important);
+    }
+
+    &.no-margin {
+        margin: 0 !important {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+    }
+
+    &.btn-default {
+        color: black !important;
+        background-color: white;
+
+        &:active,
+        &:focus,
+        &:hover,
+        &.active,
+        .open .dropdown-toggle.btn-default {
+            background-color: #e5e5e5;
+        }
+    }
+
+    &.btn-primary {
+        @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .30));
+        background-color: $blue;
+        color: white;
+
+        &:active,
+        &:focus,
+        &:hover,
+        &.active,
+        .open .dropdown-toggle.btn-default {
+            @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .5));
+            background-color: $dark-blue;
+        }
+    }
+
+    &.btn-transparent {
+        @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .30));
+        background-color: transparent;
+        border: solid #eeeeee 2px;
+        color: #eeeeee;
+
+        &:active,
+        &:focus,
+        &:hover,
+        &.active,
+        .open .dropdown-toggle.btn-default {
+            @include box-shadow(inset 0 -.25em 0 -.125em rgba(0, 0, 0, .5));
+            background-color: #eeeeee;
+            color: $dark-blue;
+        }
+    }
+
+    &.btn-xs,
+    &.btn-group-xs > .btn {
+        @include border-radius(3px);
+        font-size: 1em;
+        line-height: 1.5;
+        padding: 4px 8px;
+    }
+
+    &.btn-pay-period {
+        @include box-shadow(none);
+        background-color: transparent;
+        height: 180px;
+        margin: 10px;
+        width: 180px;
+
+        &:hover, 
+        &:focus, 
+        &:active, 
+        &.active {
+            background-color: #175189;
+            border-color: #285e8e;
+            color: white;
+        }
+
+        .title { 
+            font-size: 1.4em;
+        }
+
+        .price {
+            display: block;
+            font-size: 1em;
+        }
+
+        .price-lg { 
+            font-size: 4em;
+        }
+
+        .description {
+            display: block;
+        }
+    }
+
+    &.btn-pay-method {
+        @include box-shadow(none);
+        background-color: transparent;
+        height: 80px;
+        padding: 20px 0;
+        width: 100%;
+
+        &:active,
+        &:focus,
+        &:hover,
+        &.active {            
+            background-color: #175189;
+            border-color: #285e8e;
+            color: white;
+        }
+
+        .title {
+            font-size: 1.8em;
+        }
+    }
+
+}
+
+.actions {
+    .btn {
+        padding: .75em;
+    }
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,uBAAe;EACX,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,KAAK;EACjB,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,iBAAiB;EAEhC,6BAAQ;IACJ,gBAAgB,EAAE,OAAO;IACzB,MAAM,EAAE,iBAAiB;IACzB,KAAK,EAAE,OAAO;IACd,UAAU,EAAE,CAAC;IACb,OAAO,EAAE,gBAAgB;IAEzB;mCACE;MACE,KAAK,EAAE,IAAI",
+"sources": ["../sass/jumbotron.scss"],
+"names": [],
+"file": "jumbotron.css"
+}

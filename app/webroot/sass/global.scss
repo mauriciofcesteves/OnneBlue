@@ -1,0 +1,178 @@
+a { 
+    color: #084c8d;
+}
+
+body {
+    background-color: #E9F0F5;
+    color: #444;
+    font-family: $primary-font;
+    font-size: 15px;
+    word-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #54768e;
+}
+
+hr {
+    border-top: 1px solid #c6d3dc;
+
+    &.space {
+        margin: 50px 0;
+    }
+}
+
+small { 
+    color: #6387a0 !important;
+}
+
+strong {
+    color: #084c8d;
+}
+
+textarea {
+    height: auto;
+}
+
+:focus {
+    outline:none !important;
+}
+
+#content {
+    padding-top: 60px;
+}
+
+#forgotten-password {
+    display: block;
+}
+
+.actions { 
+    max-width: 160px;
+}
+
+.bootstrap-filestyle {
+    .btn {
+        height: 34px !important;
+        line-height: 10px !important;
+    }
+}
+
+.center-block {
+    float: none !important;
+}
+
+.container {
+    .navbar {
+        border: none;
+    }
+}
+
+.display {
+    margin: 20px 0;
+}
+
+.error {
+    .fa-5x {
+        color: #084c8d;
+        font-size: 18em;
+    }
+
+    .form-control {
+        border-color: #ebccd1;
+    }
+}
+
+.has-radio label {
+    &:first-of-type {
+        display: block;
+        margin-bottom: 12px;
+    }
+    &:not(:first-of-type) {
+        margin: 0 16px 0 2px;
+    }
+}
+
+.hidden-element {
+    display: none;
+}
+
+.input-group-addon {
+    i {
+        width: 20px !important;
+    }
+}
+
+.light-red {
+    color: $light-red;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+    .margin-top-visible-xs {
+        margin-top: 50px;
+    }
+}
+
+.mid-vertical-space {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.onneblue {
+    font-family: 'Lobster', cursive;
+
+    &.md {
+        font-size: 1.5em;
+    }
+    
+    &.lg {
+        font-size: 2em;
+    }
+}
+
+.row {
+    &.pure {
+        margin:  {
+            left: 0;
+            right: 0;
+        }
+    }
+}
+
+.section {
+    background-color: #f2f6f8;
+    color: #888;
+    font-size: 16px;
+    margin: 60px 0;
+    padding: 40px 0 60px 0;
+}
+
+.show-grid {
+    margin-bottom: 15px;
+}
+
+.small-vertical-space {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.small-caps {
+    font-variant: small-caps;
+}
+
+.vertical-space {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}

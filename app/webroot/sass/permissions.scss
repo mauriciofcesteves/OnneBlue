@@ -1,0 +1,28 @@
+.permission-on,
+.permission-off {
+    @include border-radius(4px);
+    border: solid 1px #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+.permission-on {
+    background-color: #428bca;
+    color: white;
+}
+
+.permission-off {
+    background-color: #eee;
+    color: black;
+}
+
+.permission-updated {
+    color: #5cb85c;
+    padding-right: 4px;
+    text-align: right;
+}
+
+.permission-table {
+    float: left;
+    width: 50%;
+}

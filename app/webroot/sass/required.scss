@@ -1,0 +1,23 @@
+form {
+    .fa-asterisk,
+    .required-text .fa-asterisk {
+        color: #e32;
+        display:inline;
+    }
+}
+.required-text { 
+    float: right;
+
+    &:before {
+        color: #e32;
+        display:inline;
+    }
+}
+
+.not-required {
+    label {
+        &:after {
+            content: '' !important;
+        }
+    }
+}

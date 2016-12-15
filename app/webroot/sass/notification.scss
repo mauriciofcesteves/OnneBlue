@@ -1,0 +1,65 @@
+.notification {
+	&.unread {
+		> a {
+			background-color: transparent !important;
+
+			.fa-circle {
+				color: red;
+			}
+
+			.fa-bell {
+				color: white;
+
+			}
+		}
+	}
+
+	&.open {
+		> a {
+			background-color: transparent !important;
+			&:focus,
+			&:hover {
+				background-color: $blue !important;
+
+				.fa-bell {
+					color: white;
+				}
+			}
+		}
+	}
+
+	a {
+		&:hover {
+			background-color: $blue !important;
+
+			.fa-bell {
+				color: white;
+			}
+		}
+
+		padding: {
+			top: 5px !important;
+			bottom: 5px !important;
+			left: 8px !important;
+			right: 8px !important;
+		}
+
+		.fa-circle {
+			color: transparent;
+		}
+
+		.fa-bell {
+			color: $blue;
+
+		}
+	}
+
+	.icon {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.read {
+	opacity: 0.5;
+}

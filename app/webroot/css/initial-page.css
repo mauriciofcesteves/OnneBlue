@@ -1,0 +1,19 @@
+.point-separator {
+  background: #084C8D;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  display: block;
+  width: 10px;
+  height: 10px; }
+  .point-separator.center {
+    margin: auto; }
+
+.styled-separator {
+  background-color: #d7e4ed;
+  height: 2px;
+  margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  width: 50%; }
+
+/*# sourceMappingURL=initial-page.css.map */

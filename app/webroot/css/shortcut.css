@@ -1,0 +1,90 @@
+/* -----------------------------------*/
+/* ---------->>> SHORTCUT
+/* -----------------------------------*/
+.shortcut {
+    background: rgba(255, 255, 255, 1);
+    border: 0;
+    border-bottom: 4px solid transparent;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 12pt;
+    height: 150px;
+    line-height: 16px;
+    margin-bottom: 30px;
+    outline: none;
+    padding: 22px 12px;
+    text-align: center;
+    vertical-align: middle !important;
+    width: 150px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+a.shortcut * { transition: all 0.3s ease-out 0s; }
+a.shortcut { 
+    text-decoration: none;
+}
+.shortcut .fa { 
+    display: block;
+    margin-bottom: 4px;
+}
+.shortcut:hover,
+.shortcut:hover a {
+    color: white;
+    background: rgba(8, 76, 141, 1);
+}
+
+.wrap-shortcut .masonry { margin: 0 auto; }
+
+/* Transparent */
+.shortcut.transparent { background-color: transparent !important; }
+.shortcut.transparent:hover,
+.shortcut.transparent:active,
+.shortcut.transparent:focus {
+    color: #084c8d !important;
+    background-color: white !important;
+}
+
+/* Large */
+.shortcut.large {
+    height: 220px;
+    width: 220px;
+}
+.shortcut.large h2 { 
+    color: black; 
+    font-size: 1.2em; 
+}
+.shortcut.large p {
+    color: #444; 
+    display: block;
+    margin: 20px 10px;
+}
+
+/* Static */
+.shortcut.static { cursor: default; }
+
+/* -----------------------------------*/
+/* ---------->>> ICONS
+/* -----------------------------------*/
+.ob {
+    display: block;
+    font-size: 4em;
+    line-height: 1.2em;
+    font-style: normal;
+}
+.inventory-system {
+    color: #6d5448;
+    background: white;
+}
+.inventory-system:hover,
+.inventory-system:hover a,
+.inventory-system:focus,
+.inventory-system:focus a {
+    color: white;
+    background-color: #6d5448 !important;   
+}

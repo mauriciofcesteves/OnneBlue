@@ -1,0 +1,44 @@
+#presentation {
+  background: url("../img/1.png") #084C8D;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 720px;
+  padding-top: 60px; }
+  #presentation h2 {
+    color: #EEEEEE;
+    font-size: 3em;
+    margin-bottom: 40px; }
+  #presentation h3 {
+    color: #EEEEEE;
+    font-size: 2em;
+    margin-bottom: 60px; }
+  #presentation small {
+    color: white !important;
+    font-variant: small-caps;
+    font-size: inherit; }
+  #presentation .big {
+    font-size: 2em !important;
+    text-transform: uppercase; }
+  #presentation .btn {
+    font-size: 2em;
+    font-variant: small-caps;
+    padding: 10px;
+    margin-bottom: 50px; }
+
+.register-button {
+  margin-top: 140px; }
+
+@media (max-width: 768px) {
+  #presentation {
+    height: 520px; }
+    #presentation h2 {
+      font-size: 2em; }
+    #presentation .big {
+      font-size: 1.4em !important;
+      text-transform: uppercase; }
+
+  .register-button {
+    margin-top: 100px; } }
+
+/*# sourceMappingURL=presentation.css.map */

@@ -1,0 +1,95 @@
+.navbar-white {
+    border: none {
+        bottom: none;
+        radius: 0;
+    }
+    background-color: white;
+    color: #6D5448;
+
+    .active {
+        a {
+            background-color: $blue;
+            color: white;
+        }
+    }
+
+    &.clean {
+
+        .nav {
+            > li {
+                a {
+                    color: #999999;
+                    font-size: 13px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+
+                    &:hover,
+                    &:focus {
+                        background-color: white;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+
+        .navbar-brand {
+            color: $blue;
+
+            &:focus,
+            &:hover {
+                background-color: white;
+                color: $blue;
+            }
+        }
+
+    }
+
+    .nav {
+        > li {
+            a {
+                color: $blue;
+
+                &:hover,
+                &:focus {
+                    background-color: $blue;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .navbar-brand {
+        color: $blue;
+
+        &:focus,
+        &:hover {
+            background-color: $blue;
+            color: white;
+        }
+    }
+
+    .navbar-title {
+        color: white !important;
+        background-color: $blue;
+        float: left;
+        font-size: 18px;
+        height: 50px;
+        line-height: 20px;
+        margin-left: -15px;
+        padding: 15px;
+        text-decoration: none !important;
+        width: 250px;
+
+        @media (max-width: 767px) {
+            width: 80px;
+        }
+    }
+}
+
+
+// .navbar-title:focus,
+// .navbar-title:hover { background-color: #084C8D; }
+
+// .hs-navbar-white .navbar-toggle .icon-bar { background-color: white; }
+// .hs-navbar-white .navbar-toggle:hover, 
+// .hs-navbar-white .navbar-toggle:focus { border-color: white; }

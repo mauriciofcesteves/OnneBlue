@@ -1,0 +1,31 @@
+.bs-callout {
+  background-color: white;
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 4px; }
+  .bs-callout.bs-callout-danger {
+    border-left-color: #d9534f; }
+    .bs-callout.bs-callout-danger h4 {
+      color: #d9534f;
+      margin-bottom: 4px; }
+    .bs-callout.bs-callout-danger .progress {
+      margin-bottom: 8px; }
+      .bs-callout.bs-callout-danger .progress .progress-bar-danger {
+        background-color: #e8b5b3; }
+      .bs-callout.bs-callout-danger .progress .text {
+        color: black;
+        left: 40px;
+        position: absolute;
+        text-align: center;
+        width: 93.5%; }
+  .bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px; }
+  .bs-callout p:last-child {
+    margin-bottom: 0; }
+  .bs-callout code {
+    border-radius: 3px; }
+
+/*# sourceMappingURL=callout.css.map */

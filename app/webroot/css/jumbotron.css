@@ -1,0 +1,16 @@
+.jumbotron.presentation {
+  padding: 0;
+  margin-top: -20px;
+  background-color: white;
+  border-bottom: solid 1px #eeeeee; }
+  .jumbotron.presentation.infos {
+    background-color: #bce8f1;
+    border: solid 1px #bce8f1;
+    color: #31708f;
+    margin-top: 0;
+    padding: 10px 10px 0 10px; }
+    .jumbotron.presentation.infos i,
+    .jumbotron.presentation.infos p {
+      float: left; }
+
+/*# sourceMappingURL=jumbotron.css.map */

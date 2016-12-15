@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,2CAAc;EACV,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;AAGtB,+CAAkB;EACd,OAAO,EAAE,KAAK",
+"sources": ["../sass/power-strong.scss"],
+"names": [],
+"file": "power-strong.css"
+}

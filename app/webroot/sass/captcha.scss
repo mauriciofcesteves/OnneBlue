@@ -1,0 +1,112 @@
+/*! responsive reCAPTCHA by jaicab - https://github.com/jaicab/responsive-reCAPTCHA */
+/* -----------------------------------*/
+/* ---------->>> CAPTCHA
+/* -----------------------------------*/
+*,
+*:after,
+*:before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#responsive_recaptcha {
+    background-color: #e6e9ed;
+    padding: 0.5em;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    position: relative;
+    overflow: auto;
+    color: #ffffff;
+}
+#responsive_recaptcha a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.recaptcha_audio_cant_hear_link { 
+    color: black !important; 
+    padding: 0 1em;
+}
+#responsive_recaptcha img,
+#responsive_recaptcha #recaptcha_image {
+    width: 100% !important;
+    height: auto !important;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+#responsive_recaptcha .solution {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    padding-top: 1em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    color: #000000;
+    display: block;
+}
+#responsive_recaptcha .solution input {
+    display: block;
+    width: 100%;
+    margin: 0.5em auto;
+    -webkit-appereance: none;
+    font: inherit;
+    font-size: 150%;
+    outline: none;
+}
+#responsive_recaptcha .options {
+    margin-top: 0;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+@media (min-width: 768px) {
+    #responsive_recaptcha .solution {
+        float: left;
+        width: 60%;
+        margin-top: 0.5em;
+        padding: 0 0.5em 0 1em;
+    }
+    #responsive_recaptcha .solution input {
+        margin-top: 0.3em !important;
+        margin: 0 auto;
+    }
+    #responsive_recaptcha .options {
+        float: right;
+        width: 40%;
+        padding-left: 0.5em;
+        margin-top: 28px;
+    }
+}
+#responsive_recaptcha.small .solution {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0 0.5em 0 1em;
+}
+#responsive_recaptcha.small .solution input { margin: 0.2em auto; }
+#responsive_recaptcha.small .options {
+    float: none;
+    width: 100%;
+    padding-left: 0.5em;
+    margin-top: 10px;
+}
+#recaptcha_area {
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+iframe {display:none !important;}
+header iframe,
+section iframe,
+footer iframe,
+div iframe { display:inline; }

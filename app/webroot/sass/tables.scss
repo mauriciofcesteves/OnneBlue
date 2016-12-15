@@ -1,0 +1,70 @@
+.table {
+    @include box-shadow(0 1px 2px rgba(0,0,0,.2));
+    @include border-radius(4px);
+    background-color: white;
+
+    &.table-curved {
+        @include border-radius(6px);
+        border: {
+            collapse: separate;
+            left: 0;
+            top: 0;
+        }
+
+        > :first-child {
+            > :first-child {
+                > :first-child {
+                    @include border-radius(6px 0 0 0);
+                }
+                > :last-child {
+                    @include border-radius(0 6px 0 0);   
+                }
+            }
+        }
+
+        > :last-child {
+            > :last-child {
+                > :first-child {
+                    @include border-radius(0 0 0 6px);
+                }
+                > :last-child {
+                    @include border-radius(0 0 6px 0);
+                }
+            }
+        }
+    }
+
+    tbody,
+    tfoot,
+    thead {
+        > tr {
+            > td,
+            > th {
+                vertical-align: middle;
+                word-break: break-word;
+
+                &.info {
+                    background-color: $light-blue;
+                }
+            }
+            &.info {
+                > td,
+                > th {
+                    background-color: $light-blue;
+                }
+            }
+        }
+    }
+
+    tr {
+        td {
+            .btn {
+                margin-left: 10px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+
+        }
+    }
+}

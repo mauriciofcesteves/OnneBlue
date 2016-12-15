@@ -1,0 +1,29 @@
+.error-message {
+    border: solid 1px #ebccd1;
+    border-radius: 4px;
+    display: block;
+    padding: 0.375em 0.25em;
+    margin-bottom: 1em;
+    margin-top: -1px;
+    font-size: 0.75em;
+    font-weight: bold;
+    background: #f2dede;
+    color: #a94442;
+}
+
+#authMessage,
+#flashMessage {
+    @include border-radius(4px);
+    background: #f2dede;
+    border: solid 1px #ebccd1;
+    color: #a94442;
+    display: block;
+    padding: 10px 15px;
+}
+
+#siFlashMessage {
+    &.alert {
+        padding: 10px !important;
+        border-radius: 4px;
+    }
+}
